@@ -1,0 +1,1050 @@
+- id: w:Arrêt_sur_images
+  web: http://www.arretsurimages.net
+  depuis: 2007
+  journal:
+    papier: non
+    devise: Réflexion critique sur les médias
+    couverture: nationale
+    journalistes:
+      - w:Daniel_Schneidermann
+    revenus: abonnements
+    accès gratuit: sélection d'articles
+
+    # référence : Daniel Schneidermann refuse le financement par la publicité : « Quand on fait semblant de donner quelque chose gratuitement aux gens, on vend toujours une part de leur cerveau disponible36 à des annonceurs2 ».
+    # https://fr.wikipedia.org/wiki/Arrêt_sur_images#Le_site_Web
+    forme juridique: w:Société_par_actions_simplifiée
+  actionnariat:
+    - id: w:Daniel_Schneidermann
+      type: individu
+      part: 100
+
+
+- id: w:Atlantico
+  journal:
+    papier: non
+    devise: Un vent nouveau sur l'info
+    couverture: nationale
+    revenus:
+      - abonnements
+      - publicité
+    accès gratuit: limite de lecture
+
+  web: http://www.atlantico.fr
+  depuis: 2011
+
+  actionnariat:
+    sources:
+      - lien: http://www.atlantico.fr/qui-sommes-nous#financement
+        note: Informations non chiffrées
+    inconnu: À notre connaissance, l'actionnariat de ce journal est secret.
+
+- id: w:Challenges
+
+  journal:
+    papier: oui
+    périodicité: hebdomadaire
+    devise: Que dit l'économie cette semaine ?
+    couverture: nationale
+    revenus:
+      - publicité
+      - abonnements
+
+  web: http://www.challenges.fr
+  depuis: 1982
+  actionnariat:
+    - id: w:Groupe_Perdriel
+      part: 100
+
+
+- id: w:Le_Monde
+  nom: Le Monde
+  depuis: 1944
+  web: http://lemonde.fr
+  journal:
+    papier: oui
+    périodicité: quotidienne
+    couverture: nationale
+    devise: Le quotidien français de référence
+    revenus:
+      - publicité
+      - abonnements
+  actionnariat:
+  - id: lml
+    part: 64
+  - id: lmpa
+    part: 34
+
+
+- id: w:Télérama
+  web: http://www.telerama.fr/
+  depuis: 1947
+  journal:
+    papier: oui
+    périodicité: hebdomadaire
+    couverture: nationale
+    domaine: culturel
+    revenus:
+      - publicité
+      - abonnements
+
+  actionnariat:
+  - id: w:Le_Monde
+    part: 100
+
+- id: lml
+  nom: Le Monde libre
+  type: société
+  actionnariat:
+    # la part n\'est pas précisée -> chacun des actionnaires à une part égale
+  - id: w:Pierre_Bergé
+  - id: w:Matthieu_Pigasse
+  - id: w:Xavier_Niel
+  - id: w:Prisa
+    part: 23
+
+- id: w:Prisa
+  nom: Prisa
+  société:
+    secteurs:
+      - médias
+
+- id: w:Matthieu_Pigasse
+  type: individu
+  liens:
+    - role: dirigeant
+      id: w:Banque_Lazard
+
+- id: w:Banque_Lazard
+  société:
+    secteurs:
+      - finance
+
+- id: w:Pierre_Bergé
+  individu:
+    fortune:
+      cent-millionnaires
+  liens:
+    - role: fondateur
+      id: w:Yves_Saint_Laurent_(entreprise)
+
+- id: w:Yves_Saint_Laurent_(entreprise)
+  société:
+    secteurs:
+      - luxe
+
+- id: w:Xavier_Niel
+  individu:
+    fortune: milliardaires
+  liens:
+    - role: # notamment par l'intermédiaire d'Iliad
+        - actionnaire
+        - fondateur
+        - dirigeant
+      id: w:Free_(entreprise)
+
+- id: w:Free_(entreprise)
+  société:
+    secteurs:
+      - télécoms
+
+- id: lmpa
+  nom: Le Monde partenaires et associés
+  type: société
+  actionnariat:
+  - id: actionnaires_internes_Le_Monde
+    internes: oui
+    part: 52
+  - id: actionnaires_externes_Le_Monde
+    type: actionnaires externes
+    part: 48
+    commentaire: Dont Société des lecteurs, à mentionner
+
+- id: w:Fakir_(journal)
+  nom: Fakir
+  journal:
+    papier: oui
+    périodicité: mensuelle
+    couverture: nationale
+    devise: Journal fâché avec tout le monde. Ou presque.
+    revenus: abonnements
+    forme juridique: https://fr.wikipedia.org/wiki/Association_loi_de_1901
+  depuis: 1999
+  web: http://www.fakirpresse.info/
+
+  actionnariat:
+    sources:
+      - https://fr.ulule.com/fakirpresse
+      - lien: http://www.acrimed.org/Les-lecteurs-La-structure-Les-finances-Les-tarifs-Contacts
+        note: lien complet mais ancien datant de 2003
+    actionnaires:
+      - id: association_fakir
+        nom: Association Fakir
+
+- id: w:Huffington_Post
+  web: http://www.huffingtonpost.fr
+  journal:
+    papier: non
+    couverture: nationale
+    revenus:
+      - publicité
+      - abonnements
+  depuis: 2012
+  actionnariat:
+  # http://www.lexpress.fr/actualite/medias/le-huffington-post-sait-optimiser_1654832.html
+  # Lecture intéressante (optimisation fiscale, réponse de M. Pigasse)!
+    - id: w:Les_Nouvelles_Éditions_indépendantes
+      part: 11
+    - id: w:Le_Monde
+      part: 34
+    - id: w:AOL # AOL Europe Holdings pour être précis
+      part: 51
+
+- id: w:AOL
+  société:
+    connue: oui
+    secteurs:
+      - télécoms
+
+
+- id: w:Les_Inrockuptibles
+
+  journal:
+    papier: oui
+    périodicité: hebdomadaire
+    couverture: nationale
+    devise: Hebdo culturel généraliste de gauche
+    revenus:
+      - publicité
+      - abonnements
+
+  depuis: 1986
+  web: http://www.lesinrocks.com/
+
+  actionnariat:
+    - id: w:Les_Nouvelles_Éditions_indépendantes
+      part: 100
+
+
+- id: w:Les_Nouvelles_Éditions_indépendantes
+  société:
+    type: holding
+    secteurs:
+      - médias
+  actionnariat:
+    - id: w:Matthieu_Pigasse
+      part: 78
+    - id: orium
+      type: w:Fonds_de_placement
+      part: 18
+    - id: Christian_Fevret
+      type: individu
+      part: 2
+
+
+- id: w:L'Humanité
+  journal:
+    devise: Fondé par Jean Jaurès
+    web: http://www.humanite.fr
+    papier: true
+    périodicité: quotidienne
+    couverture: nationale
+    revenus:
+      - publicité
+      - abonnements
+  depuis: 1904
+
+  actionnariat:
+    sources:
+      note: Il n’y a aujourd’hui plus d’actionnaires extérieurs dans le capital du journal.
+      lien: http://www.lesinrocks.com/2016/04/23/actualite/journal-lhumanite-va-t-disparaitre-11821813
+    inconnu: Le capital semble être détenu par la Société des Lecteurs et la Société des amis. Selon les Inrocks, "il n’y a aujourd’hui plus d’actionnaires extérieurs dans le capital du journal", faisant référence à Hachette, TF1 et la Caisse d'Épargne qui l'étaient.
+
+# Ancien capital (2001)
+  # Actionnaires individuels (anciens responsables du journal ou du PCF) : 40,71 %
+  # Société des lectrices et lecteurs de L'Humanité : 20 %
+  # Société Humanité investissement pluralisme (Hachette, TF1 par sa filiale Syalis, Caisse d’épargne, sociétés publiques et secteur mutualiste) : 20 %
+  # Société des personnels de L'Humanité : 10 %
+  # Société des amis de L'Humanité : 9,29 %
+
+
+- id: w:L'Opinion_(quotidien,_2013)
+  nom: l'Opinion
+  journal:
+    devise: Libéral, pro-business et pro-européen
+    papier: oui
+    couverture: nationale
+    revenus:
+      - publicité
+      - abonnements
+
+  depuis: 2013
+  web: http://www.lopinion.fr
+
+
+  journalistes:
+    - w:Nicolas_Beytout
+  actionnariat:
+    sources:
+      - https://fr.wikipedia.org/wiki/Bernard_Arnault#Actionnariat
+      - http://www.lemonde.fr/actualite-medias/article/2013/05/13/les-investisseurs-mysteres-de-l-opinion_3178646_3236.html
+      - https://www.mediapart.fr/journal/economie/010713/nicolas-beytout-finance-par-les-bettencourt
+
+    actionnaires:
+    - id: w:Nicolas_Beytout
+      type: individu
+      part: 30
+    - id: w:Bernard_Arnault
+      part: 100 * 6 / 13.5 # D'après l'article de Le Monde. Mis en doute par l'article de Mediapart
+    - id: w:Liliane_Bettencourt
+      type: individu
+      part: 13.4 # D'après l'article de Mediapart
+    - id: w:News_Corp #TODO aller jusqu'à w:Rupert_Murdoch
+      part: 100 * 2 / 13.5
+
+- id: w:News_Corp
+  société:
+    secteurs:
+      - médias
+    connue: oui
+
+- id: w:Liliane_Bettencourt
+  type: individu
+  liens:
+    - type:
+        - actionnaire principal
+      id: w:L'Oréal
+
+- id: w:L'Oréal
+  société:
+    secteurs:
+      - cosmétiques
+
+# - id: w:Nicolas_Beytout
+#   type: individu
+#   liens: intégrer ses fonctions ? https://fr.wikipedia.org/wiki/Nicolas_Beytout#Fonctions
+
+
+- id: w:La_Croix
+  web: http://www.la-croix.com
+  depuis: 1883
+  journal:
+    papier: oui
+    périodicité: quotidienne
+    couverture: nationale
+    devise: Chrétien, catholique et progressiste
+    revenus:
+      - publicité
+      - abonnements
+
+
+  actionnariat:
+  - id: w:Groupe_Bayard
+
+- id: w:Groupe_Bayard
+  société:
+    connue: oui
+  actionnariat:
+  - id: w:Assomptionnistes
+
+- id: w:Assomptionnistes
+  nom: Augustins de l'Assomption
+  type: organisation religieuse
+
+
+- id: w:Le_Monde_diplomatique
+  web: http://www.monde-diplomatique.fr
+  depuis: 1954
+  journal:
+    papier: oui
+    périodicité: mensuelle
+    couverture: nationale
+    devise: Le titre français le plus diffusé dans le monde
+    revenus:
+      - abonnements
+      - publicité # limitée < 5% http://www.monde-diplomatique.fr/2002/03/A/8481
+
+  actionnariat:
+  - id: w:Le_Monde
+    part: 51
+  - id: w:Amis_du_Monde_diplomatique
+    part: 25
+  - id: w:Günter_Holzmann#Association_G.C3.BCnter_Holzmann
+    part: 24
+
+
+- id: w:Amis_du_Monde_diplomatique
+  type: société des amis
+
+  # actionnnaires externes
+- id: w:Günter_Holzmann#Association_G.C3.BCnter_Holzmann
+  nom: Équipe rédactionnelle Monde Diplomatique
+  internes: oui
+
+- id: w:Le_Canard_enchaîné
+  journal:
+    web: non
+    périodicité: hebdomadaire
+    publicité: 0
+    devise: La liberté de la presse ne s’use que quand on ne s’en sert pas
+    couverture: nationale
+    revenus:
+      - abonnements
+      # pas de publicité : https://fr.wikipedia.org/wiki/Le_Canard_encha%C3%AEn%C3%A9#Ligne_.C3.A9ditoriale
+
+  depuis: 1915
+  actionnariat:
+    sources:
+      - https://fr.wikipedia.org/wiki/Le_Canard_encha%C3%AEn%C3%A9#Ind.C3.A9pendance_financi.C3.A8re
+    actionnaires:
+      - id: SA Les Éditions Maréchal
+
+
+- id: SA Les Éditions Maréchal
+  internes: oui
+  fondateurs: oui
+
+
+- id: w:Le_Figaro
+  nom: Le Figaro
+  web: http://www.lefigaro.fr
+  depuis: 1826
+  journal:
+    papier: oui
+    périodicité: quotidienne
+    couverture: nationale
+    devise: Sans la liberté de blâmer, il n'est point d'éloge flatteur.
+    revenus:
+      - abonnements
+      - publicité
+
+  actionnariat:
+  - id: w:Société_du_Figaro
+
+- id: w:Société_du_Figaro
+  type: société
+  actionnariat:
+  - id: w:Socpresse
+
+- id: w:Socpresse
+  type: société
+  actionnariat:
+  - id: w:Serge_Dassault
+
+- id: w:Serge_Dassault
+  individu:
+    fortune: milliardaires
+  liens:
+    - type:
+        - actionnaire
+        - ancien dirigeant
+      id: w:Groupe_Dassault
+
+- id: w:Groupe_Dassault
+  société:
+    secteurs:
+      - armes
+      - aviation
+
+- id: w:Le_Point
+
+  web: http://www.lepoint.fr
+  depuis: 1972
+  journal:
+    papier: oui
+    périodicité: quotidienne
+    devise: Le newsmagazine français
+    couverture: nationale
+    revenus:
+      - abonnements
+      - publicité
+
+  actionnariat:
+    - id: w:Artémis_(holding)
+
+- id: w:Artémis_(holding)
+  société:
+    type: holding
+  actionnariat:
+    - id: w:François_Pinault
+    # Quelle part pour les membres de sa famille ?
+    # - id: w:François-Henri_Pinault
+
+
+- id: w:François_Pinault
+  individu:
+    fortune: milliardaires
+
+- id: w:Les_Jours
+  web: http://lesjours.fr
+  depuis: 2016
+  journal:
+    papier: non
+    devise: Hier, Aujourd'hui, Demain
+    couverture: nationale
+    revenus:
+      - abonnements
+      # pas de publicité
+
+  # financement participatif !!
+
+  actionnariat:
+    sources:
+      - http://lesjours.fr/obsessions/les-jours-c-quoi/les-jours-actionnaires/
+    actionnaires:
+    - id: fondateurs_les_jours
+      part: 89.24
+    - id: w:Xavier_Niel
+      part: 3.47
+    - id: w:Olivier_Legrain
+      type: individu
+      part: 2.43
+    - id: w:Marc-Olivier_Fogiel
+      type: individu
+      part: 1.24
+    - id: w:Pierre-Antoine_Capton
+      type: individu
+      part: 0.99
+    - id: w:Matthieu_Pigasse
+      part: 0.99
+    - id: Famille_amis_les_jours
+      type: groupe
+      part: 0.89
+
+- id: fondateurs_les_jours
+  nom: Fondateurs Les Jours
+  fondateurs: oui
+
+
+- id: w:Les_Échos
+  web: http://lesechos.fr
+  depuis: 1908
+  journal:
+    papier: oui
+    périodicité: quotidienne
+    couverture: nationale
+    sujets:
+      - économie
+      - finance
+    revenus:
+      - abonnements
+      - publicité
+
+
+    devise: Nous défendons l’idée que le marché est supérieur au plan. En conséquence, nous pensons que l’entreprise privée est l’outil le plus performant, même si ce n’est pas le seul.
+
+  actionnariat:
+  - id: w:Groupe_Les_Échos
+
+
+- id: w:Groupe_Les_Échos
+  type: société
+  actionnariat:
+  - id: w:LVMH
+
+- id: w:Le_Parisien
+  aussi: w:Aujourd'hui_en_France
+  web: http://www.leparisien.fr
+  depuis: 1944
+
+  journal:
+    papier: oui
+    périodicité: quotidienne
+    couverture: nationale
+    devise: Le premier quotidien national payant d'information générale
+    revenus:
+      - abonnements
+      - publicité
+
+  actionnariat:
+    # http://www.leparisien.fr/flash-actualite-economie/amaury-finalise-la-cession-du-parisien-aujourd-hui-en-france-au-groupe-lvmh-30-10-2015-5232641.php
+  - id: w:LVMH
+
+
+- id: w:LVMH
+  nom complet: 'LVMH - Moët Hennessy Louis Vuitton '
+  société:
+    connue: oui
+    secteurs:
+      - luxe
+
+  note: >
+      Selon wikipedia, le groupe Arnault (ou le groupe familial Arnault ?)
+      détient LVMH par l'intermédiaire de Christian Dior SA.
+  actionnariat:
+    sources:
+      - note: Wikipedia LVMH Actionnaires
+        lien: https://fr.wikipedia.org/wiki/LVMH_-_Mo%C3%ABt_Hennessy_Louis_Vuitton#Actionnaires
+      - note: LVMH.fr - Structure du capital
+        lien: http://www.lvmh.fr/communication-financiere/actionnaires/structure-du-capital
+    actionnaires:
+    - id: w:Bernard_Arnault
+      part: 46.6
+    - id: institutionnels_étrangers
+      part: 33.8
+    - id: institutionnels_français
+      part: 13.5
+    - id: personnes_physiques
+      part: 5.2
+    - id: autocontrôle
+      part: 0.9
+
+
+- id: w:Bernard_Arnault
+  individu:
+    fortune: milliardaires
+  liens:
+    - type:
+        - propriétaire
+      id: w:LVMH
+
+
+- id: w:Libération_(journal)
+  nom: Libération
+  web: http://liberation.fr
+  depuis: 1973
+
+  journal:
+    papier: oui
+    périodicité: quotidienne
+    couverture: nationale
+    devise: Fondé sous l'égide de Jean-Paul Sartre
+    revenus:
+      - abonnements
+      - publicité
+
+  actionnariat:
+  - id: w:Société_française_du_radiotéléphone
+
+- id: w:L'Express
+
+  web: http://www.lexpress.fr
+  depuis: 1953
+  journal:
+    papier: oui
+    périodicité: hebdomadaire
+    devise: Ni de droite ni de gauche, il est au-dessus de la mêlée.
+    couverture: nationale
+    revenus:
+      - abonnements
+      - publicité
+
+  actionnariat:
+  - id: w:Société_française_du_radiotéléphone
+
+- id: w:BFM_TV #TODO Les chaînes TV ne sont pas encore inclues
+
+  web: http://www.bfmtv.com
+  depuis: 2005
+  chaîne TV:
+    devise: Première chaîne d'information de France
+    couverture: nationale
+
+  actionnariat:
+    - id: w:NextRadioTV
+
+- id: w:NextRadioTV
+  type: société
+  actionnariat:
+    - id: w:Société_française_du_radiotéléphone
+      part: 100 # source sûre ?
+
+- id: w:Société_française_du_radiotéléphone
+  nom: SFR
+  divisions: SFR Média -> SFR Presse
+  société:
+    connue: oui
+    secteurs:
+    - télécoms
+
+  actionnariat:
+    - id: w:Altice
+      part: 77.77
+    - id: capital_flottant_sfr
+      part: 22.22
+
+- id: capital_flottant_sfr
+  type: w:Flottant_(finance)
+
+  #INFO Le 5 septembre 2016, Altice annonce son intention d'acquérir les parts qu'elle ne détient pas dans SFR Group soit 22,25 % avec une offre publique d'échange volontaire de 8 nouvelles actions ordinaires Altice NV de catégorie A, pour 5 actions SFR Group apportées33. Début octobre 2016, l'Autorité des marchés financiers s'oppose à l'opération34.
+
+- id: w:Altice
+  type: société
+  actionnariat:
+    sources:
+      - http://www.boursorama.com/bourse/profil/profil.phtml?symbole=1rAATC
+    actionnaires:
+    - id: w:Patrick_Drahi
+      part: 58
+    - id: Europacific Growth Fund
+      part: 4.9
+    - id: Carmignac Gestion
+      part: 3.38
+    - id: w:Fidelity_Investments
+      part: 3.17
+    - id: capital_flottant_altice
+      type: w:Flottant_(finance)
+
+- id: w:Patrick_Drahi
+  individu:
+    fortune: milliardaires
+
+- id: Europacific Growth Fund
+  société:
+    type: w:Fonds_de_placement
+    secteurs:
+      - finance
+
+- id: Carmignac Gestion
+  société:
+    type: w:Fonds_de_placement
+    secteurs:
+      - finance
+
+- id: w:Fidelity_Investments
+  société:
+    type: w:Fonds_de_placement
+    secteurs:
+      - finance
+
+- id: w:Mediapart
+  web: https://www.mediapart.fr
+  depuis: 2008
+  journal:
+    papier: non
+    devise: Journal d'information numérique, indépendant et participatif
+    couverture: nationale
+    revenus:
+      - abonnements
+      # pas de publicité
+  actionnariat:
+    sources:
+      - http://www.lemonde.fr/actualite-medias/article/2015/03/13/mediapart-plenel-prepare-l-apres-plenel_4593035_3236.html
+      - https://fr.wikipedia.org/wiki/Mediapart#Capital
+      - http://presite.mediapart.fr/contenu/quels-sont-vos-actionnaires.html
+    actionnaires:
+    - id: fondateurs_mediapart
+      part: 36.71
+    - id: société_amis_mediapart
+      part: 14.65
+    - id: ecofinance
+      part: 18.27
+    - id: doxa
+      part: 27.75
+
+
+- id: société_amis_mediapart
+  type: société des amis
+  actionnariat:
+    - id: w:Xavier_Niel
+      part: 100 * 200 / 504
+
+
+- id: fondateurs_mediapart
+  fondateurs: oui
+  actionnariat:
+    - id: w:Edwy_Plenel
+      type: individu
+      part: 100 * 550 / 1325
+
+    - id: Marie-Hélène Smiejan
+      type: individu
+      part: 100 * 550 / 1325
+    # Autres :
+    # - id: w:Laurent_Mauduit
+    #   part: 100 * 100 / 1325
+    # - id: w:François_Bonnet
+    #   part: 100 * 80 / 1325
+    # - id: w:Gérard_Desportes
+    #   part: 100 * 40 / 1325
+
+
+- id: doxa
+  nom: Doxa
+  type: société
+
+- id: ecofinance
+  nom: Écofinance
+  type: société
+
+
+- id: w:L'Obs
+  web: http://nouvelobs.com
+  depuis: 1964
+  journal:
+    papier: oui
+    périodicité: hebdomadaire
+    devise: L'Observateur politique, économique et littéraire
+    couverture: nationale
+    revenus:
+      - abonnements
+      - publicité
+# selon http://www.lemonde.fr/actualite-medias/article/2016/09/08/l-hebdomadaire-l-obs-detaille-son-plan-d-economies_4994797_3236.html,
+# Rue89 fusionnera définitivement avec le nouvel obs
+  actionnariat:
+    - id: lml
+      part: 66
+    - id: w:Groupe_Perdriel
+      part: 34
+
+- id: w:Groupe_Perdriel
+  type: société
+  actionnariat:
+    - id: w:Claude_Perdriel
+      part: 93
+    - id: w:Le_Monde
+      part: 6
+    - id: société_rédacteurs_perdriel
+      part: 1
+
+- id: société_rédacteurs_perdriel
+  internes: oui
+
+
+- id: w:Claude_Perdriel
+  individu:
+    fortune: cent-millionnaires
+
+- id: w:Ouest-France
+  web: http://www.ouest-france.fr
+  depuis: 1944
+  journal:
+    papier: oui
+    périodicité: quotidienne
+    généraliste: oui
+    devise: Premier quotidien français en termes de diffusion
+    couverture: locale
+    revenus:
+      - abonnements
+      - publicité
+    forme juridique: https://fr.wikipedia.org/wiki/Association_loi_de_1901
+
+  actionnariat:
+    - id: w:Groupe_SIPA_-_Ouest-France
+
+- id: w:Groupe_SIPA_-_Ouest-France
+  type: société
+  actionnariat:
+    - id: w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste
+
+- id: w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste
+  type: association 1901
+  # page wiki pas très claire
+
+
+- id: w:Reporterre
+  web: https://reporterre.net
+  depuis: 2007
+  journal:
+    papier: non
+    devise: Le quotidien de l'écologie
+    revenus:
+      - abonnements
+      # pas de publicité
+
+  actionnariat:
+    inconnu: À notre connaissance, l'actionnariat de ce journal est secret.
+
+- id: w:RT_(chaîne_de_télévision)
+  nom: RT France
+  web: https://francais.rt.com
+  depuis: 2014
+
+  journal:
+    papier: non
+    revenus:
+      - état
+    # la plupart des journaux français sont financés par l'état français, mais comme nous disposons des montants
+    # cette information sera ajoutée dynamiquement
+
+  actionnariat:
+    - id: w:Ministère_des_Affaires_étrangères_(Russie)
+      type: pays
+
+- id: w:Slate_(magazine)
+  web: https://www.slate.fr
+  depuis: 2009
+
+  journal:
+    papier: non
+    devise: Slate.fr est le magazine en ligne de référence.
+    couverture: nationale
+    revenus:
+      # pas d'abonnement possible
+      - publicité
+
+  actionnariat:
+    sources:
+      - http://bfmbusiness.bfmtv.com/entreprise/les-actionnaires-ultra-chic-de-slate-fr-943252.html
+      # en contradiction totale avec :
+      - lien: http://www.slate.fr/qui-sommes-nous
+        note: La page "Qui sommes-nous" semble être en contradiction avec l'article de BFMTV
+    actionnaires:
+    - id: w:Benjamin_de_Rothschild
+      part: 29
+    - id: Financière_Viveris
+      part: 22
+    - id: fondateurs_slate
+      part: 25
+    - id: actionnaires_externes_slate
+
+- id: w:Benjamin_de_Rothschild
+  individu:
+    fortune: milliardaires
+  liens:
+    - type:
+        - proriétaire
+        - président
+      id: w:Groupe_Edmond_de_Rothschild
+
+- id: w:Groupe_Edmond_de_Rothschild
+  société:
+    secteurs:
+      - finance
+
+- id: Financière_Viveris
+  société:
+    type: w:Fonds_de_placement
+
+
+- id: fondateurs_slate
+  fondateurs: oui
+  # Pas de sources sur la part des fondateurs qui sont eux, connus
+
+- id: actionnaires_externes_slate
+  type: actionnaires externes
+  # BFM business révèle les noms, mais pas de répartition (ils sont connus et beaucoup)
+
+- id: w:Alternatives_économiques
+  depuis: 1980
+  web: http://www.alternatives-economiques.fr
+  journal:
+    papier: oui
+    périodicité: mensuelle
+    couverture: nationale
+    sujets:
+      - économie
+    devise: Fondé en réaction au slogan « There is no alternative »
+    revenus:
+      - publicité
+      - abonnements
+    forme juridique: https://fr.wikipedia.org/wiki/Société_coopérative_et_participative
+  actionnariat:
+    sources:
+      - note: Page Éditorial du journal, tous les mois
+    actionnaires:
+    - id: salariés_altereco
+      nom: Salariés
+      internes: oui
+      part: 62
+    - id: société_civile_lecteurs_altereco
+      nom: Société des lecteurs
+      part: 22
+    - id: association_lecteurs_altereco
+      nom: Association des lecteurs
+      part: 1
+    - id: anciens_salariés_altereco
+      nom: Anciens salariés
+      part: 3
+    - id: actionnaires_externes_altereco
+      nom: Actionnaires externes
+      type: actionnaires externes
+      part: 12
+
+
+- id: w:20_minutes_(France)
+  web: http://www.20minutes.fr
+  depuis: 2002
+  journal:
+    devise: Le journal papier le plus lu en France
+    revenus:
+      - publicité
+      # pas d'abonnements
+  actionnariat:
+    sources:
+      - http://www.rossel-lavoix.fr/Gouvernance-et-Valeurs/Actionnariat
+    actionnaires:
+    - id: w:Groupe_SIPA_-_Ouest-France
+      part: 50
+    - id: w:Groupe_La_Voix
+      part: 49.3
+
+- id: w:Groupe_La_Voix
+  actionnariat:
+    - id: w:Groupe_Rossel
+      part: 73
+    - id: w:Crédit_agricole
+      part: 25
+
+- id: w:Groupe_Rossel
+  actionnariat:
+    - id: w:Famille_hurbain
+      part: 27.66 * 3
+
+- id: w:Famille_hurbain
+  individu: #pour simplifier
+    fortune: cent-millionnaires
+
+- id: w:CNews_Matin
+  web: http://cnewsmatin.fr
+  journal:
+    depuis: 2007
+    revenus:
+      - publicité
+      # pas d'abonnements
+  actionnariat:
+    - id: w:Bolloré
+      part: 70
+    - id: w:Le_Monde
+      part: 30
+
+- id: w:Bolloré
+  société:
+    secteurs:
+      - logistique
+      # TODO
+  actionnariat:
+    - id: w:Financière_de_l'Odet
+      part: 64.4
+    # - id: capital_flottant_bolloré
+    #   type: w:Flottant_(finance)
+    #   part: 30
+
+
+- id: w:Financière_de_l'Odet
+  société:
+    type: financière
+  actionnariat:
+    sources:
+      - http://www.financiere-odet.fr/fr-fr/la-societe/organigramme/
+      - http://www.latribune.fr/vos-finances/financiere-de-l-odet-tout-bollore-avec-une-decote-612426.html
+    actionnaires:
+    - id: Sofibol
+      part: 55.30
+    # - id: w:Bolloré
+    #   part: 35.6
+      # -> boucle !
+      # à travers notamment de w:Compagnie_du_Cambodge
+      # http://www.latribune.fr/vos-finances/financiere-de-l-odet-tout-bollore-avec-une-decote-612426.html
+
+- id: Sofibol
+  nom: Société financière Bolloré
+  société:
+    type: holding
+  actionnariat:
+    - id: w:Vincent_Bolloré
+      part: 100
+
+
+- id: w:Vincent_Bolloré
+  individu:
+    fortune: milliardaires
+  liens:
+    # TODO
+    # - role: # notamment par l'intermédiaire d'Iliad
+    #     - actionnaire
+    #     - dirigeant
+    #   id: w:Canal_plus
+    - role:
+        - actionnaire
+        - dirigeant
+      id: w:Bolloré

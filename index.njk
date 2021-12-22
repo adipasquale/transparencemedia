@@ -1,0 +1,15 @@
+---
+layout: mainLayout
+---
+
+<h1>Transparence Média</h1>
+
+<ul>
+  {% for entite in entites %}
+    {% if entite.journal %}
+      <li>
+        <a href="/medias/{{ entite.id }}">{{ entite.id | unslugify }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

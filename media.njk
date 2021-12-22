@@ -1,0 +1,50 @@
+---js
+{
+  pagination: {
+    data: "entites",
+    size: 1,
+    alias: "media",
+    before: entites => entites.filter(e => !!e.journal)
+  },
+  permalink: "medias/{{ media.id }}/",
+  layout: "mainLayout"
+}
+---
+
+<h1>{{ media.id | unslugify }}</h1>
+
+{% if media.journal.devise %}
+  <blockquote>{{ media.journal.devise }}</blockquote>
+{% endif %}
+
+{% if media.depuis %}
+  <p>créé en {{ media.depuis }}</p>
+{% endif %}
+
+<ul>
+{% for actionnaire, part in actionnairesFinaux[media.id] %}
+  <li>{{actionnaire}} : {{ part }}%</li>
+{% endfor %}
+</ul>
+
+<div id="chart"></div>
+
+<script>
+// TODO: this could be done server-side and exported
+const actionnairesFinaux = {{ actionnairesFinaux[media.id] | stringify | safe }};
+const rest = 100 - Object.values(actionnairesFinaux).reduce((a, b) => a + b, 0);
+if (rest > 0) actionnairesFinaux["N/A"] = rest;
+(function () {
+const data = {
+    labels: Object.keys(actionnairesFinaux).map(d => d.replace(/_/g, " ")),
+    datasets: [
+        {
+            name: "Actionnaires finaux",
+            values: Object.values(actionnairesFinaux)
+        }
+    ]
+}
+
+new frappe.Chart("#chart", { data: data, type: 'pie', truncateLegends: true})
+})()
+</script>
