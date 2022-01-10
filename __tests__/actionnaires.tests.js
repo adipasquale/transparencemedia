@@ -1,4 +1,9 @@
-const { convertEntitesToActionnairesData, fillActionnairesMap, computeActionnairesFinaux } = require("../lib/actionnaires")
+const {
+  convertEntitesToActionnairesData,
+  fillActionnairesMap,
+  computeActionnairesFinaux,
+  actionnairesToDotLines
+} = require("../lib/actionnaires")
 
 test("convertEntitesToActionnairesData 1", () => {
   expect(
@@ -22,32 +27,6 @@ test("convertEntitesToActionnairesData 1", () => {
       "w:Le_Monde": { "lml": 64, "lmpa": 64 }
     }
   )
-})
-
-test("convertEntitesToActionnairesData with missing parts", () => {
-  expect(
-    convertEntitesToActionnairesData(
-      [
-        {
-          id: "lml",
-          actionnariat:
-            [
-              { id: "w:Pierre_Bergé" },
-              { id: "w:Matthieu_Pigasse" },
-              { id: "w:Xavier_Niel" },
-              { id: "w:Prisa", part: 23 }
-            ]
-        },
-      ]
-    )
-  ).toEqual({
-    lml: {
-      "w:Pierre_Bergé": undefined,
-      "w:Matthieu_Pigasse": undefined,
-      "w:Xavier_Niel": undefined,
-      "w:Prisa": 23
-    }
-  })
 })
 
 test("convertEntitesToActionnairesData with actionnaires field", () => {

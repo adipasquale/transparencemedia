@@ -4,6 +4,8 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 const entites = yaml.load(fs.readFileSync(`${__dirname}/../_data/entites.yaml`, 'utf8'));
 const QuickChart = require('quickchart-js');
+const { generateAllDotFiles } = require('../lib/graphviz');
+const { exec } = require('child_process');
 
 // for (const [id, actionnairesFinaux] of Object.entries(computeAllActionnairesFinaux(entites))) {
 //   if (!actionnairesFinaux) continue
@@ -36,20 +38,10 @@ const QuickChart = require('quickchart-js');
 //   chart.toFile(`${__dirname}/../charts/chart-actionnaires-finaux-${id}.png`);
 // }
 
-const fetch = require('node-fetch');
+generateAllDotFiles(entites)
 
-const body = {
-  "graph": "digraph {a->b}",
-  "layout": "dot",
-  "format": "svg"
-};
-
-const response = await fetch('https://quickchart.io/graphviz', {
-  method: 'post',
-  body: JSON.stringify(body),
-  headers: { 'Content-Type': 'application/json' }
-});
-
-// Response contains an SVG. Write it to file or send it someplace else.
-const svg = await response.text();
-console.log(svg);
+exec(`dot -Tsvg -O ./charts/*.dot`, (err) => {
+  if (!err) return
+  console.log(err)
+  process.exit(1)
+})

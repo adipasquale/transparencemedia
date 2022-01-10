@@ -1,0 +1,4 @@
+digraph G {
+  "Artémis" -> "Le Point" [label="100%"];
+  "François Pinault" -> "Artémis" [label="100%"];
+}

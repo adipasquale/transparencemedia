@@ -1,0 +1,9 @@
+digraph G {
+  "fondateurs les jours" -> "Les Jours" [label="89%"];
+  "Xavier Niel" -> "Les Jours" [label="3%"];
+  "Olivier Legrain" -> "Les Jours" [label="2%"];
+  "Marc-Olivier Fogiel" -> "Les Jours" [label="1%"];
+  "Pierre-Antoine Capton" -> "Les Jours" [label="1%"];
+  "Matthieu Pigasse" -> "Les Jours" [label="1%"];
+  "Famille amis les jours" -> "Les Jours" [label="1%"];
+}
