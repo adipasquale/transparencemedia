@@ -1,8 +1,8 @@
-const { reformatActionnaires, fillMissingParts, computeActionnairesFinaux } = require("../lib/actionnaires")
+const { convertEntitesToActionnairesData, fillActionnairesMap, computeActionnairesFinaux } = require("../lib/actionnaires")
 
-test("reformatActionnaires 1", () => {
+test("convertEntitesToActionnairesData 1", () => {
   expect(
-    reformatActionnaires(
+    convertEntitesToActionnairesData(
       [
         {
           id: "w:Challenges",
@@ -24,9 +24,9 @@ test("reformatActionnaires 1", () => {
   )
 })
 
-test("reformatActionnaires with missing parts", () => {
+test("convertEntitesToActionnairesData with missing parts", () => {
   expect(
-    reformatActionnaires(
+    convertEntitesToActionnairesData(
       [
         {
           id: "lml",
@@ -50,9 +50,9 @@ test("reformatActionnaires with missing parts", () => {
   })
 })
 
-test("reformatActionnaires with actionnaires field", () => {
+test("convertEntitesToActionnairesData with actionnaires field", () => {
   expect(
-    reformatActionnaires(
+    convertEntitesToActionnairesData(
       [
         {
           id: "Le Monde",
@@ -74,9 +74,9 @@ test("reformatActionnaires with actionnaires field", () => {
   })
 })
 
-test("fillMissingParts undefined ones", () => {
+test("fillActionnairesMap undefined ones", () => {
   expect(
-    fillMissingParts({
+    fillActionnairesMap({
       "w:Pierre_Bergé": undefined,
       "w:Matthieu_Pigasse": undefined,
       "w:Xavier_Niel": undefined,
@@ -90,17 +90,17 @@ test("fillMissingParts undefined ones", () => {
     })
 })
 
-test("fillMissingParts do nothing", () => {
-  expect(fillMissingParts({ "w:Pierre_Bergé": 10, "w:Prisa": 23 }))
+test("fillActionnairesMap do nothing", () => {
+  expect(fillActionnairesMap({ "w:Pierre_Bergé": 10, "w:Prisa": 23 }))
     .toEqual({ "w:Pierre_Bergé": 10, "w:Prisa": 23 })
 })
 
-expect(fillMissingParts({ "w:Pierre_Bergé": undefined, "w:Prisa": undefined }))
+expect(fillActionnairesMap({ "w:Pierre_Bergé": undefined, "w:Prisa": undefined }))
   .toEqual({ "w:Pierre_Bergé": 50, "w:Prisa": 50 })
 
-test("fillMissingParts evals", () => {
+test("fillActionnairesMap evals", () => {
   expect(
-    fillMissingParts({
+    fillActionnairesMap({
       "w:Pierre_Bergé": "11.3 * 2",
       "w:Prisa": 23
     }

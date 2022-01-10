@@ -21,30 +21,19 @@
   <p>créé en {{ media.depuis }}</p>
 {% endif %}
 
+<h3>Actionnaires Finaux</h3>
+
+<img
+  style="width: 500px; height: 300px; margin-bottom: 1rem;"
+  src="/charts/chart-actionnaires-finaux-{{ media.id }}.png"
+  alt="{{ media.id | unslugify }} - Actionnaires Finaux"
+  />
+
 <ul>
-{% for actionnaire, part in actionnairesFinaux[media.id] %}
-  <li>{{actionnaire}} : {{ part }}%</li>
+{% for actionnaireId, part in actionnairesFinaux[media.id] %}
+  <li>{{ actionnaireId | unslugify }} : {{ part }}%</li>
 {% endfor %}
 </ul>
 
 <div id="chart"></div>
 
-<script>
-// TODO: this could be done server-side and exported
-const actionnairesFinaux = {{ actionnairesFinaux[media.id] | stringify | safe }};
-const rest = 100 - Object.values(actionnairesFinaux).reduce((a, b) => a + b, 0);
-if (rest > 0) actionnairesFinaux["N/A"] = rest;
-(function () {
-const data = {
-    labels: Object.keys(actionnairesFinaux).map(d => d.replace(/_/g, " ")),
-    datasets: [
-        {
-            name: "Actionnaires finaux",
-            values: Object.values(actionnairesFinaux)
-        }
-    ]
-}
-
-new frappe.Chart("#chart", { data: data, type: 'pie', truncateLegends: true})
-})()
-</script>
