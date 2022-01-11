@@ -1,8 +1,5 @@
 const { computeAllActionnairesFinaux } = require(`${__dirname}/../lib/actionnaires`)
-const { unslugify } = require(`${__dirname}/../lib/helpers`)
-const yaml = require('js-yaml');
-const fs = require('fs');
-const entites = yaml.load(fs.readFileSync(`${__dirname}/../_data/entites.yaml`, 'utf8'));
+const entites = require(`${__dirname}/../lib/entites`)
 const QuickChart = require('quickchart-js');
 const { generateAllDotFiles } = require('../lib/graphviz');
 const { exec } = require('child_process');

@@ -2,13 +2,31 @@
 layout: mainLayout
 ---
 
-<h1>Transparence Média</h1>
+<h2>Qui détient nos médias ?</h2>
 
-<ul>
+<p>
+  On dirait que le nombre de médias français détenus par des milliardaires ou liés à des multinationales est en hausse.
+</p>
+
+<p>
+Evidemment, le propriétaire a une influence sur son journal. Mais quelle est son ampleur, ses formes ? Et puis, est-ce un problème ? Est-ce au contraire souhaitable, ou simplement inévitable ? Chacun se fera son avis librement.
+</p>
+
+<p>
+  <b>
+    Pour nourrir cette réfléxion, ce site expose les données de la possession des médias français.
+  </b>
+</p>
+
+<ul class="logos-grid">
   {% for entite in entites %}
     {% if entite.journal %}
-      <li>
-        <a href="/medias/{{ entite.id }}">{{ entite.id | unslugify }}</a>
+      <li class="logo">
+        <a href="/medias/{{ entite | getEntiteSlug }}">
+          <img src="/images/logos/{{ entite | getEntiteFilename(wikidata) }}"
+            title="{{ entite | getEntiteName }}"
+            alt="{{ entite | getEntiteName }}" />
+        </a>
       </li>
     {% endif %}
   {% endfor %}

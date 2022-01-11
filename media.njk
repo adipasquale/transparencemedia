@@ -6,12 +6,12 @@
     alias: "media",
     before: entites => entites.filter(e => !!e.journal)
   },
-  permalink: "medias/{{ media.id }}/",
+  permalink: "medias/{{ media | getEntiteSlug }}/",
   layout: "mainLayout"
 }
 ---
 
-<h1>{{ media.id | unslugify }}</h1>
+<h1>{{ media | getEntiteName }}</h1>
 
 {% if media.journal.devise %}
   <blockquote>{{ media.journal.devise }}</blockquote>
@@ -26,7 +26,7 @@
 <img
   style="width: 500px; height: 300px; margin-bottom: 1rem;"
   src="/charts/chart-actionnaires-finaux-{{ media.id }}.png"
-  alt="{{ media.id | unslugify }} - Actionnaires Finaux"
+  alt="{{ media | getEntiteName }} - Actionnaires Finaux"
   />
 
 <ul>
@@ -40,5 +40,5 @@
 <img
   style=" margin-bottom: 1rem;"
   src="/charts/chart-graph-actionnaires-{{ media.id }}.dot.svg"
-  alt="{{ media.id | unslugify }} - Détail des Actionnaires"
+  alt="{{ media | getEntiteName }} - Détail des Actionnaires"
   />

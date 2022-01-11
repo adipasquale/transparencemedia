@@ -29,6 +29,8 @@
     "js-yaml": "^4.1.0"
   },
   "dependencies": {
-    "quickchart-js": "^2.0.3"
+    "node-fetch": "^2.6.6",
+    "quickchart-js": "^2.0.3",
+    "slugify": "^1.6.5"
   }
 }
