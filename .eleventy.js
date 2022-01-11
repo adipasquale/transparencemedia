@@ -10,8 +10,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksFilter("stringify", o => JSON.stringify(o));
   eleventyConfig.addNunjucksFilter("getEntiteName", getEntiteName);
   eleventyConfig.addNunjucksFilter("getEntiteSlug", getEntiteSlug);
-  eleventyConfig.addNunjucksFilter("getEntiteFilename", (entite, wikidata) => {
-    console.log(getEntiteSlug(entite))
-    return wikidata[getEntiteSlug(entite)]?.imageFilename
+  eleventyConfig.addNunjucksFilter("getEntiteFilename", (entite, wikipedia) => {
+    return wikipedia[entite.id]?.imageFilename
   });
 };

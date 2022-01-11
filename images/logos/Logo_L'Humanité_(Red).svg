@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Calque_1"
+   data-name="Calque 1"
+   viewBox="0 0 517.83801 80.118322"
+   version="1.1"
+   sodipodi:docname="Logo L'Humanité.svg"
+   width="517.83801"
+   height="80.118324"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
+  <metadata
+     id="metadata943">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs941" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     id="namedview939"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.61798661"
+     inkscape:cx="210.78155"
+     inkscape:cy="46.279211"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Calque_1"
+     inkscape:document-rotation="0" />
+  <title
+     id="title915">logo</title>
+  <rect
+     style="fill:#c84842;fill-opacity:1;stroke:none;stroke-width:4.00801;stroke-linecap:round;paint-order:markers stroke fill"
+     id="rect947"
+     width="517.83801"
+     height="80.118324"
+     x="0"
+     y="0" />
+  <g
+     id="Calque_1_-_copie"
+     data-name="Calque 1 - copie"
+     transform="matrix(1.9541054,0,0,1.9541054,35.017569,7.1715689)"
+     style="fill:#ffffff">
+    <path
+       d="M 10,4.22 V 36.8 h 3 V 38 H 0.81 V 36.8 H 3.73 V 5.39 h -3 V 4.22 Z"
+       transform="translate(-0.72,-4.22)"
+       style="fill:#ffffff"
+       id="path917" />
+    <path
+       d="m 16.52,16.6 c 2.38,-1.48 4,-3.29 4,-5.17 A 1.41,1.41 0 0 0 19.54,10 l -1.62,1.48 A 3.15,3.15 0 0 1 15.92,8.56 2.92,2.92 0 0 1 19,5.63 c 2.25,0 3.6,1.62 3.6,4 0,3.42 -2.43,5.94 -5.49,7.83 z"
+       transform="translate(-0.72,-4.22)"
+       style="fill:#ffffff"
+       id="path919" />
+    <path
+       d="m 39.19,6.47 v 1.3 h -3.1 V 21.1 H 47.56 V 7.78 h -3.1 v -1.3 h 13 v 1.3 h -3.1 v 28.89 h 3.1 V 38 h -13 v -1.33 h 3.1 v -14 H 36.09 v 14 h 3.1 V 38 h -13 v -1.33 h 3.1 V 7.78 h -3.1 v -1.3 h 13 z"
+       transform="translate(-0.72,-4.22)"
+       style="fill:#ffffff"
+       id="path921" />
+    <path
+       d="m 75.73,38 -0.36,-3.65 c -0.94,2.07 -2.83,4.1 -7,4.1 -4.17,0 -6.88,-2.07 -6.88,-7.52 V 17.72 h -3 v -1.17 h 9.31 v 15 c 0,3.55 0.58,4.86 2.7,4.86 2.52,0 4.68,-2.75 4.68,-6.17 V 17.72 h -2.69 v -1.17 h 9.09 V 36.8 h 3 V 38 Z"
+       transform="translate(-0.72,-4.22)"
+       style="fill:#ffffff"
+       id="path923" />
+    <path
+       d="m 95.26,16.55 v 4.05 a 6.66,6.66 0 0 1 6.79,-4.5 c 3.29,0 5.54,1.4 6.3,4.86 a 7.27,7.27 0 0 1 7.11,-4.86 c 3.82,0 6.52,2 6.52,7.51 V 36.8 h 3 V 38 h -11.82 v -1.2 h 2.48 V 22.67 c 0,-3.6 -0.63,-4.54 -2.34,-4.54 -2.52,0 -4.68,2.75 -4.68,6.7 v 12 h 2.52 V 38 H 99.81 v -1.2 h 2.47 v -14 c 0,-3.69 -0.63,-4.63 -2.29,-4.63 -2.56,0 -4.72,3 -4.72,6.88 V 36.8 h 2.52 V 38 H 86 v -1.2 h 2.92 V 17.72 H 86 v -1.17 z"
+       transform="translate(-0.72,-4.22)"
+       style="fill:#ffffff"
+       id="path925" />
+    <path
+       d="m 138.73,27.22 v -3.29 c 0,-4.9 -0.77,-6.75 -3.51,-6.75 -1.58,0 -2.83,0.54 -2.83,1.75 a 3,3 0 0 0 0.14,0.9 h 1.21 a 4.93,4.93 0 0 1 0.36,1.89 3,3 0 0 1 -3.24,3 c -2.16,0 -3.15,-1.3 -3.15,-3.28 0,-3.51 3.46,-5.35 8.59,-5.35 6.25,0 8.73,2 8.73,8.5 v 8.86 c 0,1.89 0.54,2.52 1.4,2.52 0.86,0 1.48,-0.72 1.8,-4.32 l 1,0.09 c -0.23,5 -1.71,6.66 -5.22,6.66 -3,0 -4.68,-1.08 -5.13,-3.2 -1,2.12 -2.88,3.2 -5.76,3.2 -3.29,0 -6.44,-1.13 -6.44,-5.35 0,-4.63 3.92,-5.85 10,-5.85 h 2 z m 0,4.86 v -3.73 h -1 c -3.24,0 -4.41,1.57 -4.41,4.59 0,2.65 0.68,3.55 2.16,3.55 1.59,0 3.25,-1.62 3.25,-4.41 z"
+       transform="translate(-0.72,-4.22)"
+       style="fill:#ffffff"
+       id="path927" />
+    <path
+       d="m 159.48,16.55 v 4.05 c 1,-2.25 2.88,-4.5 7.33,-4.5 4.14,0 6.79,2.07 6.79,7.51 V 36.8 h 3 V 38 h -11.95 v -1.2 h 2.61 V 22.94 c 0,-3.56 -0.67,-4.73 -2.61,-4.73 -2.7,0 -5.17,3 -5.17,6.88 v 11.7 h 2.65 V 38 h -11.92 v -1.2 h 2.92 V 17.72 h -2.92 v -1.17 z"
+       transform="translate(-0.72,-4.22)"
+       style="fill:#ffffff"
+       id="path929" />
+    <path
+       d="M 187.2,16.55 V 36.8 h 3 V 38 h -12.27 v -1.2 h 2.92 V 17.72 h -3 V 16.55 Z M 183.73,5.8 c 2.16,0 3.55,1.08 3.55,3.42 0,2 -1.12,3.46 -3.6,3.46 -2.88,0 -3.65,-1.84 -3.65,-3.46 -0.03,-1.8 1.14,-3.42 3.7,-3.42 z"
+       transform="translate(-0.72,-4.22)"
+       style="fill:#ffffff"
+       id="path931" />
+    <path
+       d="m 194.08,17.72 h -2.92 v -1.17 h 2.92 v -5.81 l 6.39,-1.62 v 7.42 h 6 v 1.17 h -6 v 14.76 c 0,2.56 0.5,3.87 2.48,3.87 2.16,0 3.38,-1.75 3.78,-4.81 l 1,0.13 c -0.41,3.51 -1.8,6.75 -6.93,6.75 -3.92,0 -6.75,-1.31 -6.75,-6.12 V 17.72 Z"
+       transform="translate(-0.72,-4.22)"
+       style="fill:#ffffff"
+       id="path933" />
+    <path
+       d="m 208.93,27.4 c 0,-7.83 4.86,-11.29 11.11,-11.29 6.25,0 9.18,3.51 8.91,10.26 h -13.32 v 1.21 c 0,5.85 1.21,9.22 5.8,9.22 3.42,0 5.44,-2 6.35,-5.4 l 1.21,0.18 c -0.9,3.78 -3.2,6.84 -9.27,6.84 -7.41,0 -10.79,-4.5 -10.79,-11.02 z m 13.82,-2.25 c 0.09,-5.71 -0.5,-8 -3.19,-8 -2.52,0 -3.78,2.07 -3.92,8 z m -5.81,-11.79 0.67,0.4 5.13,-5.49 a 3.22,3.22 0 0 0 1.13,-2.11 1.52,1.52 0 0 0 -1.67,-1.58 3.71,3.71 0 0 0 -0.67,0 l -1.4,0.31 z"
+       transform="translate(-0.72,-4.22)"
+       style="fill:#ffffff"
+       id="path935" />
+  </g>
+</svg>

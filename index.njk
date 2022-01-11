@@ -23,7 +23,7 @@ Evidemment, le propriétaire a une influence sur son journal. Mais quelle est so
     {% if entite.journal %}
       <li class="logo">
         <a href="/medias/{{ entite | getEntiteSlug }}">
-          <img src="/images/logos/{{ entite | getEntiteFilename(wikidata) }}"
+          <img src="/images/logos/{{ entite | getEntiteFilename(wikipedia) }}"
             title="{{ entite | getEntiteName }}"
             alt="{{ entite | getEntiteName }}" />
         </a>
