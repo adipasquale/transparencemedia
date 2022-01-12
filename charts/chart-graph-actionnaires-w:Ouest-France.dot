@@ -1,4 +1,0 @@
-digraph G {
-  "Groupe SIPA - Ouest-France" -> "Ouest-France" [label="100%"];
-  "Association pour le soutien des principes de la démocratie humaniste" -> "Groupe SIPA - Ouest-France" [label="100%"];
-}

@@ -1,0 +1,1722 @@
+[
+  {
+    "id": "w:Arrêt_sur_images",
+    "web": "http://www.arretsurimages.net",
+    "depuis": 2007,
+    "journal": {
+      "papier": "non",
+      "devise": "Réflexion critique sur les médias",
+      "couverture": "nationale",
+      "journalistes": [
+        "w:Daniel_Schneidermann"
+      ],
+      "revenus": "abonnements",
+      "accès gratuit": "sélection d'articles",
+      "forme juridique": "w:Société_par_actions_simplifiée"
+    },
+    "actionnariat": [
+      {
+        "id": "w:Daniel_Schneidermann",
+        "type": "individu",
+        "part": 100
+      }
+    ],
+    "name": "Arrêt sur images",
+    "slug": "Arret-sur-images",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/0/0f/LOGO_@SI_FINAL.svg",
+      "imageFilename": "LOGO_@SI_FINAL.svg"
+    }
+  },
+  {
+    "id": "w:Atlantico",
+    "journal": {
+      "papier": "non",
+      "devise": "Un vent nouveau sur l'info",
+      "couverture": "nationale",
+      "revenus": [
+        "abonnements",
+        "publicité"
+      ],
+      "accès gratuit": "limite de lecture"
+    },
+    "web": "http://www.atlantico.fr",
+    "depuis": 2011,
+    "actionnariat": {
+      "sources": [
+        {
+          "lien": "http://www.atlantico.fr/qui-sommes-nous#financement",
+          "note": "Informations non chiffrées"
+        }
+      ],
+      "inconnu": "À notre connaissance, l'actionnariat de ce journal est secret."
+    },
+    "name": "Atlantico",
+    "slug": "Atlantico",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/0/08/Atlantico_2010_logo.png",
+      "imageFilename": "Atlantico_2010_logo.png"
+    }
+  },
+  {
+    "id": "w:Challenges",
+    "journal": {
+      "papier": "oui",
+      "périodicité": "hebdomadaire",
+      "devise": "Que dit l'économie cette semaine ?",
+      "couverture": "nationale",
+      "revenus": [
+        "publicité",
+        "abonnements"
+      ]
+    },
+    "web": "http://www.challenges.fr",
+    "depuis": 1982,
+    "actionnariat": [
+      {
+        "id": "w:Groupe_Perdriel",
+        "part": 100
+      }
+    ],
+    "name": "Challenges",
+    "slug": "Challenges",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/f/f7/Logo_Challenges.png",
+      "imageFilename": "Logo_Challenges.png"
+    }
+  },
+  {
+    "id": "w:Le_Monde",
+    "nom": "Le Monde",
+    "depuis": 1944,
+    "web": "http://lemonde.fr",
+    "journal": {
+      "papier": "oui",
+      "périodicité": "quotidienne",
+      "couverture": "nationale",
+      "devise": "Le quotidien français de référence",
+      "revenus": [
+        "publicité",
+        "abonnements"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "lml",
+        "part": 64
+      },
+      {
+        "id": "lmpa",
+        "part": 34
+      }
+    ],
+    "name": "Le Monde",
+    "slug": "Le-Monde",
+    "wikipedia": {
+      "manualOverride": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Le_Monde.svg",
+      "imageFilename": "Le_Monde.svg"
+    }
+  },
+  {
+    "id": "w:Télérama",
+    "web": "http://www.telerama.fr/",
+    "depuis": 1947,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "hebdomadaire",
+      "couverture": "nationale",
+      "domaine": "culturel",
+      "revenus": [
+        "publicité",
+        "abonnements"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Le_Monde",
+        "part": 100
+      }
+    ],
+    "name": "Télérama",
+    "slug": "Telerama",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Télérama_logo.png",
+      "imageFilename": "Télérama_logo.png"
+    }
+  },
+  {
+    "id": "lml",
+    "nom": "Le Monde libre",
+    "type": "société",
+    "actionnariat": [
+      {
+        "id": "w:Pierre_Bergé"
+      },
+      {
+        "id": "w:Matthieu_Pigasse"
+      },
+      {
+        "id": "w:Xavier_Niel"
+      },
+      {
+        "id": "w:Prisa",
+        "part": 23
+      }
+    ],
+    "name": "lml",
+    "slug": "lml"
+  },
+  {
+    "id": "w:Prisa",
+    "nom": "Prisa",
+    "société": {
+      "secteurs": [
+        "médias"
+      ]
+    },
+    "name": "Prisa",
+    "slug": "Prisa"
+  },
+  {
+    "id": "w:Matthieu_Pigasse",
+    "type": "individu",
+    "liens": [
+      {
+        "role": "dirigeant",
+        "id": "w:Banque_Lazard"
+      }
+    ],
+    "name": "Matthieu Pigasse",
+    "slug": "Matthieu-Pigasse"
+  },
+  {
+    "id": "w:Banque_Lazard",
+    "société": {
+      "secteurs": [
+        "finance"
+      ]
+    },
+    "name": "Banque Lazard",
+    "slug": "Banque-Lazard"
+  },
+  {
+    "id": "w:Pierre_Bergé",
+    "individu": {
+      "fortune": "cent-millionnaires"
+    },
+    "liens": [
+      {
+        "role": "fondateur",
+        "id": "w:Yves_Saint_Laurent_(entreprise)"
+      }
+    ],
+    "name": "Pierre Bergé",
+    "slug": "Pierre-Berge"
+  },
+  {
+    "id": "w:Yves_Saint_Laurent_(entreprise)",
+    "société": {
+      "secteurs": [
+        "luxe"
+      ]
+    },
+    "name": "Yves Saint Laurent",
+    "slug": "Yves-Saint-Laurent"
+  },
+  {
+    "id": "w:Xavier_Niel",
+    "individu": {
+      "fortune": "milliardaires"
+    },
+    "liens": [
+      {
+        "role": [
+          "actionnaire",
+          "fondateur",
+          "dirigeant"
+        ],
+        "id": "w:Free_(entreprise)"
+      }
+    ],
+    "name": "Xavier Niel",
+    "slug": "Xavier-Niel"
+  },
+  {
+    "id": "w:Free_(entreprise)",
+    "société": {
+      "secteurs": [
+        "télécoms"
+      ]
+    },
+    "name": "Free",
+    "slug": "Free"
+  },
+  {
+    "id": "lmpa",
+    "nom": "Le Monde partenaires et associés",
+    "type": "société",
+    "actionnariat": [
+      {
+        "id": "actionnaires_internes_Le_Monde",
+        "internes": "oui",
+        "part": 52
+      },
+      {
+        "id": "actionnaires_externes_Le_Monde",
+        "type": "actionnaires externes",
+        "part": 48,
+        "commentaire": "Dont Société des lecteurs, à mentionner"
+      }
+    ],
+    "name": "lmpa",
+    "slug": "lmpa"
+  },
+  {
+    "id": "w:Fakir_(journal)",
+    "nom": "Fakir",
+    "journal": {
+      "papier": "oui",
+      "périodicité": "mensuelle",
+      "couverture": "nationale",
+      "devise": "Journal fâché avec tout le monde. Ou presque.",
+      "revenus": "abonnements",
+      "forme juridique": "https://fr.wikipedia.org/wiki/Association_loi_de_1901"
+    },
+    "depuis": 1999,
+    "web": "http://www.fakirpresse.info/",
+    "actionnariat": {
+      "sources": [
+        "https://fr.ulule.com/fakirpresse",
+        {
+          "lien": "http://www.acrimed.org/Les-lecteurs-La-structure-Les-finances-Les-tarifs-Contacts",
+          "note": "lien complet mais ancien datant de 2003"
+        }
+      ],
+      "actionnaires": [
+        {
+          "id": "association_fakir",
+          "nom": "Association Fakir"
+        }
+      ]
+    },
+    "name": "Fakir",
+    "slug": "Fakir",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/0/0d/Fakir_logo_2014.jpg",
+      "imageFilename": "Fakir_logo_2014.jpg"
+    }
+  },
+  {
+    "id": "w:Huffington_Post",
+    "web": "http://www.huffingtonpost.fr",
+    "journal": {
+      "papier": "non",
+      "couverture": "nationale",
+      "revenus": [
+        "publicité",
+        "abonnements"
+      ]
+    },
+    "depuis": 2012,
+    "actionnariat": [
+      {
+        "id": "w:Les_Nouvelles_Éditions_indépendantes",
+        "part": 11
+      },
+      {
+        "id": "w:Le_Monde",
+        "part": 34
+      },
+      {
+        "id": "w:AOL",
+        "part": 51
+      }
+    ],
+    "name": "Huffington Post",
+    "slug": "Huffington-Post",
+    "wikipedia": {
+      "manualOverride": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/1/17/Le_Huffington_Post_2017.svg",
+      "imageFilename": "Le_Huffington_Post_2017.svg"
+    }
+  },
+  {
+    "id": "w:AOL",
+    "société": {
+      "connue": "oui",
+      "secteurs": [
+        "télécoms"
+      ]
+    },
+    "name": "AOL",
+    "slug": "AOL"
+  },
+  {
+    "id": "w:Les_Inrockuptibles",
+    "journal": {
+      "papier": "oui",
+      "périodicité": "hebdomadaire",
+      "couverture": "nationale",
+      "devise": "Hebdo culturel généraliste de gauche",
+      "revenus": [
+        "publicité",
+        "abonnements"
+      ]
+    },
+    "depuis": 1986,
+    "web": "http://www.lesinrocks.com/",
+    "actionnariat": [
+      {
+        "id": "w:Les_Nouvelles_Éditions_indépendantes",
+        "part": 100
+      }
+    ],
+    "name": "Les Inrockuptibles",
+    "slug": "Les-Inrockuptibles",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/INROCKUPTIBLES_LOGO_GRAND.png",
+      "imageFilename": "INROCKUPTIBLES_LOGO_GRAND.png"
+    }
+  },
+  {
+    "id": "w:Les_Nouvelles_Éditions_indépendantes",
+    "société": {
+      "type": "holding",
+      "secteurs": [
+        "médias"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Matthieu_Pigasse",
+        "part": 78
+      },
+      {
+        "id": "orium",
+        "type": "w:Fonds_de_placement",
+        "part": 18
+      },
+      {
+        "id": "Christian_Fevret",
+        "type": "individu",
+        "part": 2
+      }
+    ],
+    "name": "Les Nouvelles Éditions indépendantes",
+    "slug": "Les-Nouvelles-Editions-independantes"
+  },
+  {
+    "id": "w:L'Humanité",
+    "journal": {
+      "devise": "Fondé par Jean Jaurès",
+      "web": "http://www.humanite.fr",
+      "papier": true,
+      "périodicité": "quotidienne",
+      "couverture": "nationale",
+      "revenus": [
+        "publicité",
+        "abonnements"
+      ]
+    },
+    "depuis": 1904,
+    "actionnariat": {
+      "sources": {
+        "note": "Il n’y a aujourd’hui plus d’actionnaires extérieurs dans le capital du journal.",
+        "lien": "http://www.lesinrocks.com/2016/04/23/actualite/journal-lhumanite-va-t-disparaitre-11821813"
+      },
+      "inconnu": "Le capital semble être détenu par la Société des Lecteurs et la Société des amis. Selon les Inrocks, \"il n’y a aujourd’hui plus d’actionnaires extérieurs dans le capital du journal\", faisant référence à Hachette, TF1 et la Caisse d'Épargne qui l'étaient."
+    },
+    "name": "L'Humanité",
+    "slug": "LHumanite",
+    "wikipedia": {
+      "manualOverride": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_L'Humanité_(Red).svg",
+      "imageFilename": "Logo_L'Humanité_(Red).svg"
+    }
+  },
+  {
+    "id": "w:L'Opinion_(quotidien,_2013)",
+    "nom": "l'Opinion",
+    "journal": {
+      "devise": "Libéral, pro-business et pro-européen",
+      "papier": "oui",
+      "couverture": "nationale",
+      "revenus": [
+        "publicité",
+        "abonnements"
+      ]
+    },
+    "depuis": 2013,
+    "web": "http://www.lopinion.fr",
+    "journalistes": [
+      "w:Nicolas_Beytout"
+    ],
+    "actionnariat": {
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Bernard_Arnault#Actionnariat",
+        "http://www.lemonde.fr/actualite-medias/article/2013/05/13/les-investisseurs-mysteres-de-l-opinion_3178646_3236.html",
+        "https://www.mediapart.fr/journal/economie/010713/nicolas-beytout-finance-par-les-bettencourt"
+      ],
+      "actionnaires": [
+        {
+          "id": "w:Nicolas_Beytout",
+          "type": "individu",
+          "part": 30
+        },
+        {
+          "id": "w:Bernard_Arnault",
+          "part": "100 * 6 / 13.5"
+        },
+        {
+          "id": "w:Liliane_Bettencourt",
+          "type": "individu",
+          "part": 13.4
+        },
+        {
+          "id": "w:News_Corp",
+          "part": "100 * 2 / 13.5"
+        }
+      ]
+    },
+    "name": "L'Opinion",
+    "slug": "LOpinion",
+    "wikipedia": {
+      "manualOverride": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/L-opinion.svg",
+      "imageFilename": "L-opinion.svg"
+    }
+  },
+  {
+    "id": "w:News_Corp",
+    "société": {
+      "secteurs": [
+        "médias"
+      ],
+      "connue": "oui"
+    },
+    "name": "News Corp",
+    "slug": "News-Corp"
+  },
+  {
+    "id": "w:Liliane_Bettencourt",
+    "type": "individu",
+    "liens": [
+      {
+        "type": [
+          "actionnaire principal"
+        ],
+        "id": "w:L'Oréal"
+      }
+    ],
+    "name": "Liliane Bettencourt",
+    "slug": "Liliane-Bettencourt"
+  },
+  {
+    "id": "w:L'Oréal",
+    "société": {
+      "secteurs": [
+        "cosmétiques"
+      ]
+    },
+    "name": "L'Oréal",
+    "slug": "LOreal"
+  },
+  {
+    "id": "w:La_Croix",
+    "web": "http://www.la-croix.com",
+    "depuis": 1883,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "quotidienne",
+      "couverture": "nationale",
+      "devise": "Chrétien, catholique et progressiste",
+      "revenus": [
+        "publicité",
+        "abonnements"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Groupe_Bayard"
+      }
+    ],
+    "name": "La Croix",
+    "slug": "La-Croix",
+    "wikipedia": {
+      "manualOverride": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/La_Croix.svg",
+      "imageFilename": "La_Croix.svg"
+    }
+  },
+  {
+    "id": "w:Groupe_Bayard",
+    "société": {
+      "connue": "oui"
+    },
+    "actionnariat": [
+      {
+        "id": "w:Assomptionnistes"
+      }
+    ],
+    "name": "Groupe Bayard",
+    "slug": "Groupe-Bayard"
+  },
+  {
+    "id": "w:Assomptionnistes",
+    "nom": "Augustins de l'Assomption",
+    "type": "organisation religieuse",
+    "name": "Assomptionnistes",
+    "slug": "Assomptionnistes"
+  },
+  {
+    "id": "w:Le_Monde_diplomatique",
+    "web": "http://www.monde-diplomatique.fr",
+    "depuis": 1954,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "mensuelle",
+      "couverture": "nationale",
+      "devise": "Le titre français le plus diffusé dans le monde",
+      "revenus": [
+        "abonnements",
+        "publicité"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Le_Monde",
+        "part": 51
+      },
+      {
+        "id": "w:Amis_du_Monde_diplomatique",
+        "part": 25
+      },
+      {
+        "id": "w:Günter_Holzmann#Association_G.C3.BCnter_Holzmann",
+        "part": 24
+      }
+    ],
+    "name": "Le Monde diplomatique",
+    "slug": "Le-Monde-diplomatique",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/6/6a/Le_monde_diplomatique_logo.svg",
+      "imageFilename": "Le_monde_diplomatique_logo.svg"
+    }
+  },
+  {
+    "id": "w:Amis_du_Monde_diplomatique",
+    "type": "société des amis",
+    "name": "Amis du Monde diplomatique",
+    "slug": "Amis-du-Monde-diplomatique"
+  },
+  {
+    "id": "w:Günter_Holzmann#Association_G.C3.BCnter_Holzmann",
+    "nom": "Équipe rédactionnelle Monde Diplomatique",
+    "internes": "oui",
+    "name": "Günter Holzmann#Association G.C3.BCnter Holzmann",
+    "slug": "Gunter-HolzmannAssociation-GC3BCnter-Holzmann"
+  },
+  {
+    "id": "w:Le_Canard_enchaîné",
+    "journal": {
+      "web": "non",
+      "périodicité": "hebdomadaire",
+      "publicité": 0,
+      "devise": "La liberté de la presse ne s’use que quand on ne s’en sert pas",
+      "couverture": "nationale",
+      "revenus": [
+        "abonnements"
+      ]
+    },
+    "depuis": 1915,
+    "actionnariat": {
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Le_Canard_encha%C3%AEn%C3%A9#Ind.C3.A9pendance_financi.C3.A8re"
+      ],
+      "actionnaires": [
+        {
+          "id": "SA Les Éditions Maréchal"
+        }
+      ]
+    },
+    "name": "Le Canard enchaîné",
+    "slug": "Le-Canard-enchaine",
+    "wikipedia": {
+      "manualOverride": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_Canard_encha%C3%AEn%C3%A9.svg",
+      "imageFilename": "Logo_Canard_enchaîné.svg"
+    }
+  },
+  {
+    "id": "SA Les Éditions Maréchal",
+    "internes": "oui",
+    "fondateurs": "oui",
+    "name": "SA Les Éditions Maréchal",
+    "slug": "SA-Les-Editions-Marechal"
+  },
+  {
+    "id": "w:Le_Figaro",
+    "nom": "Le Figaro",
+    "web": "http://www.lefigaro.fr",
+    "depuis": 1826,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "quotidienne",
+      "couverture": "nationale",
+      "devise": "Sans la liberté de blâmer, il n'est point d'éloge flatteur.",
+      "revenus": [
+        "abonnements",
+        "publicité"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Société_du_Figaro"
+      }
+    ],
+    "name": "Le Figaro",
+    "slug": "Le-Figaro",
+    "wikipedia": {
+      "manualOverride": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/f/f8/Le_Figaro_logo.svg",
+      "imageFilename": "Le_Figaro_logo.svg"
+    }
+  },
+  {
+    "id": "w:Société_du_Figaro",
+    "type": "société",
+    "actionnariat": [
+      {
+        "id": "w:Socpresse"
+      }
+    ],
+    "name": "Société du Figaro",
+    "slug": "Societe-du-Figaro"
+  },
+  {
+    "id": "w:Socpresse",
+    "type": "société",
+    "actionnariat": [
+      {
+        "id": "w:Serge_Dassault"
+      }
+    ],
+    "name": "Socpresse",
+    "slug": "Socpresse"
+  },
+  {
+    "id": "w:Serge_Dassault",
+    "individu": {
+      "fortune": "milliardaires"
+    },
+    "liens": [
+      {
+        "type": [
+          "actionnaire",
+          "ancien dirigeant"
+        ],
+        "id": "w:Groupe_Dassault"
+      }
+    ],
+    "name": "Serge Dassault",
+    "slug": "Serge-Dassault"
+  },
+  {
+    "id": "w:Groupe_Dassault",
+    "société": {
+      "secteurs": [
+        "armes",
+        "aviation"
+      ]
+    },
+    "name": "Groupe Dassault",
+    "slug": "Groupe-Dassault"
+  },
+  {
+    "id": "w:Le_Point",
+    "web": "http://www.lepoint.fr",
+    "depuis": 1972,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "quotidienne",
+      "devise": "Le newsmagazine français",
+      "couverture": "nationale",
+      "revenus": [
+        "abonnements",
+        "publicité"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Artémis_(holding)"
+      }
+    ],
+    "name": "Le Point",
+    "slug": "Le-Point",
+    "wikipedia": {
+      "manualOverride": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/8/88/Le_Point.svg",
+      "imageFilename": "Le_Point.svg"
+    }
+  },
+  {
+    "id": "w:Artémis_(holding)",
+    "société": {
+      "type": "holding"
+    },
+    "actionnariat": [
+      {
+        "id": "w:François_Pinault"
+      }
+    ],
+    "name": "Artémis",
+    "slug": "Artemis"
+  },
+  {
+    "id": "w:François_Pinault",
+    "individu": {
+      "fortune": "milliardaires"
+    },
+    "name": "François Pinault",
+    "slug": "Francois-Pinault"
+  },
+  {
+    "id": "w:Les_Jours",
+    "web": "http://lesjours.fr",
+    "depuis": 2016,
+    "journal": {
+      "papier": "non",
+      "devise": "Hier, Aujourd'hui, Demain",
+      "couverture": "nationale",
+      "revenus": [
+        "abonnements"
+      ]
+    },
+    "actionnariat": {
+      "sources": [
+        "http://lesjours.fr/obsessions/les-jours-c-quoi/les-jours-actionnaires/"
+      ],
+      "actionnaires": [
+        {
+          "id": "fondateurs_les_jours",
+          "part": 89.24
+        },
+        {
+          "id": "w:Xavier_Niel",
+          "part": 3.47
+        },
+        {
+          "id": "w:Olivier_Legrain",
+          "type": "individu",
+          "part": 2.43
+        },
+        {
+          "id": "w:Marc-Olivier_Fogiel",
+          "type": "individu",
+          "part": 1.24
+        },
+        {
+          "id": "w:Pierre-Antoine_Capton",
+          "type": "individu",
+          "part": 0.99
+        },
+        {
+          "id": "w:Matthieu_Pigasse",
+          "part": 0.99
+        },
+        {
+          "id": "Famille_amis_les_jours",
+          "type": "groupe",
+          "part": 0.89
+        }
+      ]
+    },
+    "name": "Les Jours",
+    "slug": "Les-Jours",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/4/4c/Les_Jours.svg",
+      "imageFilename": "Les_Jours.svg"
+    }
+  },
+  {
+    "id": "fondateurs_les_jours",
+    "nom": "Fondateurs Les Jours",
+    "fondateurs": "oui",
+    "name": "fondateurs les jours",
+    "slug": "fondateurs-les-jours"
+  },
+  {
+    "id": "w:Les_Échos",
+    "web": "http://lesechos.fr",
+    "depuis": 1908,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "quotidienne",
+      "couverture": "nationale",
+      "sujets": [
+        "économie",
+        "finance"
+      ],
+      "revenus": [
+        "abonnements",
+        "publicité"
+      ],
+      "devise": "Nous défendons l’idée que le marché est supérieur au plan. En conséquence, nous pensons que l’entreprise privée est l’outil le plus performant, même si ce n’est pas le seul."
+    },
+    "actionnariat": [
+      {
+        "id": "w:Groupe_Les_Échos"
+      }
+    ],
+    "name": "Les Échos",
+    "slug": "Les-Echos",
+    "wikipedia": {
+      "manualOverride": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Les_echos_(logo).svg",
+      "imageFilename": "Les_echos_(logo).svg"
+    }
+  },
+  {
+    "id": "w:Groupe_Les_Échos",
+    "type": "société",
+    "actionnariat": [
+      {
+        "id": "w:LVMH"
+      }
+    ],
+    "name": "Groupe Les Échos",
+    "slug": "Groupe-Les-Echos"
+  },
+  {
+    "id": "w:Le_Parisien",
+    "aussi": "w:Aujourd'hui_en_France",
+    "web": "http://www.leparisien.fr",
+    "depuis": 1944,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "quotidienne",
+      "couverture": "nationale",
+      "devise": "Le premier quotidien national payant d'information générale",
+      "revenus": [
+        "abonnements",
+        "publicité"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:LVMH"
+      }
+    ],
+    "name": "Le Parisien",
+    "slug": "Le-Parisien",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Le_Parisien_logo.svg",
+      "imageFilename": "Le_Parisien_logo.svg"
+    }
+  },
+  {
+    "id": "w:LVMH",
+    "nom complet": "LVMH - Moët Hennessy Louis Vuitton ",
+    "société": {
+      "connue": "oui",
+      "secteurs": [
+        "luxe"
+      ]
+    },
+    "note": "Selon wikipedia, le groupe Arnault (ou le groupe familial Arnault ?) détient LVMH par l'intermédiaire de Christian Dior SA.\n",
+    "actionnariat": {
+      "sources": [
+        {
+          "note": "Wikipedia LVMH Actionnaires",
+          "lien": "https://fr.wikipedia.org/wiki/LVMH_-_Mo%C3%ABt_Hennessy_Louis_Vuitton#Actionnaires"
+        },
+        {
+          "note": "LVMH.fr - Structure du capital",
+          "lien": "http://www.lvmh.fr/communication-financiere/actionnaires/structure-du-capital"
+        }
+      ],
+      "actionnaires": [
+        {
+          "id": "w:Bernard_Arnault",
+          "part": 46.6
+        },
+        {
+          "id": "institutionnels_étrangers",
+          "part": 33.8
+        },
+        {
+          "id": "institutionnels_français",
+          "part": 13.5
+        },
+        {
+          "id": "personnes_physiques",
+          "part": 5.2
+        },
+        {
+          "id": "autocontrôle",
+          "part": 0.9
+        }
+      ]
+    },
+    "name": "LVMH",
+    "slug": "LVMH"
+  },
+  {
+    "id": "w:Bernard_Arnault",
+    "individu": {
+      "fortune": "milliardaires"
+    },
+    "liens": [
+      {
+        "type": [
+          "propriétaire"
+        ],
+        "id": "w:LVMH"
+      }
+    ],
+    "name": "Bernard Arnault",
+    "slug": "Bernard-Arnault"
+  },
+  {
+    "id": "w:Libération_(journal)",
+    "nom": "Libération",
+    "web": "http://liberation.fr",
+    "depuis": 1973,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "quotidienne",
+      "couverture": "nationale",
+      "devise": "Fondé sous l'égide de Jean-Paul Sartre",
+      "revenus": [
+        "abonnements",
+        "publicité"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Société_française_du_radiotéléphone"
+      }
+    ],
+    "name": "Libération",
+    "slug": "Liberation",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Libération.svg",
+      "imageFilename": "Libération.svg"
+    }
+  },
+  {
+    "id": "w:L'Express",
+    "web": "http://www.lexpress.fr",
+    "depuis": 1953,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "hebdomadaire",
+      "devise": "Ni de droite ni de gauche, il est au-dessus de la mêlée.",
+      "couverture": "nationale",
+      "revenus": [
+        "abonnements",
+        "publicité"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Société_française_du_radiotéléphone"
+      }
+    ],
+    "name": "L'Express",
+    "slug": "LExpress",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/1/1d/Lexpress-2020.svg",
+      "imageFilename": "Lexpress-2020.svg"
+    }
+  },
+  {
+    "id": "w:BFM_TV",
+    "web": "http://www.bfmtv.com",
+    "depuis": 2005,
+    "chaîne TV": {
+      "devise": "Première chaîne d'information de France",
+      "couverture": "nationale"
+    },
+    "actionnariat": [
+      {
+        "id": "w:NextRadioTV"
+      }
+    ],
+    "name": "BFM TV",
+    "slug": "BFM-TV"
+  },
+  {
+    "id": "w:NextRadioTV",
+    "type": "société",
+    "actionnariat": [
+      {
+        "id": "w:Société_française_du_radiotéléphone",
+        "part": 100
+      }
+    ],
+    "name": "NextRadioTV",
+    "slug": "NextRadioTV"
+  },
+  {
+    "id": "w:Société_française_du_radiotéléphone",
+    "nom": "SFR",
+    "divisions": "SFR Média -> SFR Presse",
+    "société": {
+      "connue": "oui",
+      "secteurs": [
+        "télécoms"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Altice",
+        "part": 77.77
+      },
+      {
+        "id": "capital_flottant_sfr",
+        "part": 22.22
+      }
+    ],
+    "name": "Société française du radiotéléphone",
+    "slug": "Societe-francaise-du-radiotelephone"
+  },
+  {
+    "id": "capital_flottant_sfr",
+    "type": "w:Flottant_(finance)",
+    "name": "capital flottant sfr",
+    "slug": "capital-flottant-sfr"
+  },
+  {
+    "id": "w:Altice",
+    "type": "société",
+    "actionnariat": {
+      "sources": [
+        "http://www.boursorama.com/bourse/profil/profil.phtml?symbole=1rAATC"
+      ],
+      "actionnaires": [
+        {
+          "id": "w:Patrick_Drahi",
+          "part": 58
+        },
+        {
+          "id": "Europacific Growth Fund",
+          "part": 4.9
+        },
+        {
+          "id": "Carmignac Gestion",
+          "part": 3.38
+        },
+        {
+          "id": "w:Fidelity_Investments",
+          "part": 3.17
+        },
+        {
+          "id": "capital_flottant_altice",
+          "type": "w:Flottant_(finance)"
+        }
+      ]
+    },
+    "name": "Altice",
+    "slug": "Altice"
+  },
+  {
+    "id": "w:Patrick_Drahi",
+    "individu": {
+      "fortune": "milliardaires"
+    },
+    "name": "Patrick Drahi",
+    "slug": "Patrick-Drahi"
+  },
+  {
+    "id": "Europacific Growth Fund",
+    "société": {
+      "type": "w:Fonds_de_placement",
+      "secteurs": [
+        "finance"
+      ]
+    },
+    "name": "Europacific Growth Fund",
+    "slug": "Europacific-Growth-Fund"
+  },
+  {
+    "id": "Carmignac Gestion",
+    "société": {
+      "type": "w:Fonds_de_placement",
+      "secteurs": [
+        "finance"
+      ]
+    },
+    "name": "Carmignac Gestion",
+    "slug": "Carmignac-Gestion"
+  },
+  {
+    "id": "w:Fidelity_Investments",
+    "société": {
+      "type": "w:Fonds_de_placement",
+      "secteurs": [
+        "finance"
+      ]
+    },
+    "name": "Fidelity Investments",
+    "slug": "Fidelity-Investments"
+  },
+  {
+    "id": "w:Mediapart",
+    "web": "https://www.mediapart.fr",
+    "depuis": 2008,
+    "journal": {
+      "papier": "non",
+      "devise": "Journal d'information numérique, indépendant et participatif",
+      "couverture": "nationale",
+      "revenus": [
+        "abonnements"
+      ]
+    },
+    "actionnariat": {
+      "sources": [
+        "http://www.lemonde.fr/actualite-medias/article/2015/03/13/mediapart-plenel-prepare-l-apres-plenel_4593035_3236.html",
+        "https://fr.wikipedia.org/wiki/Mediapart#Capital",
+        "http://presite.mediapart.fr/contenu/quels-sont-vos-actionnaires.html"
+      ],
+      "actionnaires": [
+        {
+          "id": "fondateurs_mediapart",
+          "part": 36.71
+        },
+        {
+          "id": "société_amis_mediapart",
+          "part": 14.65
+        },
+        {
+          "id": "ecofinance",
+          "part": 18.27
+        },
+        {
+          "id": "doxa",
+          "part": 27.75
+        }
+      ]
+    },
+    "name": "Mediapart",
+    "slug": "Mediapart",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/8/8a/Logo-crieur.svg",
+      "imageFilename": "Logo-crieur.svg"
+    }
+  },
+  {
+    "id": "société_amis_mediapart",
+    "type": "société des amis",
+    "actionnariat": [
+      {
+        "id": "w:Xavier_Niel",
+        "part": "100 * 200 / 504"
+      }
+    ],
+    "name": "société amis mediapart",
+    "slug": "societe-amis-mediapart"
+  },
+  {
+    "id": "fondateurs_mediapart",
+    "fondateurs": "oui",
+    "actionnariat": [
+      {
+        "id": "w:Edwy_Plenel",
+        "type": "individu",
+        "part": "100 * 550 / 1325"
+      },
+      {
+        "id": "Marie-Hélène Smiejan",
+        "type": "individu",
+        "part": "100 * 550 / 1325"
+      }
+    ],
+    "name": "fondateurs mediapart",
+    "slug": "fondateurs-mediapart"
+  },
+  {
+    "id": "doxa",
+    "nom": "Doxa",
+    "type": "société",
+    "name": "doxa",
+    "slug": "doxa"
+  },
+  {
+    "id": "ecofinance",
+    "nom": "Écofinance",
+    "type": "société",
+    "name": "ecofinance",
+    "slug": "ecofinance"
+  },
+  {
+    "id": "w:L'Obs",
+    "web": "http://nouvelobs.com",
+    "depuis": 1964,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "hebdomadaire",
+      "devise": "L'Observateur politique, économique et littéraire",
+      "couverture": "nationale",
+      "revenus": [
+        "abonnements",
+        "publicité"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "lml",
+        "part": 66
+      },
+      {
+        "id": "w:Groupe_Perdriel",
+        "part": 34
+      }
+    ],
+    "name": "L'Obs",
+    "slug": "LObs",
+    "wikipedia": {
+      "manualOverride": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Obs_2014_logo.svg",
+      "imageFilename": "Obs_2014_logo.svg"
+    }
+  },
+  {
+    "id": "w:Groupe_Perdriel",
+    "type": "société",
+    "actionnariat": [
+      {
+        "id": "w:Claude_Perdriel",
+        "part": 93
+      },
+      {
+        "id": "w:Le_Monde",
+        "part": 6
+      },
+      {
+        "id": "société_rédacteurs_perdriel",
+        "part": 1
+      }
+    ],
+    "name": "Groupe Perdriel",
+    "slug": "Groupe-Perdriel"
+  },
+  {
+    "id": "société_rédacteurs_perdriel",
+    "internes": "oui",
+    "name": "société rédacteurs perdriel",
+    "slug": "societe-redacteurs-perdriel"
+  },
+  {
+    "id": "w:Claude_Perdriel",
+    "individu": {
+      "fortune": "cent-millionnaires"
+    },
+    "name": "Claude Perdriel",
+    "slug": "Claude-Perdriel"
+  },
+  {
+    "id": "w:Ouest-France",
+    "web": "http://www.ouest-france.fr",
+    "depuis": 1944,
+    "journal": {
+      "papier": "oui",
+      "périodicité": "quotidienne",
+      "généraliste": "oui",
+      "devise": "Premier quotidien français en termes de diffusion",
+      "couverture": "locale",
+      "revenus": [
+        "abonnements",
+        "publicité"
+      ],
+      "forme juridique": "https://fr.wikipedia.org/wiki/Association_loi_de_1901"
+    },
+    "actionnariat": [
+      {
+        "id": "w:Groupe_SIPA_-_Ouest-France"
+      }
+    ],
+    "name": "Ouest-France",
+    "slug": "Ouest-France",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/7/72/Logo_Ouest-France.svg",
+      "imageFilename": "Logo_Ouest-France.svg"
+    }
+  },
+  {
+    "id": "w:Groupe_SIPA_-_Ouest-France",
+    "type": "société",
+    "actionnariat": [
+      {
+        "id": "w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste"
+      }
+    ],
+    "name": "Groupe SIPA - Ouest-France",
+    "slug": "Groupe-SIPA-Ouest-France"
+  },
+  {
+    "id": "w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste",
+    "type": "association 1901",
+    "name": "Association pour le soutien des principes de la démocratie humaniste",
+    "slug": "Association-pour-le-soutien-des-principes-de-la-democratie-humaniste"
+  },
+  {
+    "id": "w:Reporterre",
+    "web": "https://reporterre.net",
+    "depuis": 2007,
+    "journal": {
+      "papier": "non",
+      "devise": "Le quotidien de l'écologie",
+      "revenus": [
+        "abonnements"
+      ]
+    },
+    "actionnariat": {
+      "inconnu": "À notre connaissance, l'actionnariat de ce journal est secret."
+    },
+    "name": "Reporterre",
+    "slug": "Reporterre",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/8/88/Reporterre-logo.png",
+      "imageFilename": "Reporterre-logo.png"
+    }
+  },
+  {
+    "id": "w:RT_(chaîne_de_télévision)",
+    "nom": "RT France",
+    "web": "https://francais.rt.com",
+    "depuis": 2014,
+    "journal": {
+      "papier": "non",
+      "revenus": [
+        "état"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Ministère_des_Affaires_étrangères_(Russie)",
+        "type": "pays"
+      }
+    ],
+    "name": "RT",
+    "slug": "RT",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Russia-today-logo.svg",
+      "imageFilename": "Russia-today-logo.svg"
+    }
+  },
+  {
+    "id": "w:Slate_(magazine)",
+    "web": "https://www.slate.fr",
+    "depuis": 2009,
+    "journal": {
+      "papier": "non",
+      "devise": "Slate.fr est le magazine en ligne de référence.",
+      "couverture": "nationale",
+      "revenus": [
+        "publicité"
+      ]
+    },
+    "actionnariat": {
+      "sources": [
+        "http://bfmbusiness.bfmtv.com/entreprise/les-actionnaires-ultra-chic-de-slate-fr-943252.html",
+        {
+          "lien": "http://www.slate.fr/qui-sommes-nous",
+          "note": "La page \"Qui sommes-nous\" semble être en contradiction avec l'article de BFMTV"
+        }
+      ],
+      "actionnaires": [
+        {
+          "id": "w:Benjamin_de_Rothschild",
+          "part": 29
+        },
+        {
+          "id": "Financière_Viveris",
+          "part": 22
+        },
+        {
+          "id": "fondateurs_slate",
+          "part": 25
+        },
+        {
+          "id": "actionnaires_externes_slate"
+        }
+      ]
+    },
+    "name": "Slate",
+    "slug": "Slate",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Slate_new_logo.png",
+      "imageFilename": "Slate_new_logo.png"
+    }
+  },
+  {
+    "id": "w:Benjamin_de_Rothschild",
+    "individu": {
+      "fortune": "milliardaires"
+    },
+    "liens": [
+      {
+        "type": [
+          "proriétaire",
+          "président"
+        ],
+        "id": "w:Groupe_Edmond_de_Rothschild"
+      }
+    ],
+    "name": "Benjamin de Rothschild",
+    "slug": "Benjamin-de-Rothschild"
+  },
+  {
+    "id": "w:Groupe_Edmond_de_Rothschild",
+    "société": {
+      "secteurs": [
+        "finance"
+      ]
+    },
+    "name": "Groupe Edmond de Rothschild",
+    "slug": "Groupe-Edmond-de-Rothschild"
+  },
+  {
+    "id": "Financière_Viveris",
+    "société": {
+      "type": "w:Fonds_de_placement"
+    },
+    "name": "Financière Viveris",
+    "slug": "Financiere-Viveris"
+  },
+  {
+    "id": "fondateurs_slate",
+    "fondateurs": "oui",
+    "name": "fondateurs slate",
+    "slug": "fondateurs-slate"
+  },
+  {
+    "id": "actionnaires_externes_slate",
+    "type": "actionnaires externes",
+    "name": "actionnaires externes slate",
+    "slug": "actionnaires-externes-slate"
+  },
+  {
+    "id": "w:Alternatives_économiques",
+    "depuis": 1980,
+    "web": "http://www.alternatives-economiques.fr",
+    "journal": {
+      "papier": "oui",
+      "périodicité": "mensuelle",
+      "couverture": "nationale",
+      "sujets": [
+        "économie"
+      ],
+      "devise": "Fondé en réaction au slogan « There is no alternative »",
+      "revenus": [
+        "publicité",
+        "abonnements"
+      ],
+      "forme juridique": "https://fr.wikipedia.org/wiki/Société_coopérative_et_participative"
+    },
+    "actionnariat": {
+      "sources": [
+        {
+          "note": "Page Éditorial du journal, tous les mois"
+        }
+      ],
+      "actionnaires": [
+        {
+          "id": "salariés_altereco",
+          "nom": "Salariés",
+          "internes": "oui",
+          "part": 62
+        },
+        {
+          "id": "société_civile_lecteurs_altereco",
+          "nom": "Société des lecteurs",
+          "part": 22
+        },
+        {
+          "id": "association_lecteurs_altereco",
+          "nom": "Association des lecteurs",
+          "part": 1
+        },
+        {
+          "id": "anciens_salariés_altereco",
+          "nom": "Anciens salariés",
+          "part": 3
+        },
+        {
+          "id": "actionnaires_externes_altereco",
+          "nom": "Actionnaires externes",
+          "type": "actionnaires externes",
+          "part": 12
+        }
+      ]
+    },
+    "name": "Alternatives économiques",
+    "slug": "Alternatives-economiques",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Logo_Alternatives_Economiques.gif",
+      "imageFilename": "Logo_Alternatives_Economiques.gif"
+    }
+  },
+  {
+    "id": "w:20_minutes_(France)",
+    "web": "http://www.20minutes.fr",
+    "depuis": 2002,
+    "journal": {
+      "devise": "Le journal papier le plus lu en France",
+      "revenus": [
+        "publicité"
+      ]
+    },
+    "actionnariat": {
+      "sources": [
+        "http://www.rossel-lavoix.fr/Gouvernance-et-Valeurs/Actionnariat"
+      ],
+      "actionnaires": [
+        {
+          "id": "w:Groupe_SIPA_-_Ouest-France",
+          "part": 50
+        },
+        {
+          "id": "w:Groupe_La_Voix",
+          "part": 49.3
+        }
+      ]
+    },
+    "name": "20 minutes",
+    "slug": "20-minutes",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/20_Minutes_logo.svg",
+      "imageFilename": "20_Minutes_logo.svg"
+    }
+  },
+  {
+    "id": "w:Groupe_La_Voix",
+    "actionnariat": [
+      {
+        "id": "w:Groupe_Rossel",
+        "part": 73
+      },
+      {
+        "id": "w:Crédit_agricole",
+        "part": 25
+      }
+    ],
+    "name": "Groupe La Voix",
+    "slug": "Groupe-La-Voix"
+  },
+  {
+    "id": "w:Groupe_Rossel",
+    "actionnariat": [
+      {
+        "id": "w:Famille_hurbain",
+        "part": "27.66 * 3"
+      }
+    ],
+    "name": "Groupe Rossel",
+    "slug": "Groupe-Rossel"
+  },
+  {
+    "id": "w:Famille_hurbain",
+    "individu": {
+      "fortune": "cent-millionnaires"
+    },
+    "name": "Famille hurbain",
+    "slug": "Famille-hurbain"
+  },
+  {
+    "id": "w:CNews_Matin",
+    "web": "http://cnewsmatin.fr",
+    "journal": {
+      "depuis": 2007,
+      "revenus": [
+        "publicité"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Bolloré",
+        "part": 70
+      },
+      {
+        "id": "w:Le_Monde",
+        "part": 30
+      }
+    ],
+    "name": "CNews Matin",
+    "slug": "CNews-Matin",
+    "wikipedia": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Logo-DMP-v1.png",
+      "imageFilename": "Logo-DMP-v1.png"
+    }
+  },
+  {
+    "id": "w:Bolloré",
+    "société": {
+      "secteurs": [
+        "logistique"
+      ]
+    },
+    "actionnariat": [
+      {
+        "id": "w:Financière_de_l'Odet",
+        "part": 64.4
+      }
+    ],
+    "name": "Bolloré",
+    "slug": "Bollore"
+  },
+  {
+    "id": "w:Financière_de_l'Odet",
+    "société": {
+      "type": "financière"
+    },
+    "actionnariat": {
+      "sources": [
+        "http://www.financiere-odet.fr/fr-fr/la-societe/organigramme/",
+        "http://www.latribune.fr/vos-finances/financiere-de-l-odet-tout-bollore-avec-une-decote-612426.html"
+      ],
+      "actionnaires": [
+        {
+          "id": "Sofibol",
+          "part": 55.3
+        }
+      ]
+    },
+    "name": "Financière de l'Odet",
+    "slug": "Financiere-de-lOdet"
+  },
+  {
+    "id": "Sofibol",
+    "nom": "Société financière Bolloré",
+    "société": {
+      "type": "holding"
+    },
+    "actionnariat": [
+      {
+        "id": "w:Vincent_Bolloré",
+        "part": 100
+      }
+    ],
+    "name": "Sofibol",
+    "slug": "Sofibol"
+  },
+  {
+    "id": "w:Vincent_Bolloré",
+    "individu": {
+      "fortune": "milliardaires"
+    },
+    "liens": [
+      {
+        "role": [
+          "actionnaire",
+          "dirigeant"
+        ],
+        "id": "w:Bolloré"
+      }
+    ],
+    "name": "Vincent Bolloré",
+    "slug": "Vincent-Bollore"
+  }
+]

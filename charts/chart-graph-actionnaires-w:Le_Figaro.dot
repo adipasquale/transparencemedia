@@ -1,5 +1,0 @@
-digraph G {
-  "Société du Figaro" -> "Le Figaro" [label="100%"];
-  "Socpresse" -> "Société du Figaro" [label="100%"];
-  "Serge Dassault" -> "Socpresse" [label="100%"];
-}

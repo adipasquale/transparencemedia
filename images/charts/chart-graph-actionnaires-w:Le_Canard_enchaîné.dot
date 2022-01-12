@@ -1,0 +1,3 @@
+digraph G {
+  "SA Les Éditions Maréchal" -> "w:Le_Canard_enchaîné" [label="100%"];
+}

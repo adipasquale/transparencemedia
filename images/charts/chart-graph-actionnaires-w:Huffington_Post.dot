@@ -1,0 +1,16 @@
+digraph G {
+  "w:Les_Nouvelles_Éditions_indépendantes" -> "w:Huffington_Post" [label="11%"];
+  "w:Matthieu_Pigasse" -> "w:Les_Nouvelles_Éditions_indépendantes" [label="78%"];
+  "orium" -> "w:Les_Nouvelles_Éditions_indépendantes" [label="18%"];
+  "Christian_Fevret" -> "w:Les_Nouvelles_Éditions_indépendantes" [label="2%"];
+  "w:Le_Monde" -> "w:Huffington_Post" [label="34%"];
+  "lml" -> "w:Le_Monde" [label="64%"];
+  "w:Pierre_Bergé" -> "lml" [label="26%"];
+  "w:Matthieu_Pigasse" -> "lml" [label="26%"];
+  "w:Xavier_Niel" -> "lml" [label="26%"];
+  "w:Prisa" -> "lml" [label="23%"];
+  "lmpa" -> "w:Le_Monde" [label="34%"];
+  "actionnaires_internes_Le_Monde" -> "lmpa" [label="52%"];
+  "actionnaires_externes_Le_Monde" -> "lmpa" [label="48%"];
+  "w:AOL" -> "w:Huffington_Post" [label="51%"];
+}

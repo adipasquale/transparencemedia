@@ -1,6 +1,0 @@
-digraph G {
-  "Les Nouvelles Éditions indépendantes" -> "Les Inrockuptibles" [label="100%"];
-  "Matthieu Pigasse" -> "Les Nouvelles Éditions indépendantes" [label="78%"];
-  "orium" -> "Les Nouvelles Éditions indépendantes" [label="18%"];
-  "Christian Fevret" -> "Les Nouvelles Éditions indépendantes" [label="2%"];
-}

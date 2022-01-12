@@ -1,8 +1,0 @@
-digraph G {
-  "LVMH" -> "Le Parisien" [label="100%"];
-  "Bernard Arnault" -> "LVMH" [label="47%"];
-  "institutionnels étrangers" -> "LVMH" [label="34%"];
-  "institutionnels français" -> "LVMH" [label="14%"];
-  "personnes physiques" -> "LVMH" [label="5%"];
-  "autocontrôle" -> "LVMH" [label="1%"];
-}

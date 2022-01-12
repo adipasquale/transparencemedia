@@ -1,0 +1,30 @@
+{
+  "name": "transparencemedia-www",
+  "version": "0.2.0",
+  "description": "Qui possède nos médias ? Les données de l'actionnariat des principaux journaux français",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laem/transparencemedia.git"
+  },
+  "keywords": [
+    "medias",
+    "transparence",
+    "financement",
+    "journaux"
+  ],
+  "author": "laem, adipasquale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laem/transparencemedia/issues"
+  },
+  "homepage": "https://github.com/laem/transparencemedia#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "js-yaml": "^4.1.0"
+  }
+}

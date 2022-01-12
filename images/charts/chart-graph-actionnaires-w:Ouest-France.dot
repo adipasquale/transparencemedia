@@ -1,0 +1,4 @@
+digraph G {
+  "w:Groupe_SIPA_-_Ouest-France" -> "w:Ouest-France" [label="100%"];
+  "w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste" -> "w:Groupe_SIPA_-_Ouest-France" [label="100%"];
+}

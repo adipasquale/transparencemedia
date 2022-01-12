@@ -1,3 +1,0 @@
-digraph G {
-  "SA Les Éditions Maréchal" -> "Le Canard enchaîné" [label="100%"];
-}

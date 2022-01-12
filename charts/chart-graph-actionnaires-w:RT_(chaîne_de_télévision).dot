@@ -1,3 +1,0 @@
-digraph G {
-  "Ministère des Affaires étrangères" -> "RT" [label="100%"];
-}

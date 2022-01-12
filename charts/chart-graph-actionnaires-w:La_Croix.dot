@@ -1,4 +1,0 @@
-digraph G {
-  "Groupe Bayard" -> "La Croix" [label="100%"];
-  "Assomptionnistes" -> "Groupe Bayard" [label="100%"];
-}

@@ -1,0 +1,3 @@
+digraph G {
+  "w:Daniel_Schneidermann" -> "w:Arrêt_sur_images" [label="100%"];
+}

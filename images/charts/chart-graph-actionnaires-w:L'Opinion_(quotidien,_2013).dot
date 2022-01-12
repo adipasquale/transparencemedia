@@ -1,0 +1,6 @@
+digraph G {
+  "w:Nicolas_Beytout" -> "w:L'Opinion_(quotidien,_2013)" [label="30%"];
+  "w:Bernard_Arnault" -> "w:L'Opinion_(quotidien,_2013)" [label="44%"];
+  "w:Liliane_Bettencourt" -> "w:L'Opinion_(quotidien,_2013)" [label="13%"];
+  "w:News_Corp" -> "w:L'Opinion_(quotidien,_2013)" [label="15%"];
+}

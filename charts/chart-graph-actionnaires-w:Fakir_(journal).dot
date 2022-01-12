@@ -1,3 +1,0 @@
-digraph G {
-  "association fakir" -> "Fakir" [label="100%"];
-}

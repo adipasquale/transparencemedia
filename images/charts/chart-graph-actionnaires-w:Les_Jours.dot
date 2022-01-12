@@ -1,0 +1,9 @@
+digraph G {
+  "fondateurs_les_jours" -> "w:Les_Jours" [label="89%"];
+  "w:Xavier_Niel" -> "w:Les_Jours" [label="3%"];
+  "w:Olivier_Legrain" -> "w:Les_Jours" [label="2%"];
+  "w:Marc-Olivier_Fogiel" -> "w:Les_Jours" [label="1%"];
+  "w:Pierre-Antoine_Capton" -> "w:Les_Jours" [label="1%"];
+  "w:Matthieu_Pigasse" -> "w:Les_Jours" [label="1%"];
+  "Famille_amis_les_jours" -> "w:Les_Jours" [label="1%"];
+}

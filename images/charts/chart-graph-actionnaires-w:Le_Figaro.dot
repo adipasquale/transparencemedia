@@ -1,0 +1,5 @@
+digraph G {
+  "w:Société_du_Figaro" -> "w:Le_Figaro" [label="100%"];
+  "w:Socpresse" -> "w:Société_du_Figaro" [label="100%"];
+  "w:Serge_Dassault" -> "w:Socpresse" [label="100%"];
+}

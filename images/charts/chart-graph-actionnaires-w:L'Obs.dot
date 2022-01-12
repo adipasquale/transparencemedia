@@ -1,0 +1,19 @@
+digraph G {
+  "lml" -> "w:L'Obs" [label="66%"];
+  "w:Pierre_Bergé" -> "lml" [label="26%"];
+  "w:Matthieu_Pigasse" -> "lml" [label="26%"];
+  "w:Xavier_Niel" -> "lml" [label="26%"];
+  "w:Prisa" -> "lml" [label="23%"];
+  "w:Groupe_Perdriel" -> "w:L'Obs" [label="34%"];
+  "w:Claude_Perdriel" -> "w:Groupe_Perdriel" [label="93%"];
+  "w:Le_Monde" -> "w:Groupe_Perdriel" [label="6%"];
+  "lml" -> "w:Le_Monde" [label="64%"];
+  "w:Pierre_Bergé" -> "lml" [label="26%"];
+  "w:Matthieu_Pigasse" -> "lml" [label="26%"];
+  "w:Xavier_Niel" -> "lml" [label="26%"];
+  "w:Prisa" -> "lml" [label="23%"];
+  "lmpa" -> "w:Le_Monde" [label="34%"];
+  "actionnaires_internes_Le_Monde" -> "lmpa" [label="52%"];
+  "actionnaires_externes_Le_Monde" -> "lmpa" [label="48%"];
+  "société_rédacteurs_perdriel" -> "w:Groupe_Perdriel" [label="1%"];
+}

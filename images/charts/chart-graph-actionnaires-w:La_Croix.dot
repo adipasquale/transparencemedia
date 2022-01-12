@@ -1,0 +1,4 @@
+digraph G {
+  "w:Groupe_Bayard" -> "w:La_Croix" [label="100%"];
+  "w:Assomptionnistes" -> "w:Groupe_Bayard" [label="100%"];
+}

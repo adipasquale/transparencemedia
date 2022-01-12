@@ -1,6 +1,0 @@
-digraph G {
-  "Nicolas Beytout" -> "L'Opinion" [label="30%"];
-  "Bernard Arnault" -> "L'Opinion" [label="44%"];
-  "Liliane Bettencourt" -> "L'Opinion" [label="13%"];
-  "News Corp" -> "L'Opinion" [label="15%"];
-}

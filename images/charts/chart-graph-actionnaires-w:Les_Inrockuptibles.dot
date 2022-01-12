@@ -1,0 +1,6 @@
+digraph G {
+  "w:Les_Nouvelles_Éditions_indépendantes" -> "w:Les_Inrockuptibles" [label="100%"];
+  "w:Matthieu_Pigasse" -> "w:Les_Nouvelles_Éditions_indépendantes" [label="78%"];
+  "orium" -> "w:Les_Nouvelles_Éditions_indépendantes" [label="18%"];
+  "Christian_Fevret" -> "w:Les_Nouvelles_Éditions_indépendantes" [label="2%"];
+}
