@@ -19,13 +19,13 @@ Evidemment, le propriétaire a une influence sur son journal. Mais quelle est so
 </p>
 
 <ul class="logos-grid">
-  {% for entite in entites %}
+  {% for entite in entites | sortEntites %}
     {% if entite.journal %}
       <li class="logo">
         <a href="/medias/{{ entite | getEntiteSlug }}">
           <img src="/images/logos/{{ entite | getEntiteFilename(wikipedia) }}"
-            title="{{ entite | getEntiteName }}"
             alt="{{ entite | getEntiteName }}" />
+          {{ entite | getEntiteName }}
         </a>
       </li>
     {% endif %}

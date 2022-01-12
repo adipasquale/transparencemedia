@@ -13,4 +13,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksFilter("getEntiteFilename", (entite, wikipedia) => {
     return wikipedia[entite.id]?.imageFilename
   });
+  eleventyConfig.addNunjucksFilter("sortEntites", (entites) => {
+    return entites.sort((a, b) => a.id < b.id ? -1 : 1)
+  });
 };
