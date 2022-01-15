@@ -1,4 +1,6 @@
 import QuickChart from 'quickchart-js'
+import { unslugify } from './entites.js'
+import rootPath from './rootPath.js'
 
 const mapObject = (obj, fn) =>
   Object.fromEntries(Object.entries(obj).map(fn))
@@ -89,7 +91,7 @@ function computeAllActionnairesFinaux(rawEntites) {
   )
 }
 
-function generateAllActionnaireFinauxPieCharts() {
+function generateAllActionnaireFinauxPieCharts(entites) {
   const allActionnairesFinaux = computeAllActionnairesFinaux(entites)
   for (const [id, actionnairesFinaux] of Object.entries(allActionnairesFinaux)) {
     if (!actionnairesFinaux) continue

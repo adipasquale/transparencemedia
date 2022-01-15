@@ -22,7 +22,7 @@
       }
     ],
     "name": "Arrêt sur images",
-    "slug": "Arret-sur-images",
+    "slug": "arret-sur-images",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/0/0f/LOGO_@SI_FINAL.svg",
       "imageFilename": "LOGO_@SI_FINAL.svg"
@@ -52,7 +52,7 @@
       "inconnu": "À notre connaissance, l'actionnariat de ce journal est secret."
     },
     "name": "Atlantico",
-    "slug": "Atlantico",
+    "slug": "atlantico",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/0/08/Atlantico_2010_logo.png",
       "imageFilename": "Atlantico_2010_logo.png"
@@ -79,7 +79,7 @@
       }
     ],
     "name": "Challenges",
-    "slug": "Challenges",
+    "slug": "challenges",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/f/f7/Logo_Challenges.png",
       "imageFilename": "Logo_Challenges.png"
@@ -111,7 +111,7 @@
       }
     ],
     "name": "Le Monde",
-    "slug": "Le-Monde",
+    "slug": "le-monde",
     "wikipedia": {
       "manualOverride": true,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Le_Monde.svg",
@@ -139,7 +139,7 @@
       }
     ],
     "name": "Télérama",
-    "slug": "Telerama",
+    "slug": "telerama",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Télérama_logo.png",
       "imageFilename": "Télérama_logo.png"
@@ -176,7 +176,7 @@
       ]
     },
     "name": "Prisa",
-    "slug": "Prisa"
+    "slug": "prisa"
   },
   {
     "id": "w:Matthieu_Pigasse",
@@ -188,7 +188,7 @@
       }
     ],
     "name": "Matthieu Pigasse",
-    "slug": "Matthieu-Pigasse"
+    "slug": "matthieu-pigasse"
   },
   {
     "id": "w:Banque_Lazard",
@@ -198,7 +198,7 @@
       ]
     },
     "name": "Banque Lazard",
-    "slug": "Banque-Lazard"
+    "slug": "banque-lazard"
   },
   {
     "id": "w:Pierre_Bergé",
@@ -212,7 +212,7 @@
       }
     ],
     "name": "Pierre Bergé",
-    "slug": "Pierre-Berge"
+    "slug": "pierre-berge"
   },
   {
     "id": "w:Yves_Saint_Laurent_(entreprise)",
@@ -222,7 +222,7 @@
       ]
     },
     "name": "Yves Saint Laurent",
-    "slug": "Yves-Saint-Laurent"
+    "slug": "yves-saint-laurent"
   },
   {
     "id": "w:Xavier_Niel",
@@ -240,7 +240,7 @@
       }
     ],
     "name": "Xavier Niel",
-    "slug": "Xavier-Niel"
+    "slug": "xavier-niel"
   },
   {
     "id": "w:Free_(entreprise)",
@@ -250,7 +250,7 @@
       ]
     },
     "name": "Free",
-    "slug": "Free"
+    "slug": "free"
   },
   {
     "id": "lmpa",
@@ -301,7 +301,7 @@
       ]
     },
     "name": "Fakir",
-    "slug": "Fakir",
+    "slug": "fakir",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/0/0d/Fakir_logo_2014.jpg",
       "imageFilename": "Fakir_logo_2014.jpg"
@@ -334,7 +334,7 @@
       }
     ],
     "name": "Huffington Post",
-    "slug": "Huffington-Post",
+    "slug": "huffington-post",
     "wikipedia": {
       "manualOverride": true,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/1/17/Le_Huffington_Post_2017.svg",
@@ -350,7 +350,7 @@
       ]
     },
     "name": "AOL",
-    "slug": "AOL"
+    "slug": "aol"
   },
   {
     "id": "w:Les_Inrockuptibles",
@@ -373,7 +373,7 @@
       }
     ],
     "name": "Les Inrockuptibles",
-    "slug": "Les-Inrockuptibles",
+    "slug": "les-inrockuptibles",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/INROCKUPTIBLES_LOGO_GRAND.png",
       "imageFilename": "INROCKUPTIBLES_LOGO_GRAND.png"
@@ -404,7 +404,7 @@
       }
     ],
     "name": "Les Nouvelles Éditions indépendantes",
-    "slug": "Les-Nouvelles-Editions-independantes"
+    "slug": "les-nouvelles-editions-independantes"
   },
   {
     "id": "w:L'Humanité",
@@ -428,7 +428,7 @@
       "inconnu": "Le capital semble être détenu par la Société des Lecteurs et la Société des amis. Selon les Inrocks, \"il n’y a aujourd’hui plus d’actionnaires extérieurs dans le capital du journal\", faisant référence à Hachette, TF1 et la Caisse d'Épargne qui l'étaient."
     },
     "name": "L'Humanité",
-    "slug": "LHumanite",
+    "slug": "lhumanite",
     "wikipedia": {
       "manualOverride": true,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_L'Humanité_(Red).svg",
@@ -480,7 +480,7 @@
       ]
     },
     "name": "L'Opinion",
-    "slug": "LOpinion",
+    "slug": "lopinion",
     "wikipedia": {
       "manualOverride": true,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/L-opinion.svg",
@@ -496,7 +496,7 @@
       "connue": "oui"
     },
     "name": "News Corp",
-    "slug": "News-Corp"
+    "slug": "news-corp"
   },
   {
     "id": "w:Liliane_Bettencourt",
@@ -510,7 +510,7 @@
       }
     ],
     "name": "Liliane Bettencourt",
-    "slug": "Liliane-Bettencourt"
+    "slug": "liliane-bettencourt"
   },
   {
     "id": "w:L'Oréal",
@@ -520,7 +520,7 @@
       ]
     },
     "name": "L'Oréal",
-    "slug": "LOreal"
+    "slug": "loreal"
   },
   {
     "id": "w:La_Croix",
@@ -542,7 +542,7 @@
       }
     ],
     "name": "La Croix",
-    "slug": "La-Croix",
+    "slug": "la-croix",
     "wikipedia": {
       "manualOverride": true,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/La_Croix.svg",
@@ -560,14 +560,14 @@
       }
     ],
     "name": "Groupe Bayard",
-    "slug": "Groupe-Bayard"
+    "slug": "groupe-bayard"
   },
   {
     "id": "w:Assomptionnistes",
     "nom": "Augustins de l'Assomption",
     "type": "organisation religieuse",
     "name": "Assomptionnistes",
-    "slug": "Assomptionnistes"
+    "slug": "assomptionnistes"
   },
   {
     "id": "w:Le_Monde_diplomatique",
@@ -598,7 +598,7 @@
       }
     ],
     "name": "Le Monde diplomatique",
-    "slug": "Le-Monde-diplomatique",
+    "slug": "le-monde-diplomatique",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/6/6a/Le_monde_diplomatique_logo.svg",
       "imageFilename": "Le_monde_diplomatique_logo.svg"
@@ -608,14 +608,14 @@
     "id": "w:Amis_du_Monde_diplomatique",
     "type": "société des amis",
     "name": "Amis du Monde diplomatique",
-    "slug": "Amis-du-Monde-diplomatique"
+    "slug": "amis-du-monde-diplomatique"
   },
   {
     "id": "w:Günter_Holzmann#Association_G.C3.BCnter_Holzmann",
     "nom": "Équipe rédactionnelle Monde Diplomatique",
     "internes": "oui",
     "name": "Günter Holzmann#Association G.C3.BCnter Holzmann",
-    "slug": "Gunter-HolzmannAssociation-GC3BCnter-Holzmann"
+    "slug": "gunter-holzmannassociation-gc3bcnter-holzmann"
   },
   {
     "id": "w:Le_Canard_enchaîné",
@@ -641,7 +641,7 @@
       ]
     },
     "name": "Le Canard enchaîné",
-    "slug": "Le-Canard-enchaine",
+    "slug": "le-canard-enchaine",
     "wikipedia": {
       "manualOverride": true,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_Canard_encha%C3%AEn%C3%A9.svg",
@@ -653,7 +653,7 @@
     "internes": "oui",
     "fondateurs": "oui",
     "name": "SA Les Éditions Maréchal",
-    "slug": "SA-Les-Editions-Marechal"
+    "slug": "sa-les-editions-marechal"
   },
   {
     "id": "w:Le_Figaro",
@@ -676,7 +676,7 @@
       }
     ],
     "name": "Le Figaro",
-    "slug": "Le-Figaro",
+    "slug": "le-figaro",
     "wikipedia": {
       "manualOverride": true,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/f/f8/Le_Figaro_logo.svg",
@@ -692,7 +692,7 @@
       }
     ],
     "name": "Société du Figaro",
-    "slug": "Societe-du-Figaro"
+    "slug": "societe-du-figaro"
   },
   {
     "id": "w:Socpresse",
@@ -703,7 +703,7 @@
       }
     ],
     "name": "Socpresse",
-    "slug": "Socpresse"
+    "slug": "socpresse"
   },
   {
     "id": "w:Serge_Dassault",
@@ -720,7 +720,7 @@
       }
     ],
     "name": "Serge Dassault",
-    "slug": "Serge-Dassault"
+    "slug": "serge-dassault"
   },
   {
     "id": "w:Groupe_Dassault",
@@ -731,7 +731,7 @@
       ]
     },
     "name": "Groupe Dassault",
-    "slug": "Groupe-Dassault"
+    "slug": "groupe-dassault"
   },
   {
     "id": "w:Le_Point",
@@ -753,7 +753,7 @@
       }
     ],
     "name": "Le Point",
-    "slug": "Le-Point",
+    "slug": "le-point",
     "wikipedia": {
       "manualOverride": true,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/8/88/Le_Point.svg",
@@ -771,7 +771,7 @@
       }
     ],
     "name": "Artémis",
-    "slug": "Artemis"
+    "slug": "artemis"
   },
   {
     "id": "w:François_Pinault",
@@ -779,7 +779,7 @@
       "fortune": "milliardaires"
     },
     "name": "François Pinault",
-    "slug": "Francois-Pinault"
+    "slug": "francois-pinault"
   },
   {
     "id": "w:Les_Jours",
@@ -833,7 +833,7 @@
       ]
     },
     "name": "Les Jours",
-    "slug": "Les-Jours",
+    "slug": "les-jours",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/4/4c/Les_Jours.svg",
       "imageFilename": "Les_Jours.svg"
@@ -870,7 +870,7 @@
       }
     ],
     "name": "Les Échos",
-    "slug": "Les-Echos",
+    "slug": "les-echos",
     "wikipedia": {
       "manualOverride": true,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Les_echos_(logo).svg",
@@ -886,7 +886,7 @@
       }
     ],
     "name": "Groupe Les Échos",
-    "slug": "Groupe-Les-Echos"
+    "slug": "groupe-les-echos"
   },
   {
     "id": "w:Le_Parisien",
@@ -909,7 +909,7 @@
       }
     ],
     "name": "Le Parisien",
-    "slug": "Le-Parisien",
+    "slug": "le-parisien",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Le_Parisien_logo.svg",
       "imageFilename": "Le_Parisien_logo.svg"
@@ -960,7 +960,7 @@
       ]
     },
     "name": "LVMH",
-    "slug": "LVMH"
+    "slug": "lvmh"
   },
   {
     "id": "w:Bernard_Arnault",
@@ -976,7 +976,7 @@
       }
     ],
     "name": "Bernard Arnault",
-    "slug": "Bernard-Arnault"
+    "slug": "bernard-arnault"
   },
   {
     "id": "w:Libération_(journal)",
@@ -999,7 +999,7 @@
       }
     ],
     "name": "Libération",
-    "slug": "Liberation",
+    "slug": "liberation",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Libération.svg",
       "imageFilename": "Libération.svg"
@@ -1025,7 +1025,7 @@
       }
     ],
     "name": "L'Express",
-    "slug": "LExpress",
+    "slug": "lexpress",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/1/1d/Lexpress-2020.svg",
       "imageFilename": "Lexpress-2020.svg"
@@ -1045,7 +1045,7 @@
       }
     ],
     "name": "BFM TV",
-    "slug": "BFM-TV"
+    "slug": "bfm-tv"
   },
   {
     "id": "w:NextRadioTV",
@@ -1057,7 +1057,7 @@
       }
     ],
     "name": "NextRadioTV",
-    "slug": "NextRadioTV"
+    "slug": "nextradiotv"
   },
   {
     "id": "w:Société_française_du_radiotéléphone",
@@ -1080,7 +1080,7 @@
       }
     ],
     "name": "Société française du radiotéléphone",
-    "slug": "Societe-francaise-du-radiotelephone"
+    "slug": "societe-francaise-du-radiotelephone"
   },
   {
     "id": "capital_flottant_sfr",
@@ -1119,7 +1119,7 @@
       ]
     },
     "name": "Altice",
-    "slug": "Altice"
+    "slug": "altice"
   },
   {
     "id": "w:Patrick_Drahi",
@@ -1127,7 +1127,7 @@
       "fortune": "milliardaires"
     },
     "name": "Patrick Drahi",
-    "slug": "Patrick-Drahi"
+    "slug": "patrick-drahi"
   },
   {
     "id": "Europacific Growth Fund",
@@ -1138,7 +1138,7 @@
       ]
     },
     "name": "Europacific Growth Fund",
-    "slug": "Europacific-Growth-Fund"
+    "slug": "europacific-growth-fund"
   },
   {
     "id": "Carmignac Gestion",
@@ -1149,7 +1149,7 @@
       ]
     },
     "name": "Carmignac Gestion",
-    "slug": "Carmignac-Gestion"
+    "slug": "carmignac-gestion"
   },
   {
     "id": "w:Fidelity_Investments",
@@ -1160,7 +1160,7 @@
       ]
     },
     "name": "Fidelity Investments",
-    "slug": "Fidelity-Investments"
+    "slug": "fidelity-investments"
   },
   {
     "id": "w:Mediapart",
@@ -1200,7 +1200,7 @@
       ]
     },
     "name": "Mediapart",
-    "slug": "Mediapart",
+    "slug": "mediapart",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/8/8a/Logo-crieur.svg",
       "imageFilename": "Logo-crieur.svg"
@@ -1275,7 +1275,7 @@
       }
     ],
     "name": "L'Obs",
-    "slug": "LObs",
+    "slug": "lobs",
     "wikipedia": {
       "manualOverride": true,
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Obs_2014_logo.svg",
@@ -1300,7 +1300,7 @@
       }
     ],
     "name": "Groupe Perdriel",
-    "slug": "Groupe-Perdriel"
+    "slug": "groupe-perdriel"
   },
   {
     "id": "société_rédacteurs_perdriel",
@@ -1314,7 +1314,7 @@
       "fortune": "cent-millionnaires"
     },
     "name": "Claude Perdriel",
-    "slug": "Claude-Perdriel"
+    "slug": "claude-perdriel"
   },
   {
     "id": "w:Ouest-France",
@@ -1338,7 +1338,7 @@
       }
     ],
     "name": "Ouest-France",
-    "slug": "Ouest-France",
+    "slug": "ouest-france",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/7/72/Logo_Ouest-France.svg",
       "imageFilename": "Logo_Ouest-France.svg"
@@ -1353,13 +1353,13 @@
       }
     ],
     "name": "Groupe SIPA - Ouest-France",
-    "slug": "Groupe-SIPA-Ouest-France"
+    "slug": "groupe-sipa-ouest-france"
   },
   {
     "id": "w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste",
     "type": "association 1901",
     "name": "Association pour le soutien des principes de la démocratie humaniste",
-    "slug": "Association-pour-le-soutien-des-principes-de-la-democratie-humaniste"
+    "slug": "association-pour-le-soutien-des-principes-de-la-democratie-humaniste"
   },
   {
     "id": "w:Reporterre",
@@ -1376,7 +1376,7 @@
       "inconnu": "À notre connaissance, l'actionnariat de ce journal est secret."
     },
     "name": "Reporterre",
-    "slug": "Reporterre",
+    "slug": "reporterre",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/fr/8/88/Reporterre-logo.png",
       "imageFilename": "Reporterre-logo.png"
@@ -1400,7 +1400,7 @@
       }
     ],
     "name": "RT",
-    "slug": "RT",
+    "slug": "rt",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Russia-today-logo.svg",
       "imageFilename": "Russia-today-logo.svg"
@@ -1445,7 +1445,7 @@
       ]
     },
     "name": "Slate",
-    "slug": "Slate",
+    "slug": "slate",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Slate_new_logo.png",
       "imageFilename": "Slate_new_logo.png"
@@ -1466,7 +1466,7 @@
       }
     ],
     "name": "Benjamin de Rothschild",
-    "slug": "Benjamin-de-Rothschild"
+    "slug": "benjamin-de-rothschild"
   },
   {
     "id": "w:Groupe_Edmond_de_Rothschild",
@@ -1476,7 +1476,7 @@
       ]
     },
     "name": "Groupe Edmond de Rothschild",
-    "slug": "Groupe-Edmond-de-Rothschild"
+    "slug": "groupe-edmond-de-rothschild"
   },
   {
     "id": "Financière_Viveris",
@@ -1484,7 +1484,7 @@
       "type": "w:Fonds_de_placement"
     },
     "name": "Financière Viveris",
-    "slug": "Financiere-Viveris"
+    "slug": "financiere-viveris"
   },
   {
     "id": "fondateurs_slate",
@@ -1553,7 +1553,7 @@
       ]
     },
     "name": "Alternatives économiques",
-    "slug": "Alternatives-economiques",
+    "slug": "alternatives-economiques",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Logo_Alternatives_Economiques.gif",
       "imageFilename": "Logo_Alternatives_Economiques.gif"
@@ -1604,7 +1604,7 @@
       }
     ],
     "name": "Groupe La Voix",
-    "slug": "Groupe-La-Voix"
+    "slug": "groupe-la-voix"
   },
   {
     "id": "w:Groupe_Rossel",
@@ -1615,7 +1615,7 @@
       }
     ],
     "name": "Groupe Rossel",
-    "slug": "Groupe-Rossel"
+    "slug": "groupe-rossel"
   },
   {
     "id": "w:Famille_hurbain",
@@ -1623,7 +1623,7 @@
       "fortune": "cent-millionnaires"
     },
     "name": "Famille hurbain",
-    "slug": "Famille-hurbain"
+    "slug": "famille-hurbain"
   },
   {
     "id": "w:CNews_Matin",
@@ -1645,7 +1645,7 @@
       }
     ],
     "name": "CNews Matin",
-    "slug": "CNews-Matin",
+    "slug": "cnews-matin",
     "wikipedia": {
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Logo-DMP-v1.png",
       "imageFilename": "Logo-DMP-v1.png"
@@ -1665,7 +1665,7 @@
       }
     ],
     "name": "Bolloré",
-    "slug": "Bollore"
+    "slug": "bollore"
   },
   {
     "id": "w:Financière_de_l'Odet",
@@ -1685,7 +1685,7 @@
       ]
     },
     "name": "Financière de l'Odet",
-    "slug": "Financiere-de-lOdet"
+    "slug": "financiere-de-lodet"
   },
   {
     "id": "Sofibol",
@@ -1700,7 +1700,7 @@
       }
     ],
     "name": "Sofibol",
-    "slug": "Sofibol"
+    "slug": "sofibol"
   },
   {
     "id": "w:Vincent_Bolloré",
@@ -1717,6 +1717,6 @@
       }
     ],
     "name": "Vincent Bolloré",
-    "slug": "Vincent-Bollore"
+    "slug": "vincent-bollore"
   }
 ]

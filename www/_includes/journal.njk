@@ -1,0 +1,36 @@
+---
+layout: mainLayout
+tags: journal
+---
+
+<h1>{{ name }}</h1>
+
+{% if journal.devise %}
+  <blockquote>{{ journal.devise }}</blockquote>
+{% endif %}
+
+{% if depuis %}
+  <p>créé en {{ depuis }}</p>
+{% endif %}
+
+<h3>Actionnaires Finaux</h3>
+
+<img
+  style="width: 500px; height: 300px; margin-bottom: 1rem;"
+  src="/images/charts/chart-actionnaires-finaux-{{ id }}.png"
+  alt="{{ name }} - Actionnaires Finaux"
+  />
+
+<ul>
+{% for actionnaireId, part in actionnairesFinaux[id] %}
+  <li>{{ actionnaireId }} : {{ part }}%</li>
+{% endfor %}
+</ul>
+
+<h3>Détail des actionnaires</h3>
+
+<img
+  style=" margin-bottom: 1rem;"
+  src="/images/charts/chart-graph-actionnaires-{{ id }}.dot.svg"
+  alt="{{ name }} - Détail des Actionnaires"
+  />
