@@ -1,0 +1,7 @@
+digraph G {
+  "Salariés" -> "Alternatives économiques" [label="62%"];
+  "Société des lecteurs" -> "Alternatives économiques" [label="22%"];
+  "Association des lecteurs" -> "Alternatives économiques" [label="1%"];
+  "Anciens salariés" -> "Alternatives économiques" [label="3%"];
+  "Actionnaires externes" -> "Alternatives économiques" [label="12%"];
+}

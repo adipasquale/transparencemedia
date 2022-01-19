@@ -16,7 +16,7 @@ body > main {
   padding-top: 2rem;
 }
 
-
+/* on index */
 ul.logos-grid {
   padding: 0;
   margin: 0;
@@ -54,4 +54,9 @@ li.logo img {
   object-fit: contain;
   filter: grayscale(1);
   margin-bottom: .5rem;
+}
+
+/* on journal page */
+img.logo {
+  max-height: 100px;
 }

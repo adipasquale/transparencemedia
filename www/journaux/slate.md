@@ -1,6 +1,5 @@
 ---
 layout: journal
-id: w:Slate_(magazine)
 web: https://www.slate.fr
 depuis: 2009
 journal:
@@ -17,18 +16,17 @@ actionnariat:
       note: >-
         La page "Qui sommes-nous" semble être en contradiction avec l'article de
         BFMTV
-  actionnaires:
-    - id: w:Benjamin_de_Rothschild
-      part: 29
-    - id: Financière_Viveris
-      part: 22
-    - id: fondateurs_slate
-      part: 25
-    - id: actionnaires_externes_slate
-name: Slate
+actionnaires:
+  - id: w:Benjamin_de_Rothschild
+    part: 29
+  - id: Financière_Viveris
+    part: 22
+  - id: fondateurs_slate
+    part: 25
+  - id: actionnaires_externes_slate
+nom: Slate
 slug: slate
 wikipedia:
   imageUrl: https://upload.wikimedia.org/wikipedia/commons/d/d8/Slate_new_logo.png
   imageFilename: Slate_new_logo.png
 ---
-

@@ -1,6 +1,5 @@
 ---
 layout: journal
-id: w:Challenges
 journal:
   papier: oui
   périodicité: hebdomadaire
@@ -11,16 +10,15 @@ journal:
     - abonnements
 web: http://www.challenges.fr
 depuis: 1982
-actionnariat:
+actionnaires:
   - id: w:Groupe_Perdriel
     part: 60
   - id: w:LVMH
     part: 40
-name: Challenges
+nom: Challenges
 slug: challenges
 wikipedia:
   url: https://fr.wikipedia.org/wiki/Challenges
   imageUrl: https://upload.wikimedia.org/wikipedia/fr/f/f7/Logo_Challenges.png
   imageFilename: Logo_Challenges.png
 ---
-

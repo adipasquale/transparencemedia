@@ -1,6 +1,5 @@
 ---
 layout: journal
-id: w:L'Express
 web: http://www.lexpress.fr
 depuis: 1953
 journal:
@@ -11,12 +10,11 @@ journal:
   revenus:
     - abonnements
     - publicité
-actionnariat:
+actionnaires:
   - id: w:Société_française_du_radiotéléphone
-name: L'Express
+nom: L'Express
 slug: lexpress
 wikipedia:
   imageUrl: https://upload.wikimedia.org/wikipedia/fr/1/1d/Lexpress-2020.svg
   imageFilename: Lexpress-2020.svg
 ---
-

@@ -1,66 +1,60 @@
-- id: w:Arrêt_sur_images
-  web: http://www.arretsurimages.net
-  depuis: 2007
-  journal:
-    papier: non
-    devise: Réflexion critique sur les médias
-    couverture: nationale
-    journalistes:
-      - w:Daniel_Schneidermann
-    revenus: abonnements
-    accès gratuit: sélection d'articles
-
-    # référence : Daniel Schneidermann refuse le financement par la publicité : « Quand on fait semblant de donner quelque chose gratuitement aux gens, on vend toujours une part de leur cerveau disponible36 à des annonceurs2 ».
-    # https://fr.wikipedia.org/wiki/Arrêt_sur_images#Le_site_Web
-    forme juridique: w:Société_par_actions_simplifiée
-  actionnariat:
-    - id: w:Daniel_Schneidermann
-      type: individu
-      part: 100
-
-
 - id: lml
   nom: Le Monde libre
   type: société
-  actionnariat:
+  actionnaires:
     # la part n\'est pas précisée -> chacun des actionnaires à une part égale
-  - id: w:Pierre_Bergé
-  - id: w:Matthieu_Pigasse
-  - id: w:Xavier_Niel
-  - id: w:Prisa
+  - id: pierre-berge
+  - id: matthieu-pigasse
+  - id: xavier-niel
+  - id: prisa
     part: 23
 
-- id: w:Prisa
+- id: prisa
   nom: Prisa
   société:
     secteurs:
       - médias
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Prisa
 
-- id: w:Matthieu_Pigasse
+- id: matthieu-pigasse
+  nom: Matthieu Pigasse
   type: individu
   liens:
     - role: dirigeant
-      id: w:Banque_Lazard
+      id: banque-lazard
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Matthieu_Pigasse
+    imageUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Matthieu_Pigasse.jpg/2560px-Matthieu_Pigasse.jpg
+    imageFilename: 2560px-Matthieu_Pigasse.jpg
 
-- id: w:Banque_Lazard
+- id: banque-lazard
+  nom: Banque Lazard
   société:
     secteurs:
       - finance
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Lazard
 
-- id: w:Pierre_Bergé
+- id: pierre-berge
+  nom: Pierre Bergé
   individu:
     fortune:
       cent-millionnaires
   liens:
     - role: fondateur
-      id: w:Yves_Saint_Laurent_(entreprise)
+      id: yves-saint-laurent
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Pierre_Berg%C3%A9
 
-- id: w:Yves_Saint_Laurent_(entreprise)
+- id: yves-saint-laurent
+  nom: Yves-Saint-Laurent
   société:
     secteurs:
       - luxe
 
-- id: w:Xavier_Niel
+- id: xavier-niel
+  nom: Xavier Niel
   individu:
     fortune: milliardaires
   liens:
@@ -68,38 +62,45 @@
         - actionnaire
         - fondateur
         - dirigeant
-      id: w:Free_(entreprise)
+      id: free
 
-- id: w:Free_(entreprise)
+- id: free
+  nom: Free
   société:
     secteurs:
       - télécoms
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Free_(entreprise)
 
-- id: lmpa
+- id: le-monde-partenaires-et-associes
   nom: Le Monde partenaires et associés
   type: société
-  actionnariat:
-  - id: actionnaires_internes_Le_Monde
-    internes: oui
-    part: 52
-  - id: actionnaires_externes_Le_Monde
-    type: actionnaires externes
-    part: 48
-    commentaire: Dont Société des lecteurs, à mentionner
+  actionnaires:
+    - id: actionnaires_internes_Le_Monde
+      nom: Actionnaires internes
+      internes: oui
+      part: 52
+    - id: actionnaires_externes_Le_Monde
+      nom: Actionnaires externes
+      type: actionnaires externes
+      part: 48
+      commentaire: Dont Société des lecteurs, à mentionner
 
-- id: w:AOL
+- id: aol
+  nom: AOL
   société:
     connue: oui
     secteurs:
       - télécoms
 
-- id: w:Les_Nouvelles_Éditions_indépendantes
+- id: les-nouvelles-editions-independantes
+  nom: Les nouvelles éditions indépendantes
   société:
     type: holding
     secteurs:
       - médias
-  actionnariat:
-    - id: w:Matthieu_Pigasse
+  actionnaires:
+    - id: matthieu-pigasse
       part: 78
     - id: orium
       type: w:Fonds_de_placement
@@ -108,20 +109,23 @@
       type: individu
       part: 2
 
-- id: w:News_Corp
+- id: news-corp
+  nom: News Corp
   société:
     secteurs:
       - médias
     connue: oui
 
-- id: w:Liliane_Bettencourt
+- id: liliane-bettencourt
+  nom: Liliane Bettencourt
   type: individu
   liens:
     - type:
         - actionnaire principal
-      id: w:L'Oréal
+      id: loreal
 
-- id: w:L'Oréal
+- id: loreal
+  nom: L'Oréal
   société:
     secteurs:
       - cosmétiques
@@ -130,64 +134,89 @@
 #   type: individu
 #   liens: intégrer ses fonctions ? https://fr.wikipedia.org/wiki/Nicolas_Beytout#Fonctions
 
-- id: w:Groupe_Bayard
+- id: groupe-bayard
+  nom: Groupe Bayard
   société:
     connue: oui
-  actionnariat:
-  - id: w:Assomptionnistes
+  actionnaires:
+    - id: assomptionnistes
 
-- id: w:Assomptionnistes
+- id: assomptionnistes
   nom: Augustins de l'Assomption
   type: organisation religieuse
 
-- id: w:Amis_du_Monde_diplomatique
+- id: amis-du-monde-diplomatique
+  nom: Amis du Monde diplomatique
   type: société des amis
 
-  # actionnnaires externes
-- id: w:Günter_Holzmann#Association_G.C3.BCnter_Holzmann
-  nom: Équipe rédactionnelle Monde Diplomatique
+- id: association-gunter-holzmann
+  nom: Association Günter Holzmann (Équipe rédactionnelle)
   internes: oui
+  wikipedia:
+    url: Günter_Holzmann#Association_G.C3.BCnter_Holzmann
 
-- id: SA Les Éditions Maréchal
+- id: les-editions-marechal
+  nom: Les Éditions Maréchal
   internes: oui
   fondateurs: oui
 
-- id: w:Société_du_Figaro
+- id: societe-du-figaro
+  nom: Société du Figaro
   type: société
-  actionnariat:
-  - id: w:Socpresse
+  actionnaires:
+    - id: groupe-figaro
+      part: 100
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_du_Figaro
 
-- id: w:Socpresse
-  type: société
-  actionnariat:
-  - id: w:Serge_Dassault
+- id: groupe-figaro
+  actionnaires:
+    - id: groupe-dassault
+      part: 100
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Groupe_Figaro
 
-- id: w:Serge_Dassault
-  individu:
-    fortune: milliardaires
-  liens:
-    - type:
-        - actionnaire
-        - ancien dirigeant
-      id: w:Groupe_Dassault
-
-- id: w:Groupe_Dassault
+- id: groupe-dassault
+  actionnaires:
+    - id: famille-dassault
+      part: 100
   société:
     secteurs:
       - armes
       - aviation
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Groupe_industriel_Marcel_Dassault
 
-- id: w:François_Pinault
+- id: famille-dassault
   individu:
     fortune: milliardaires
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Dassault
 
-- id: fondateurs_les_jours
-  nom: Fondateurs Les Jours
-  fondateurs: oui
+- id: artemis
+  nom: Groupe Artémis
+  actionnaires:
+    - id: financiere-pinault
+      part: 100
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Art%C3%A9mis_(groupe)
+
+- id: financiere-pinault
+  nom: "Financière Pinault"
+  actionnaires:
+    - id: francois-pinault
+      part: 100
+
+- id: francois-pinault
+  nom: François Pinault
+  individu:
+    fortune: milliardaires
+  wikipedia:
+    url: https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Pinault
 
 - id: w:Groupe_Les_Échos
   type: société
-  actionnariat:
+  actionnaires:
   - id: w:LVMH
 
 - id: w:LVMH
@@ -206,7 +235,7 @@
         lien: https://fr.wikipedia.org/wiki/LVMH_-_Mo%C3%ABt_Hennessy_Louis_Vuitton#Actionnaires
       - note: LVMH.fr - Structure du capital
         lien: http://www.lvmh.fr/communication-financiere/actionnaires/structure-du-capital
-    actionnaires:
+  actionnaires:
     - id: w:Bernard_Arnault
       part: 46.6
     - id: institutionnels_étrangers
@@ -234,7 +263,7 @@
     secteurs:
     - télécoms
 
-  actionnariat:
+  actionnaires:
     - id: w:Altice
       part: 77.77
     - id: capital_flottant_sfr
@@ -250,7 +279,7 @@
   actionnariat:
     sources:
       - http://www.boursorama.com/bourse/profil/profil.phtml?symbole=1rAATC
-    actionnaires:
+  actionnaires:
     - id: w:Patrick_Drahi
       part: 58
     - id: Europacific Growth Fund
@@ -287,14 +316,14 @@
 
 - id: société_amis_mediapart
   type: société des amis
-  actionnariat:
-    - id: w:Xavier_Niel
+  actionnaires:
+    - id: xavier-niel
       part: 100 * 200 / 504
 
 
 - id: fondateurs_mediapart
   fondateurs: oui
-  actionnariat:
+  actionnaires:
     - id: w:Edwy_Plenel
       type: individu
       part: 100 * 550 / 1325
@@ -322,7 +351,7 @@
 
 - id: w:Groupe_Perdriel
   type: société
-  actionnariat:
+  actionnaires:
     - id: w:Claude_Perdriel
       part: 93
     - id: w:Le_Monde
@@ -340,16 +369,18 @@
 
 
 - id: w:Groupe_SIPA_-_Ouest-France
+  nom: Groupe SIPA - Ouest France
   type: société
-  actionnariat:
+  actionnaires:
     - id: w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste
 
 - id: w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste
+  nom: "Association pour le soutien des principes de la démocratie humaniste"
   type: association 1901
   # page wiki pas très claire
 
-  actionnariat:
-    inconnu: À notre connaissance, l'actionnariat de ce journal est secret.
+  # actionnariat:
+  #   inconnu: À notre connaissance, l'actionnariat de ce journal est secret.
 
 - id: w:RT_(chaîne_de_télévision)
   nom: RT France
@@ -359,7 +390,7 @@
     papier: non
     revenus:
       - état
-  actionnariat:
+  actionnaires:
     - id: w:Ministère_des_Affaires_étrangères_(Russie)
       type: pays
 
@@ -396,14 +427,14 @@
 
 
 - id: w:Groupe_La_Voix
-  actionnariat:
+  actionnaires:
     - id: w:Groupe_Rossel
       part: 73
     - id: w:Crédit_agricole
       part: 25
 
 - id: w:Groupe_Rossel
-  actionnariat:
+  actionnaires:
     - id: w:Famille_hurbain
       part: 27.66 * 3
 
@@ -417,7 +448,7 @@
     secteurs:
       - logistique
       # TODO
-  actionnariat:
+  actionnaires:
     - id: w:Financière_de_l'Odet
       part: 64.4
     # - id: capital_flottant_bolloré
@@ -432,7 +463,7 @@
     sources:
       - http://www.financiere-odet.fr/fr-fr/la-societe/organigramme/
       - http://www.latribune.fr/vos-finances/financiere-de-l-odet-tout-bollore-avec-une-decote-612426.html
-    actionnaires:
+  actionnaires:
     - id: Sofibol
       part: 55.30
     # - id: w:Bolloré
@@ -445,7 +476,7 @@
   nom: Société financière Bolloré
   société:
     type: holding
-  actionnariat:
+  actionnaires:
     - id: w:Vincent_Bolloré
       part: 100
 

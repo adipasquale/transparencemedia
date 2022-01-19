@@ -1,6 +1,5 @@
 ---
 layout: journal
-id: w:Les_Inrockuptibles
 journal:
   papier: oui
   périodicité: hebdomadaire
@@ -11,14 +10,13 @@ journal:
     - abonnements
 depuis: 1986
 web: http://www.lesinrocks.com/
-actionnariat:
-  - id: w:Les_Nouvelles_Éditions_indépendantes
+actionnaires:
+  - id: les-nouvelles-editions-independantes
     part: 100
-name: Les Inrockuptibles
+nom: Les Inrockuptibles
 slug: les-inrockuptibles
 wikipedia:
   imageUrl: >-
     https://upload.wikimedia.org/wikipedia/commons/2/2e/INROCKUPTIBLES_LOGO_GRAND.png
   imageFilename: INROCKUPTIBLES_LOGO_GRAND.png
 ---
-

@@ -1,0 +1,12 @@
+digraph G {
+  "w:Groupe_Perdriel" -> "Challenges" [label="60%"];
+  "w:Claude_Perdriel" -> "w:Groupe_Perdriel" [label="93%"];
+  "w:Le_Monde" -> "w:Groupe_Perdriel" [label="6%"];
+  "société_rédacteurs_perdriel" -> "w:Groupe_Perdriel" [label="1%"];
+  "w:LVMH" -> "Challenges" [label="40%"];
+  "w:Bernard_Arnault" -> "w:LVMH" [label="47%"];
+  "institutionnels_étrangers" -> "w:LVMH" [label="34%"];
+  "institutionnels_français" -> "w:LVMH" [label="14%"];
+  "personnes_physiques" -> "w:LVMH" [label="5%"];
+  "autocontrôle" -> "w:LVMH" [label="1%"];
+}

@@ -1,10 +1,9 @@
 ---
 layout: journal
-id: w:Fakir_(journal)
+slug: fakir
 nom: Fakir
-journal:
-  papier: oui
-  périodicité: mensuelle
+journalPapier:
+  périodicité: mensuel
   couverture: nationale
   devise: Journal fâché avec tout le monde. Ou presque.
   revenus: abonnements
@@ -17,13 +16,11 @@ actionnariat:
     - lien: >-
         http://www.acrimed.org/Les-lecteurs-La-structure-Les-finances-Les-tarifs-Contacts
       note: lien complet mais ancien datant de 2003
-  actionnaires:
-    - id: association_fakir
-      nom: Association Fakir
-name: Fakir
-slug: fakir
+actionnaires:
+  - id: association_fakir
+    nom: Association Fakir
 wikipedia:
+  url: https://fr.wikipedia.org/wiki/Fakir_(journal)
   imageUrl: https://upload.wikimedia.org/wikipedia/fr/0/0d/Fakir_logo_2014.jpg
   imageFilename: Fakir_logo_2014.jpg
 ---
-

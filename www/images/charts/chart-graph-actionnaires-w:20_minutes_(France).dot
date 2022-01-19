@@ -1,8 +1,0 @@
-digraph G {
-  "w:Groupe_SIPA_-_Ouest-France" -> "w:20_minutes_(France)" [label="50%"];
-  "w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste" -> "w:Groupe_SIPA_-_Ouest-France" [label="100%"];
-  "w:Groupe_La_Voix" -> "w:20_minutes_(France)" [label="49%"];
-  "w:Groupe_Rossel" -> "w:Groupe_La_Voix" [label="73%"];
-  "w:Famille_hurbain" -> "w:Groupe_Rossel" [label="83%"];
-  "w:Crédit_agricole" -> "w:Groupe_La_Voix" [label="25%"];
-}

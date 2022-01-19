@@ -1,0 +1,9 @@
+digraph G {
+  "fondateurs_mediapart" -> "Mediapart" [label="37%"];
+  "w:Edwy_Plenel" -> "fondateurs_mediapart" [label="42%"];
+  "Marie-Hélène Smiejan" -> "fondateurs_mediapart" [label="42%"];
+  "société_amis_mediapart" -> "Mediapart" [label="15%"];
+  "Xavier Niel" -> "société_amis_mediapart" [label="40%"];
+  "Écofinance" -> "Mediapart" [label="18%"];
+  "Doxa" -> "Mediapart" [label="28%"];
+}

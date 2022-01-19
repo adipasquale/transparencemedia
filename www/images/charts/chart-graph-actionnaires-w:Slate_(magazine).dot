@@ -1,6 +1,0 @@
-digraph G {
-  "w:Benjamin_de_Rothschild" -> "w:Slate_(magazine)" [label="29%"];
-  "Financière_Viveris" -> "w:Slate_(magazine)" [label="22%"];
-  "fondateurs_slate" -> "w:Slate_(magazine)" [label="25%"];
-  "actionnaires_externes_slate" -> "w:Slate_(magazine)" [label="24%"];
-}

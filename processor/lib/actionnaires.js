@@ -1,134 +1,122 @@
 import QuickChart from 'quickchart-js'
-import { unslugify } from './entites.js'
+
 import rootPath from './rootPath.js'
 
-const mapObject = (obj, fn) =>
-  Object.fromEntries(Object.entries(obj).map(fn))
-
-function entiteHasActionnaires(rawEntite) {
-  // Les noeuds finaux des graphes n'ont pas d'actionnaires
-  return (rawEntite.actionnariat && (
-    Array.isArray(rawEntite.actionnariat.actionnaires)
-    || Array.isArray(rawEntite.actionnariat)
-  ))
+function reformatEntite(rawEntite) {
+  if (!rawEntite.actionnaires) return rawEntite
+  const actionnaires = prepareActionnairesList(rawEntite.actionnaires)
+  const id = rawEntite.id || rawEntite.slug
+  return { ...rawEntite, id, actionnaires }
 }
 
-function entiteToActionnairesPairs(rawEntite) {
-  // input: {id: "w:Le_Journal", actionnariat: [{ id: "Jean", part: 10}, ...] }
-  // output: ["w:Le_Journal", {"Jean": 10, ...}] ]
-  const actionnaires = rawEntite.actionnariat.actionnaires || rawEntite.actionnariat
-  return [
-    rawEntite.id,
-    Object.fromEntries(actionnaires.map(a => [a.id, a.part]))
-  ]
-}
-
-function fillActionnairesMap(actionnairesMap) {
-  // input: {Jean: 10, Marc: undefined, Tom: undefined}
-  // output: {Jean: 10, Marc: 45, Tom: 45}
-  // or
-  // input: {Jean: "7 * 3"}
-  // output: {Jean: 21}
-  const undefinedCount = Object.values(actionnairesMap)
-    .filter(part => part === undefined)
+function prepareActionnairesList(actionnairesList) {
+  // input: [{id: Jean, part: 10}, {id: Marc}]
+  // output: [{id: Jean, part: 10}, {id: Marc, part: 90}]
+  const undefinedCount = actionnairesList
+    .filter(e => e.part === undefined)
     .length
   const attributedPartPct = undefinedCount > 0 &&
-    Object.values(actionnairesMap)
+    actionnairesList
+      .map(e => e.part)
       .filter(i => i)
       .reduce((a, b) => a + b, 0)
-  return mapObject(actionnairesMap, ([id, part]) => {
+  return actionnairesList.map(actionnaire => {
+    let part = actionnaire.part
     if (part === undefined)
-      return [id, Math.round((100 - attributedPartPct) / undefinedCount)]
+      part = Math.round((100 - attributedPartPct) / undefinedCount)
     else if (typeof (part) == "string")
-      return [id, eval(part)]
-    else return [id, part]
+      part = eval(part)
+    return { ...actionnaire, part }
   })
 }
 
-function convertEntitesToActionnairesData(rawEntites) {
-  // input: [{id: "w:Le_Journal", actionnariat: ...}, {id: "w:Lautre", actionnariat: ...}]
-  // output: {"w:Le_Journal": [["Jean", 10], ...]], "w:Lautre": [...]}
+function convertEntitesToEntitesMap(rawEntites) {
+  // input: [{id: "w:Le_Journal", actionnariat: ...}, {id: "w:Lautre", actionnaires: ...}]
+  // output: {"w:Le_Journal": {"id": ..., actionnaires: [{..}, {...}], ...}, "w:Libe": {...}]
   return Object.fromEntries(
     rawEntites
-      .filter(entiteHasActionnaires)
-      .map(entiteToActionnairesPairs)
-      .map(([id, actionnairesMap]) => [id, fillActionnairesMap(actionnairesMap)])
+      .map(reformatEntite)
+      .map(e => [e.id, e])
   )
 }
 
-function computeActionnairesFinaux(actionnairesData, id) {
+function computeActionnairesFinaux(entitesMap, id) {
   // fonction recursive pour aller chercher
   // les noeuds finaux et leurs parts dans le graphe
   if (!id) throw Error("please pass id")
-  const entite = actionnairesData[id];
-  if (!entite) return null;
+  const entite = entitesMap[id];
+  if (!entite || !entite.actionnaires) return null;
 
-  return Object.entries(entite).map(([actionnaireId, part]) => {
-    const subActionnairesFinaux = computeActionnairesFinaux(actionnairesData, actionnaireId);
-    if (!subActionnairesFinaux)
-      return [[actionnaireId, Math.round(part)]]
-    else
-      return Object.entries(subActionnairesFinaux).map(([sousActionnaireId, sousPart]) =>
-        ([sousActionnaireId, Math.round(((part / 100) * (sousPart / 100)) * 100)])
-      )
+  return entite.actionnaires.map(({ id: actionnaireId, part }) => {
+    const subresult = computeActionnairesFinaux(entitesMap, actionnaireId);
+    if (!subresult) {
+      const actionnaireEntite = entitesMap[actionnaireId] || { id: actionnaireId }
+      return [{ ...actionnaireEntite, part: Math.round(part) }]
+    }
+    else {
+      return Object.entries(subresult).map(([sousActionnaireId, sousActionnaire]) => {
+        const { part: sousPart } = sousActionnaire
+        const sousActionnaireEntite = entitesMap[sousActionnaireId] || { id: sousActionnaireId }
+        const computedPart = Math.round(((part / 100) * (sousPart / 100)) * 100)
+        return { ...sousActionnaireEntite, part: computedPart }
+      })
+    }
   }).flat()
     .reduce(
-      function (acc, val) {
-        const [id, part] = val
-        acc[id] = (acc[id] || 0) + part
+      function (acc, actionnaire) {
+        const { id, part } = actionnaire
+        if (!acc[id]) acc[id] = { ...actionnaire, part: 0 }
+        acc[id].part += part
         return acc
       },
       {}
     )
 }
 
-function computeAllActionnairesFinaux(rawEntites) {
-  const actionnairesData = convertEntitesToActionnairesData(rawEntites)
-
-  return Object.fromEntries(
-    rawEntites.filter(e => e.journal).map(e => e.id)
-      .map(id => [id, computeActionnairesFinaux(actionnairesData, id)])
-  )
-}
-
-function generateAllActionnaireFinauxPieCharts(entites) {
-  const allActionnairesFinaux = computeAllActionnairesFinaux(entites)
-  for (const [id, actionnairesFinaux] of Object.entries(allActionnairesFinaux)) {
-    if (!actionnairesFinaux) continue
-    const values = Object.values(actionnairesFinaux)
-    const labels = Object.keys(actionnairesFinaux).map(unslugify)
-    const rest = 100 - values.reduce((a, b) => a + b, 0);
-    if (rest > 0) {
-      values.push(rest)
-      labels.push("N/A")
-    }
-    const chart = new QuickChart();
-    const title = `${unslugify(id)} - Actionnaires finaux`
-    chart.setDevicePixelRatio(2.0)
-    chart.setConfig({
-      type: "pie",
-      data: { datasets: [{ data: values }], labels },
-      options: {
-        title: { display: true, text: title },
-        plugins: {
-          color: '#fff',
-          backgroundColor: '#404040',
-          datalabels: {
-            formatter: (value) => {
-              return value + '%';
-            }
+async function generatePieChart(entite, entitesMap) {
+  const { slug, nom } = entite
+  const actionnairesFinaux = computeActionnairesFinaux(entitesMap, slug)
+  if (!actionnairesFinaux) return
+  const values = Object.values(actionnairesFinaux).map(a => a.part)
+  const labels = Object.values(actionnairesFinaux).map(a => a.nom)
+  const rest = 100 - values.reduce((a, b) => a + b, 0);
+  if (rest > 0) {
+    values.push(rest)
+    labels.push("N/A")
+  }
+  const chart = new QuickChart();
+  const title = `${nom} - Actionnaires finaux`
+  chart.setDevicePixelRatio(2.0)
+  chart.setConfig({
+    type: "pie",
+    data: { datasets: [{ data: values }], labels },
+    options: {
+      title: { display: true, text: title },
+      plugins: {
+        color: '#fff',
+        backgroundColor: '#404040',
+        datalabels: {
+          formatter: (value) => {
+            return value + '%';
           }
         }
       }
-    })
-    chart.toFile(`${rootPath}/images/charts/chart-actionnaires-finaux-${id}.png`);
-  }
+    }
+  })
+  const filename = `chart-actionnaires-finaux-${slug}.png`
+  console.log(`  writing chart ${filename}`)
+  await chart.toFile(`${rootPath}/www/images/charts/${filename}`);
+}
+
+async function generateAllActionnaireFinauxPieCharts(entites) {
+  const entitesMap = convertEntitesToEntitesMap(entites)
+  for (const entite of entites.filter(e => e.isMedia))
+    await generatePieChart(entite, entitesMap)
 }
 
 export {
-  convertEntitesToActionnairesData,
-  fillActionnairesMap,
+  convertEntitesToEntitesMap,
+  prepareActionnairesList,
   computeActionnairesFinaux,
-  computeAllActionnairesFinaux,
   generateAllActionnaireFinauxPieCharts
 }

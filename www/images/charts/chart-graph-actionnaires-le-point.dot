@@ -1,0 +1,5 @@
+digraph G {
+  "Groupe Artémis" -> "Le Point" [label="100%"];
+  "Financière Pinault" -> "Groupe Artémis" [label="100%"];
+  "François Pinault" -> "Financière Pinault" [label="100%"];
+}

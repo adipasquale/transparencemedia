@@ -1,0 +1,10 @@
+digraph G {
+  "Le Monde libre" -> "Le Monde" [label="64%"];
+  "Pierre Bergé" -> "Le Monde libre" [label="26%"];
+  "Matthieu Pigasse" -> "Le Monde libre" [label="26%"];
+  "Xavier Niel" -> "Le Monde libre" [label="26%"];
+  "Prisa" -> "Le Monde libre" [label="23%"];
+  "Le Monde partenaires et associés" -> "Le Monde" [label="34%"];
+  "Actionnaires internes" -> "Le Monde partenaires et associés" [label="52%"];
+  "Actionnaires externes" -> "Le Monde partenaires et associés" [label="48%"];
+}

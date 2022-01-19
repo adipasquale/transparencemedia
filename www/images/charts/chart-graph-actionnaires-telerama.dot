@@ -1,0 +1,3 @@
+digraph G {
+  "w:Le_Monde" -> "Télérama" [label="100%"];
+}

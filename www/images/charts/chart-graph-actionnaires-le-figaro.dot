@@ -1,0 +1,6 @@
+digraph G {
+  "Société du Figaro" -> "Le Figaro" [label="100%"];
+  "groupe-figaro" -> "Société du Figaro" [label="100%"];
+  "groupe-dassault" -> "groupe-figaro" [label="100%"];
+  "famille-dassault" -> "groupe-dassault" [label="100%"];
+}

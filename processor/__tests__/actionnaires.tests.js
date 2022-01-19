@@ -1,113 +1,120 @@
 import {
-  convertEntitesToActionnairesData,
-  fillActionnairesMap,
+  convertEntitesToEntitesMap,
+  prepareActionnairesList,
   computeActionnairesFinaux
 } from "../lib/actionnaires.js"
 
-test("convertEntitesToActionnairesData 1", () => {
+test("convertEntitesToEntitesMap 1", () => {
   expect(
-    convertEntitesToActionnairesData(
+    convertEntitesToEntitesMap(
       [
         {
           id: "w:Challenges",
-          actionnariat:
+          actionnaires:
             [{ id: "w:Groupe_Perdriel", part: 100 }]
         },
         {
           id: "w:Le_Monde",
-          actionnariat:
+          actionnaires:
             [{ id: "lml", part: 64 }, { id: "lmpa", part: 64 }]
         },
       ]
     )
   ).toEqual(
     {
-      "w:Challenges": { "w:Groupe_Perdriel": 100 },
-      "w:Le_Monde": { "lml": 64, "lmpa": 64 }
+      "w:Challenges": {
+        id: "w:Challenges",
+        actionnaires:
+          [{ id: "w:Groupe_Perdriel", part: 100 }]
+      },
+      "w:Le_Monde": {
+        id: "w:Le_Monde",
+        actionnaires:
+          [{ id: "lml", part: 64 }, { id: "lmpa", part: 64 }]
+      }
     }
   )
 })
 
-test("convertEntitesToActionnairesData with actionnaires field", () => {
+test("prepareActionnairesList undefined ones", () => {
   expect(
-    convertEntitesToActionnairesData(
-      [
-        {
-          id: "Le Monde",
-          actionnariat: {
-            source: "some website",
-            actionnaires: [
-              { id: "w:Pierre_Bergé", part: 20 },
-              { id: "w:Matthieu_Pigasse", part: 30 },
-            ]
-          }
-        },
-      ]
-    )
-  ).toEqual({
-    "Le Monde": {
-      "w:Pierre_Bergé": 20,
-      "w:Matthieu_Pigasse": 30,
-    }
-  })
+    prepareActionnairesList([
+      { id: "w:Pierre_Bergé" },
+      { id: "w:Matthieu_Pigasse" },
+      { id: "w:Xavier_Niel" },
+      { id: "w:Prisa", part: 23 }
+    ])
+  ).toEqual([
+    { id: "w:Pierre_Bergé", part: 26 },  // (1 - .23) / 3
+    { id: "w:Matthieu_Pigasse", part: 26 },
+    { id: "w:Xavier_Niel", part: 26 },
+    { id: "w:Prisa", part: 23 }
+  ])
 })
 
-test("fillActionnairesMap undefined ones", () => {
-  expect(
-    fillActionnairesMap({
-      "w:Pierre_Bergé": undefined,
-      "w:Matthieu_Pigasse": undefined,
-      "w:Xavier_Niel": undefined,
-      "w:Prisa": 23
-    }
-    )).toEqual({
-      "w:Pierre_Bergé": 26,  // (1 - .23) / 3
-      "w:Matthieu_Pigasse": 26,
-      "w:Xavier_Niel": 26,
-      "w:Prisa": 23
-    })
+test("prepareActionnairesList do nothing", () => {
+  expect(prepareActionnairesList([
+    { id: "w:Pierre_Bergé", part: 10 },
+    { id: "w:Prisa", part: 23 }
+  ])).toEqual([
+    { id: "w:Pierre_Bergé", part: 10 },
+    { id: "w:Prisa", part: 23 }
+  ])
 })
 
-test("fillActionnairesMap do nothing", () => {
-  expect(fillActionnairesMap({ "w:Pierre_Bergé": 10, "w:Prisa": 23 }))
-    .toEqual({ "w:Pierre_Bergé": 10, "w:Prisa": 23 })
+test("prepareActionnairesList all equal", () => {
+  expect(
+    prepareActionnairesList([
+      { id: "w:Pierre_Bergé" }, { id: "w:Prisa" }
+    ])
+  ).toEqual(
+    [{ id: "w:Pierre_Bergé", part: 50 }, { id: "w:Prisa", part: 50 }]
+  )
 })
 
-expect(fillActionnairesMap({ "w:Pierre_Bergé": undefined, "w:Prisa": undefined }))
-  .toEqual({ "w:Pierre_Bergé": 50, "w:Prisa": 50 })
-
-test("fillActionnairesMap evals", () => {
+test("prepareActionnairesList evals", () => {
   expect(
-    fillActionnairesMap({
-      "w:Pierre_Bergé": "11.3 * 2",
-      "w:Prisa": 23
-    }
-    )).toEqual({
-      "w:Pierre_Bergé": 22.6,
-      "w:Prisa": 23
-    })
+    prepareActionnairesList([
+      { id: "w:Pierre_Bergé", part: "11.3 * 2" },
+      { id: "w:Prisa", part: 23 }
+    ])
+  ).toEqual([
+    { id: "w:Pierre_Bergé", part: 22.6 },
+    { id: "w:Prisa", part: 23 }
+  ])
 })
 
 test("computeActionnairesFinaux 1", () => {
   const res = computeActionnairesFinaux(
     {
       "20_minutes": {
-        ouest_france: 50,
-        la_voix: 49.3
+        actionnaires: [
+          { id: "ouest_france", part: 50 },
+          { id: "la_voix", part: 49.3 }
+        ]
       },
-      la_voix: {
-        rossel: 73,
-        credit_agricole: 25
+      "la_voix": {
+        actionnaires: [
+          { id: "rossel", part: 73, },
+          { id: "credit_agricole", part: 25 }
+        ]
       },
-      rossel: {
-        "w:famille_hurbain": 83,
-        credit_agricole: 25
+      "rossel": {
+        actionnaires: [
+          { id: "w:famille_hurbain", part: 83 },
+          { id: "credit_agricole", part: 25 }
+        ]
       },
+      "credit_agricole": {
+        id: "credit_agricole",
+        devise: "on aime l'agriculutre"
+      }
     },
     "20_minutes"
   )
-  expect(Object.keys(res)).toEqual(["ouest_france", "w:famille_hurbain", "credit_agricole"])
-  expect(res["ouest_france"]).toEqual(50)
-  expect(res["w:famille_hurbain"]).toEqual(30)
-  expect(res["credit_agricole"]).toEqual(21)
+  expect(res).toEqual({
+    "ouest_france": { id: "ouest_france", part: 50 },
+    "w:famille_hurbain": { id: "w:famille_hurbain", part: 30 },
+    "credit_agricole": { id: "credit_agricole", devise: "on aime l'agriculutre", part: 21 },
+  })
 })

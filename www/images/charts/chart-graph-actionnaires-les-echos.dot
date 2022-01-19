@@ -1,0 +1,9 @@
+digraph G {
+  "w:Groupe_Les_Échos" -> "Les Échos" [label="100%"];
+  "w:LVMH" -> "w:Groupe_Les_Échos" [label="100%"];
+  "w:Bernard_Arnault" -> "w:LVMH" [label="47%"];
+  "institutionnels_étrangers" -> "w:LVMH" [label="34%"];
+  "institutionnels_français" -> "w:LVMH" [label="14%"];
+  "personnes_physiques" -> "w:LVMH" [label="5%"];
+  "autocontrôle" -> "w:LVMH" [label="1%"];
+}

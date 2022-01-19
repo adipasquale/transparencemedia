@@ -1,0 +1,11 @@
+digraph G {
+  "Le Monde libre" -> "L'Obs" [label="66%"];
+  "Pierre Bergé" -> "Le Monde libre" [label="26%"];
+  "Matthieu Pigasse" -> "Le Monde libre" [label="26%"];
+  "Xavier Niel" -> "Le Monde libre" [label="26%"];
+  "Prisa" -> "Le Monde libre" [label="23%"];
+  "w:Groupe_Perdriel" -> "L'Obs" [label="34%"];
+  "w:Claude_Perdriel" -> "w:Groupe_Perdriel" [label="93%"];
+  "w:Le_Monde" -> "w:Groupe_Perdriel" [label="6%"];
+  "société_rédacteurs_perdriel" -> "w:Groupe_Perdriel" [label="1%"];
+}

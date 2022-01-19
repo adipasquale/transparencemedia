@@ -2,47 +2,53 @@ import fs from 'fs'
 import { exec } from 'child_process'
 
 import rootPath from "./rootPath.js"
-import { convertEntitesToActionnairesData } from "./actionnaires.js"
+import { convertEntitesToEntitesMap } from "./actionnaires.js"
 
-function formatDotLine(dotLine) {
+function edgeToDotLine(edge) {
   // ["La-voix", "Rousel", 10] => '  "La Voix" -> "Rousel" [label="10%"];'
-  const [from, to, partPct] = dotLine
-  return `  "${from}" -> "${to}" [label="${Math.round(partPct)}%"];`
+  const [from, to, partPct] = edge
+  const [fromNom, toNom] = [from, to].map(e => e.nom || e.id)
+  return `  "${fromNom}" -> "${toNom}" [label="${Math.round(partPct)}%"];`
 }
 
-function dotLinesToFile(dotLines) {
-  return `digraph G {\n${dotLines.map(formatDotLine).join("\n")}\n}`;
+function edgesToDotFile(edges) {
+  return `digraph G {\n${edges.map(edgeToDotLine).join("\n")}\n}`;
 }
 
-function actionnairesToDotLines(actionnairesData, id) {
+function getActionnairesGraphEdges(entitesMap, id) {
   if (!id) throw Error("please pass id")
-  const entite = actionnairesData[id];
-  if (!entite) return null;
+  const rootEntite = entitesMap[id];
+  if (!rootEntite || !rootEntite.actionnaires) return null;
 
-  return Object.entries(entite).map(([actionnaireId, part]) => {
-    let lines = [[actionnaireId, id, part]]
-    const subResult = actionnairesToDotLines(actionnairesData, actionnaireId);
+  return rootEntite.actionnaires.map(actionnaire => {
+    const { part, ...actionnaireWithoutPart } = actionnaire
+    const actionnaireEntite = entitesMap[actionnaire.id] || actionnaireWithoutPart
+    let lines = [[actionnaireEntite, rootEntite, part]]
+    const subResult = getActionnairesGraphEdges(entitesMap, actionnaire.id);
     if (subResult)
       lines = lines.concat(subResult)
     return lines
   }).flat()
 }
 
-function generateAllDotFiles(rawEntites) {
-  const actionnairesData = convertEntitesToActionnairesData(rawEntites)
+async function generateDotFile(entite, entitesMap) {
+  const edges = getActionnairesGraphEdges(entitesMap, entite.slug)
+  if (!edges) return
+  const filename = `chart-graph-actionnaires-${entite.slug}.dot`
+  const path = `${rootPath}/www/images/charts/${filename}`;
+  console.log(`writing chart ${filename}`)
+  await fs.writeFileSync(path, edgesToDotFile(edges))
+}
 
-  rawEntites
-    .filter(e => e.journal)
-    .forEach(entite => {
-      const dotLines = actionnairesToDotLines(actionnairesData, entite.id)
-      if (!dotLines) return
-      const path = `${rootPath}/images/charts/chart-graph-actionnaires-${entite.id}.dot`;
-      fs.writeFileSync(path, dotLinesToFile(dotLines))
-    })
+async function generateAllDotFiles(entites) {
+  const entitesMap = convertEntitesToEntitesMap(entites)
+
+  for (const entite of entites.filter(e => e.isMedia))
+    await generateDotFile(entite, entitesMap)
 }
 
 const convertDotChartsToSvg = () =>
-  exec(`dot -Tsvg -O ${rootPath}/images/charts/*.dot`, (err) => {
+  exec(`dot -Tsvg -O ${rootPath}/www/images/charts/*.dot`, (err) => {
     if (!err) return
     console.log(err)
     process.exit(1)
@@ -50,8 +56,8 @@ const convertDotChartsToSvg = () =>
 
 
 export {
-  dotLinesToFile,
+  edgesToDotFile,
   generateAllDotFiles,
-  actionnairesToDotLines,
+  getActionnairesGraphEdges,
   convertDotChartsToSvg
 }

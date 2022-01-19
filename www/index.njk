@@ -22,9 +22,8 @@ Evidemment, le propriétaire a une influence sur son journal. Mais quelle est so
   {% for journal in collections.journal %}
     <li class="logo">
       <a href="/journaux/{{ journal.data.slug }}">
-        <img src="/images/logos/{{ journal.data.wikipedia.imageFilename }}"
-          alt="{{ journal.data.name }}" />
-        {{ journal.data.name }}
+        <img src="/images/logos/{{ journal.data.wikipedia.imageFilename }}" alt="{{ journal.data.nom }}" />
+        {{ journal.data.nom }}
       </a>
     </li>
   {% endfor %}

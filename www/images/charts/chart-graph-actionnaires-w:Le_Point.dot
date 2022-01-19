@@ -1,4 +1,0 @@
-digraph G {
-  "w:Artémis_(holding)" -> "w:Le_Point" [label="100%"];
-  "w:François_Pinault" -> "w:Artémis_(holding)" [label="100%"];
-}

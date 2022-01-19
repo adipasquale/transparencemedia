@@ -1,7 +1,0 @@
-digraph G {
-  "salariés_altereco" -> "w:Alternatives_économiques" [label="62%"];
-  "société_civile_lecteurs_altereco" -> "w:Alternatives_économiques" [label="22%"];
-  "association_lecteurs_altereco" -> "w:Alternatives_économiques" [label="1%"];
-  "anciens_salariés_altereco" -> "w:Alternatives_économiques" [label="3%"];
-  "actionnaires_externes_altereco" -> "w:Alternatives_économiques" [label="12%"];
-}

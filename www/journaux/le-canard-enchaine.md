@@ -1,6 +1,5 @@
 ---
 layout: journal
-id: w:Le_Canard_enchaîné
 journal:
   web: non
   périodicité: hebdomadaire
@@ -14,9 +13,9 @@ actionnariat:
   sources:
     - >-
       https://fr.wikipedia.org/wiki/Le_Canard_encha%C3%AEn%C3%A9#Ind.C3.A9pendance_financi.C3.A8re
-  actionnaires:
-    - id: SA Les Éditions Maréchal
-name: Le Canard enchaîné
+actionnaires:
+  - id: les-editions-marechal
+nom: Le Canard enchaîné
 slug: le-canard-enchaine
 wikipedia:
   manualOverride: true
@@ -24,4 +23,3 @@ wikipedia:
     https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_Canard_encha%C3%AEn%C3%A9.svg
   imageFilename: Logo_Canard_enchaîné.svg
 ---
-

@@ -1,0 +1,5 @@
+digraph G {
+  "w:Le_Monde" -> "Le Monde diplomatique" [label="51%"];
+  "Amis du Monde diplomatique" -> "Le Monde diplomatique" [label="25%"];
+  "Association Günter Holzmann (Équipe rédactionnelle)" -> "Le Monde diplomatique" [label="24%"];
+}

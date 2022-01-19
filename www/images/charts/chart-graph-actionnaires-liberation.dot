@@ -1,0 +1,10 @@
+digraph G {
+  "SFR" -> "Libération" [label="100%"];
+  "w:Altice" -> "SFR" [label="78%"];
+  "w:Patrick_Drahi" -> "w:Altice" [label="58%"];
+  "Europacific Growth Fund" -> "w:Altice" [label="5%"];
+  "Carmignac Gestion" -> "w:Altice" [label="3%"];
+  "w:Fidelity_Investments" -> "w:Altice" [label="3%"];
+  "capital_flottant_altice" -> "w:Altice" [label="31%"];
+  "capital_flottant_sfr" -> "SFR" [label="22%"];
+}

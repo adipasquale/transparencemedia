@@ -1,0 +1,832 @@
+{
+  "20-minutes": [
+    {
+      "slug": "association-pour-le-soutien-des-principes-de-la-democratie-humaniste",
+      "id": "w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste",
+      "nom": "Association pour le soutien des principes de la démocratie humaniste",
+      "type": "association 1901",
+      "part": 50
+    },
+    {
+      "slug": "famille-hurbain",
+      "id": "w:Famille_hurbain",
+      "individu": {
+        "fortune": "cent-millionnaires"
+      },
+      "part": 30
+    },
+    {
+      "id": "w:Crédit_agricole",
+      "part": 12
+    }
+  ],
+  "alternatives-economiques": [
+    {
+      "id": "salariés_altereco",
+      "part": 62
+    },
+    {
+      "id": "société_civile_lecteurs_altereco",
+      "part": 22
+    },
+    {
+      "id": "association_lecteurs_altereco",
+      "part": 1
+    },
+    {
+      "id": "anciens_salariés_altereco",
+      "part": 3
+    },
+    {
+      "id": "actionnaires_externes_altereco",
+      "part": 12
+    }
+  ],
+  "arret-sur-images": [
+    {
+      "id": "w:Daniel_Schneidermann",
+      "part": 100
+    }
+  ],
+  "atlantico": [],
+  "challenges": [
+    {
+      "slug": "claude-perdriel",
+      "id": "w:Claude_Perdriel",
+      "individu": {
+        "fortune": "cent-millionnaires"
+      },
+      "part": 56
+    },
+    {
+      "id": "w:Le_Monde",
+      "part": 4
+    },
+    {
+      "slug": "societe-redacteurs-perdriel",
+      "id": "société_rédacteurs_perdriel",
+      "internes": "oui",
+      "part": 1
+    },
+    {
+      "slug": "bernard-arnault",
+      "id": "w:Bernard_Arnault",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "liens": [
+        {
+          "type": [
+            "propriétaire"
+          ],
+          "id": "w:LVMH"
+        }
+      ],
+      "part": 19
+    },
+    {
+      "id": "institutionnels_étrangers",
+      "part": 14
+    },
+    {
+      "id": "institutionnels_français",
+      "part": 6
+    },
+    {
+      "id": "personnes_physiques",
+      "part": 2
+    },
+    {
+      "id": "autocontrôle",
+      "part": 0
+    }
+  ],
+  "cnews-matin": [
+    {
+      "slug": "vincent-bollore",
+      "id": "w:Vincent_Bolloré",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "liens": [
+        {
+          "role": [
+            "actionnaire",
+            "dirigeant"
+          ],
+          "id": "w:Bolloré"
+        }
+      ],
+      "part": 24
+    },
+    {
+      "id": "w:Le_Monde",
+      "part": 30
+    }
+  ],
+  "fakir": [
+    {
+      "id": "association_fakir",
+      "part": 100
+    }
+  ],
+  "huffington-post": [
+    {
+      "slug": "matthieu-pigasse",
+      "id": "matthieu-pigasse",
+      "nom": "Matthieu Pigasse",
+      "type": "individu",
+      "liens": [
+        {
+          "role": "dirigeant",
+          "id": "banque-lazard"
+        }
+      ],
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Matthieu_Pigasse",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Matthieu_Pigasse.jpg/2560px-Matthieu_Pigasse.jpg",
+        "imageFilename": "2560px-Matthieu_Pigasse.jpg"
+      },
+      "part": 9
+    },
+    {
+      "id": "orium",
+      "part": 2
+    },
+    {
+      "id": "Christian_Fevret",
+      "part": 0
+    },
+    {
+      "id": "w:Le_Monde",
+      "part": 34
+    },
+    {
+      "slug": "aol",
+      "id": "aol",
+      "nom": "AOL",
+      "société": {
+        "connue": "oui",
+        "secteurs": [
+          "télécoms"
+        ]
+      },
+      "part": 51
+    }
+  ],
+  "la-croix": [
+    {
+      "slug": "assomptionnistes",
+      "id": "assomptionnistes",
+      "nom": "Augustins de l'Assomption",
+      "type": "organisation religieuse",
+      "part": 100
+    }
+  ],
+  "le-canard-enchaine": [
+    {
+      "slug": "les-editions-marechal",
+      "id": "les-editions-marechal",
+      "nom": "Les Éditions Maréchal",
+      "internes": "oui",
+      "fondateurs": "oui",
+      "part": 100
+    }
+  ],
+  "le-figaro": [
+    {
+      "slug": "famille-dassault",
+      "id": "famille-dassault",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Dassault"
+      },
+      "part": 100
+    }
+  ],
+  "le-monde-diplomatique": [
+    {
+      "id": "w:Le_Monde",
+      "part": 51
+    },
+    {
+      "slug": "amis-du-monde-diplomatique",
+      "id": "amis-du-monde-diplomatique",
+      "nom": "Amis du Monde diplomatique",
+      "type": "société des amis",
+      "part": 25
+    },
+    {
+      "slug": "association-gunter-holzmann",
+      "id": "association-gunter-holzmann",
+      "nom": "Association Günter Holzmann (Équipe rédactionnelle)",
+      "internes": "oui",
+      "wikipedia": {
+        "url": "Günter_Holzmann#Association_G.C3.BCnter_Holzmann"
+      },
+      "part": 24
+    }
+  ],
+  "le-monde": [
+    {
+      "slug": "pierre-berge",
+      "id": "pierre-berge",
+      "nom": "Pierre Bergé",
+      "individu": {
+        "fortune": "cent-millionnaires"
+      },
+      "liens": [
+        {
+          "role": "fondateur",
+          "id": "yves-saint-laurent"
+        }
+      ],
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Pierre_Berg%C3%A9"
+      },
+      "part": 17
+    },
+    {
+      "slug": "matthieu-pigasse",
+      "id": "matthieu-pigasse",
+      "nom": "Matthieu Pigasse",
+      "type": "individu",
+      "liens": [
+        {
+          "role": "dirigeant",
+          "id": "banque-lazard"
+        }
+      ],
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Matthieu_Pigasse",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Matthieu_Pigasse.jpg/2560px-Matthieu_Pigasse.jpg",
+        "imageFilename": "2560px-Matthieu_Pigasse.jpg"
+      },
+      "part": 17
+    },
+    {
+      "slug": "xavier-niel",
+      "id": "xavier-niel",
+      "nom": "Xavier Niel",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "liens": [
+        {
+          "role": [
+            "actionnaire",
+            "fondateur",
+            "dirigeant"
+          ],
+          "id": "free"
+        }
+      ],
+      "part": 17
+    },
+    {
+      "slug": "prisa",
+      "id": "prisa",
+      "nom": "Prisa",
+      "société": {
+        "secteurs": [
+          "médias"
+        ]
+      },
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Prisa"
+      },
+      "part": 15
+    },
+    {
+      "id": "actionnaires_internes_Le_Monde",
+      "part": 18
+    },
+    {
+      "id": "actionnaires_externes_Le_Monde",
+      "part": 16
+    }
+  ],
+  "le-parisien": [
+    {
+      "slug": "bernard-arnault",
+      "id": "w:Bernard_Arnault",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "liens": [
+        {
+          "type": [
+            "propriétaire"
+          ],
+          "id": "w:LVMH"
+        }
+      ],
+      "part": 47
+    },
+    {
+      "id": "institutionnels_étrangers",
+      "part": 34
+    },
+    {
+      "id": "institutionnels_français",
+      "part": 14
+    },
+    {
+      "id": "personnes_physiques",
+      "part": 5
+    },
+    {
+      "id": "autocontrôle",
+      "part": 1
+    }
+  ],
+  "le-point": [
+    {
+      "slug": "francois-pinault",
+      "id": "francois-pinault",
+      "nom": "François Pinault",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Pinault"
+      },
+      "part": 100
+    }
+  ],
+  "les-echos": [
+    {
+      "slug": "bernard-arnault",
+      "id": "w:Bernard_Arnault",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "liens": [
+        {
+          "type": [
+            "propriétaire"
+          ],
+          "id": "w:LVMH"
+        }
+      ],
+      "part": 47
+    },
+    {
+      "id": "institutionnels_étrangers",
+      "part": 34
+    },
+    {
+      "id": "institutionnels_français",
+      "part": 14
+    },
+    {
+      "id": "personnes_physiques",
+      "part": 5
+    },
+    {
+      "id": "autocontrôle",
+      "part": 1
+    }
+  ],
+  "les-inrockuptibles": [
+    {
+      "slug": "matthieu-pigasse",
+      "id": "matthieu-pigasse",
+      "nom": "Matthieu Pigasse",
+      "type": "individu",
+      "liens": [
+        {
+          "role": "dirigeant",
+          "id": "banque-lazard"
+        }
+      ],
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Matthieu_Pigasse",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Matthieu_Pigasse.jpg/2560px-Matthieu_Pigasse.jpg",
+        "imageFilename": "2560px-Matthieu_Pigasse.jpg"
+      },
+      "part": 78
+    },
+    {
+      "id": "orium",
+      "part": 18
+    },
+    {
+      "id": "Christian_Fevret",
+      "part": 2
+    }
+  ],
+  "les-jours": [
+    {
+      "slug": "fondateurs-les-jours",
+      "id": "fondateurs_les_jours",
+      "nom": "Fondateurs Les Jours",
+      "fondateurs": "oui",
+      "part": 89
+    },
+    {
+      "slug": "xavier-niel",
+      "id": "xavier-niel",
+      "nom": "Xavier Niel",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "liens": [
+        {
+          "role": [
+            "actionnaire",
+            "fondateur",
+            "dirigeant"
+          ],
+          "id": "free"
+        }
+      ],
+      "part": 3
+    },
+    {
+      "id": "w:Olivier_Legrain",
+      "part": 2
+    },
+    {
+      "id": "w:Marc-Olivier_Fogiel",
+      "part": 1
+    },
+    {
+      "id": "w:Pierre-Antoine_Capton",
+      "part": 1
+    },
+    {
+      "slug": "matthieu-pigasse",
+      "id": "matthieu-pigasse",
+      "nom": "Matthieu Pigasse",
+      "type": "individu",
+      "liens": [
+        {
+          "role": "dirigeant",
+          "id": "banque-lazard"
+        }
+      ],
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Matthieu_Pigasse",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Matthieu_Pigasse.jpg/2560px-Matthieu_Pigasse.jpg",
+        "imageFilename": "2560px-Matthieu_Pigasse.jpg"
+      },
+      "part": 1
+    },
+    {
+      "id": "Famille_amis_les_jours",
+      "part": 1
+    }
+  ],
+  "lexpress": [
+    {
+      "slug": "patrick-drahi",
+      "id": "w:Patrick_Drahi",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "part": 45
+    },
+    {
+      "slug": "europacific-growth-fund",
+      "id": "Europacific Growth Fund",
+      "société": {
+        "type": "w:Fonds_de_placement",
+        "secteurs": [
+          "finance"
+        ]
+      },
+      "part": 4
+    },
+    {
+      "slug": "carmignac-gestion",
+      "id": "Carmignac Gestion",
+      "société": {
+        "type": "w:Fonds_de_placement",
+        "secteurs": [
+          "finance"
+        ]
+      },
+      "part": 2
+    },
+    {
+      "slug": "fidelity-investments",
+      "id": "w:Fidelity_Investments",
+      "société": {
+        "type": "w:Fonds_de_placement",
+        "secteurs": [
+          "finance"
+        ]
+      },
+      "part": 2
+    },
+    {
+      "id": "capital_flottant_altice",
+      "part": 24
+    },
+    {
+      "slug": "capital-flottant-sfr",
+      "id": "capital_flottant_sfr",
+      "type": "w:Flottant_(finance)",
+      "part": 22
+    }
+  ],
+  "lhumanite": [],
+  "liberation": [
+    {
+      "slug": "patrick-drahi",
+      "id": "w:Patrick_Drahi",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "part": 45
+    },
+    {
+      "slug": "europacific-growth-fund",
+      "id": "Europacific Growth Fund",
+      "société": {
+        "type": "w:Fonds_de_placement",
+        "secteurs": [
+          "finance"
+        ]
+      },
+      "part": 4
+    },
+    {
+      "slug": "carmignac-gestion",
+      "id": "Carmignac Gestion",
+      "société": {
+        "type": "w:Fonds_de_placement",
+        "secteurs": [
+          "finance"
+        ]
+      },
+      "part": 2
+    },
+    {
+      "slug": "fidelity-investments",
+      "id": "w:Fidelity_Investments",
+      "société": {
+        "type": "w:Fonds_de_placement",
+        "secteurs": [
+          "finance"
+        ]
+      },
+      "part": 2
+    },
+    {
+      "id": "capital_flottant_altice",
+      "part": 24
+    },
+    {
+      "slug": "capital-flottant-sfr",
+      "id": "capital_flottant_sfr",
+      "type": "w:Flottant_(finance)",
+      "part": 22
+    }
+  ],
+  "lobs": [
+    {
+      "slug": "pierre-berge",
+      "id": "pierre-berge",
+      "nom": "Pierre Bergé",
+      "individu": {
+        "fortune": "cent-millionnaires"
+      },
+      "liens": [
+        {
+          "role": "fondateur",
+          "id": "yves-saint-laurent"
+        }
+      ],
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Pierre_Berg%C3%A9"
+      },
+      "part": 17
+    },
+    {
+      "slug": "matthieu-pigasse",
+      "id": "matthieu-pigasse",
+      "nom": "Matthieu Pigasse",
+      "type": "individu",
+      "liens": [
+        {
+          "role": "dirigeant",
+          "id": "banque-lazard"
+        }
+      ],
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Matthieu_Pigasse",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Matthieu_Pigasse.jpg/2560px-Matthieu_Pigasse.jpg",
+        "imageFilename": "2560px-Matthieu_Pigasse.jpg"
+      },
+      "part": 17
+    },
+    {
+      "slug": "xavier-niel",
+      "id": "xavier-niel",
+      "nom": "Xavier Niel",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "liens": [
+        {
+          "role": [
+            "actionnaire",
+            "fondateur",
+            "dirigeant"
+          ],
+          "id": "free"
+        }
+      ],
+      "part": 17
+    },
+    {
+      "slug": "prisa",
+      "id": "prisa",
+      "nom": "Prisa",
+      "société": {
+        "secteurs": [
+          "médias"
+        ]
+      },
+      "wikipedia": {
+        "url": "https://fr.wikipedia.org/wiki/Prisa"
+      },
+      "part": 15
+    },
+    {
+      "slug": "claude-perdriel",
+      "id": "w:Claude_Perdriel",
+      "individu": {
+        "fortune": "cent-millionnaires"
+      },
+      "part": 32
+    },
+    {
+      "id": "w:Le_Monde",
+      "part": 2
+    },
+    {
+      "slug": "societe-redacteurs-perdriel",
+      "id": "société_rédacteurs_perdriel",
+      "internes": "oui",
+      "part": 0
+    }
+  ],
+  "lopinion": [
+    {
+      "id": "w:Nicolas_Beytout",
+      "part": 30
+    },
+    {
+      "slug": "bernard-arnault",
+      "id": "w:Bernard_Arnault",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "liens": [
+        {
+          "type": [
+            "propriétaire"
+          ],
+          "id": "w:LVMH"
+        }
+      ],
+      "part": 44
+    },
+    {
+      "slug": "liliane-bettencourt",
+      "id": "liliane-bettencourt",
+      "nom": "Liliane Bettencourt",
+      "type": "individu",
+      "liens": [
+        {
+          "type": [
+            "actionnaire principal"
+          ],
+          "id": "loreal"
+        }
+      ],
+      "part": 13
+    },
+    {
+      "slug": "news-corp",
+      "id": "news-corp",
+      "nom": "News Corp",
+      "société": {
+        "secteurs": [
+          "médias"
+        ],
+        "connue": "oui"
+      },
+      "part": 15
+    }
+  ],
+  "mediapart": [
+    {
+      "id": "w:Edwy_Plenel",
+      "part": 15
+    },
+    {
+      "id": "Marie-Hélène Smiejan",
+      "part": 15
+    },
+    {
+      "slug": "xavier-niel",
+      "id": "xavier-niel",
+      "nom": "Xavier Niel",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "liens": [
+        {
+          "role": [
+            "actionnaire",
+            "fondateur",
+            "dirigeant"
+          ],
+          "id": "free"
+        }
+      ],
+      "part": 6
+    },
+    {
+      "slug": "ecofinance",
+      "id": "ecofinance",
+      "nom": "Écofinance",
+      "type": "société",
+      "part": 18
+    },
+    {
+      "slug": "doxa",
+      "id": "doxa",
+      "nom": "Doxa",
+      "type": "société",
+      "part": 28
+    }
+  ],
+  "ouest-france": [
+    {
+      "slug": "association-pour-le-soutien-des-principes-de-la-democratie-humaniste",
+      "id": "w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste",
+      "nom": "Association pour le soutien des principes de la démocratie humaniste",
+      "type": "association 1901",
+      "part": 100
+    }
+  ],
+  "reporterre": [],
+  "rt": [
+    {
+      "id": "w:Ministère_des_Affaires_étrangères_(Russie)",
+      "part": 100
+    }
+  ],
+  "slate": [
+    {
+      "slug": "benjamin-de-rothschild",
+      "id": "w:Benjamin_de_Rothschild",
+      "individu": {
+        "fortune": "milliardaires"
+      },
+      "liens": [
+        {
+          "type": [
+            "proriétaire",
+            "président"
+          ],
+          "id": "w:Groupe_Edmond_de_Rothschild"
+        }
+      ],
+      "part": 29
+    },
+    {
+      "slug": "financiere-viveris",
+      "id": "Financière_Viveris",
+      "société": {
+        "type": "w:Fonds_de_placement"
+      },
+      "part": 22
+    },
+    {
+      "slug": "fondateurs-slate",
+      "id": "fondateurs_slate",
+      "fondateurs": "oui",
+      "part": 25
+    },
+    {
+      "slug": "actionnaires-externes-slate",
+      "id": "actionnaires_externes_slate",
+      "type": "actionnaires externes",
+      "part": 24
+    }
+  ],
+  "telerama": [
+    {
+      "id": "w:Le_Monde",
+      "part": 100
+    }
+  ]
+}

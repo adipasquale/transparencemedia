@@ -1,11 +1,10 @@
 ---
 layout: journal
-id: w:L'Humanité
 journal:
   devise: Fondé par Jean Jaurès
   web: http://www.humanite.fr
   papier: true
-  périodicité: quotidienne
+  périodicité: quotidien
   couverture: nationale
   revenus:
     - publicité
@@ -23,7 +22,7 @@ actionnariat:
     amis. Selon les Inrocks, "il n’y a aujourd’hui plus d’actionnaires
     extérieurs dans le capital du journal", faisant référence à Hachette, TF1 et
     la Caisse d'Épargne qui l'étaient.
-name: L'Humanité
+nom: L'Humanité
 slug: lhumanite
 wikipedia:
   manualOverride: true
@@ -31,4 +30,3 @@ wikipedia:
     https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_L'Humanité_(Red).svg
   imageFilename: Logo_L'Humanité_(Red).svg
 ---
-

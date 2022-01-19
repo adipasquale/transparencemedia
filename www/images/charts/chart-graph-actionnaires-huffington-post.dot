@@ -1,0 +1,8 @@
+digraph G {
+  "Les nouvelles éditions indépendantes" -> "Huffington Post" [label="11%"];
+  "Matthieu Pigasse" -> "Les nouvelles éditions indépendantes" [label="78%"];
+  "orium" -> "Les nouvelles éditions indépendantes" [label="18%"];
+  "Christian_Fevret" -> "Les nouvelles éditions indépendantes" [label="2%"];
+  "w:Le_Monde" -> "Huffington Post" [label="34%"];
+  "AOL" -> "Huffington Post" [label="51%"];
+}

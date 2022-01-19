@@ -1,24 +1,34 @@
-import { dotLinesToFile, actionnairesToDotLines } from "../lib/graphviz.js"
+import { edgesToDotFile, getActionnairesGraphEdges } from "../lib/graphviz.js"
 
-test("actionnairesToDotLines 1", () => {
-  const res = actionnairesToDotLines(
+test("getActionnairesGraphEdges 1", () => {
+  const res = getActionnairesGraphEdges(
     {
       "20_minutes": {
-        ouest_france: 50,
-        la_voix: 49.3
+        id: "20_minutes",
+        actionnaires: [
+          { id: "ouest_france", part: 50 },
+          { id: "la_voix", part: 49.3 }
+        ]
       },
-      la_voix: {
-        rossel: 73,
-        credit_agricole: 25
+      "la_voix": {
+        id: "la_voix",
+        actionnaires: [
+          { id: "rossel", part: 73 },
+          { id: "credit_agricole", part: 25 }
+        ]
       },
-      rossel: {
-        famille_hurbain: 83,
-        credit_agricole: 25
+      "rossel": {
+        id: "rossel",
+        actionnaires: [
+          { id: "famille_hurbain", part: 83 },
+          { id: "credit_agricole", part: 25 }
+        ]
       },
     },
     "20_minutes"
   )
-  expect(res).toEqual([
+  const simplifiedRes = res.map(([from, to, part]) => [from.id, to.id, part])
+  expect(simplifiedRes).toEqual([
     ["ouest_france", "20_minutes", 50],
     ["la_voix", "20_minutes", 49.3],
     ["rossel", "la_voix", 73],
@@ -29,16 +39,16 @@ test("actionnairesToDotLines 1", () => {
 })
 
 
-test("dotLinesToFile 1", () => {
+test("edgesToDotFile 1", () => {
   expect(
-    dotLinesToFile(
+    edgesToDotFile(
       [
-        ["ouest_france", "20_minutes", 50],
-        ["la_voix", "20_minutes", 49.3],
-        ["rossel", "la_voix", 73],
-        ["famille_hurbain", "rossel", 83],
-        ["credit_agricole", "rossel", 25],
-        ["credit_agricole", "la_voix", 25],
+        [{ nom: "ouest_france" }, { nom: "20_minutes" }, 50],
+        [{ nom: "la_voix" }, { nom: "20_minutes" }, 49.3],
+        [{ nom: "rossel" }, { nom: "la_voix" }, 73],
+        [{ nom: "famille_hurbain" }, { nom: "rossel" }, 83],
+        [{ nom: "credit_agricole" }, { nom: "rossel" }, 25],
+        [{ nom: "credit_agricole" }, { nom: "la_voix" }, 25],
       ]
     )
   ).toEqual(

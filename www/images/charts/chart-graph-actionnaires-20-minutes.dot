@@ -1,0 +1,8 @@
+digraph G {
+  "Groupe SIPA - Ouest France" -> "20 minutes" [label="50%"];
+  "Association pour le soutien des principes de la démocratie humaniste" -> "Groupe SIPA - Ouest France" [label="100%"];
+  "w:Groupe_La_Voix" -> "20 minutes" [label="49%"];
+  "w:Groupe_Rossel" -> "w:Groupe_La_Voix" [label="73%"];
+  "w:Famille_hurbain" -> "w:Groupe_Rossel" [label="83%"];
+  "w:Crédit_agricole" -> "w:Groupe_La_Voix" [label="25%"];
+}

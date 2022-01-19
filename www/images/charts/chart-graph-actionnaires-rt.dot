@@ -1,0 +1,3 @@
+digraph G {
+  "w:Ministère_des_Affaires_étrangères_(Russie)" -> "RT France" [label="100%"];
+}
