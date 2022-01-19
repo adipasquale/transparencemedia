@@ -1,0 +1,15 @@
+
+- id: w:BFM_TV #TODO Les chaînes TV ne sont pas encore inclues
+  web: http://www.bfmtv.com
+  depuis: 2005
+  chaîne TV:
+    devise: Première chaîne d'information de France
+    couverture: nationale
+  actionnariat:
+    - id: w:NextRadioTV
+
+- id: w:NextRadioTV
+  type: société
+  actionnariat:
+    - id: w:Société_française_du_radiotéléphone
+      part: 100 # source sûre ?

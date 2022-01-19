@@ -1,0 +1,465 @@
+- id: w:Arrêt_sur_images
+  web: http://www.arretsurimages.net
+  depuis: 2007
+  journal:
+    papier: non
+    devise: Réflexion critique sur les médias
+    couverture: nationale
+    journalistes:
+      - w:Daniel_Schneidermann
+    revenus: abonnements
+    accès gratuit: sélection d'articles
+
+    # référence : Daniel Schneidermann refuse le financement par la publicité : « Quand on fait semblant de donner quelque chose gratuitement aux gens, on vend toujours une part de leur cerveau disponible36 à des annonceurs2 ».
+    # https://fr.wikipedia.org/wiki/Arrêt_sur_images#Le_site_Web
+    forme juridique: w:Société_par_actions_simplifiée
+  actionnariat:
+    - id: w:Daniel_Schneidermann
+      type: individu
+      part: 100
+
+
+- id: lml
+  nom: Le Monde libre
+  type: société
+  actionnariat:
+    # la part n\'est pas précisée -> chacun des actionnaires à une part égale
+  - id: w:Pierre_Bergé
+  - id: w:Matthieu_Pigasse
+  - id: w:Xavier_Niel
+  - id: w:Prisa
+    part: 23
+
+- id: w:Prisa
+  nom: Prisa
+  société:
+    secteurs:
+      - médias
+
+- id: w:Matthieu_Pigasse
+  type: individu
+  liens:
+    - role: dirigeant
+      id: w:Banque_Lazard
+
+- id: w:Banque_Lazard
+  société:
+    secteurs:
+      - finance
+
+- id: w:Pierre_Bergé
+  individu:
+    fortune:
+      cent-millionnaires
+  liens:
+    - role: fondateur
+      id: w:Yves_Saint_Laurent_(entreprise)
+
+- id: w:Yves_Saint_Laurent_(entreprise)
+  société:
+    secteurs:
+      - luxe
+
+- id: w:Xavier_Niel
+  individu:
+    fortune: milliardaires
+  liens:
+    - role: # notamment par l'intermédiaire d'Iliad
+        - actionnaire
+        - fondateur
+        - dirigeant
+      id: w:Free_(entreprise)
+
+- id: w:Free_(entreprise)
+  société:
+    secteurs:
+      - télécoms
+
+- id: lmpa
+  nom: Le Monde partenaires et associés
+  type: société
+  actionnariat:
+  - id: actionnaires_internes_Le_Monde
+    internes: oui
+    part: 52
+  - id: actionnaires_externes_Le_Monde
+    type: actionnaires externes
+    part: 48
+    commentaire: Dont Société des lecteurs, à mentionner
+
+- id: w:AOL
+  société:
+    connue: oui
+    secteurs:
+      - télécoms
+
+- id: w:Les_Nouvelles_Éditions_indépendantes
+  société:
+    type: holding
+    secteurs:
+      - médias
+  actionnariat:
+    - id: w:Matthieu_Pigasse
+      part: 78
+    - id: orium
+      type: w:Fonds_de_placement
+      part: 18
+    - id: Christian_Fevret
+      type: individu
+      part: 2
+
+- id: w:News_Corp
+  société:
+    secteurs:
+      - médias
+    connue: oui
+
+- id: w:Liliane_Bettencourt
+  type: individu
+  liens:
+    - type:
+        - actionnaire principal
+      id: w:L'Oréal
+
+- id: w:L'Oréal
+  société:
+    secteurs:
+      - cosmétiques
+
+# - id: w:Nicolas_Beytout
+#   type: individu
+#   liens: intégrer ses fonctions ? https://fr.wikipedia.org/wiki/Nicolas_Beytout#Fonctions
+
+- id: w:Groupe_Bayard
+  société:
+    connue: oui
+  actionnariat:
+  - id: w:Assomptionnistes
+
+- id: w:Assomptionnistes
+  nom: Augustins de l'Assomption
+  type: organisation religieuse
+
+- id: w:Amis_du_Monde_diplomatique
+  type: société des amis
+
+  # actionnnaires externes
+- id: w:Günter_Holzmann#Association_G.C3.BCnter_Holzmann
+  nom: Équipe rédactionnelle Monde Diplomatique
+  internes: oui
+
+- id: SA Les Éditions Maréchal
+  internes: oui
+  fondateurs: oui
+
+- id: w:Société_du_Figaro
+  type: société
+  actionnariat:
+  - id: w:Socpresse
+
+- id: w:Socpresse
+  type: société
+  actionnariat:
+  - id: w:Serge_Dassault
+
+- id: w:Serge_Dassault
+  individu:
+    fortune: milliardaires
+  liens:
+    - type:
+        - actionnaire
+        - ancien dirigeant
+      id: w:Groupe_Dassault
+
+- id: w:Groupe_Dassault
+  société:
+    secteurs:
+      - armes
+      - aviation
+
+- id: w:François_Pinault
+  individu:
+    fortune: milliardaires
+
+- id: fondateurs_les_jours
+  nom: Fondateurs Les Jours
+  fondateurs: oui
+
+- id: w:Groupe_Les_Échos
+  type: société
+  actionnariat:
+  - id: w:LVMH
+
+- id: w:LVMH
+  nom complet: 'LVMH - Moët Hennessy Louis Vuitton '
+  société:
+    connue: oui
+    secteurs:
+      - luxe
+
+  note: >
+      Selon wikipedia, le groupe Arnault (ou le groupe familial Arnault ?)
+      détient LVMH par l'intermédiaire de Christian Dior SA.
+  actionnariat:
+    sources:
+      - note: Wikipedia LVMH Actionnaires
+        lien: https://fr.wikipedia.org/wiki/LVMH_-_Mo%C3%ABt_Hennessy_Louis_Vuitton#Actionnaires
+      - note: LVMH.fr - Structure du capital
+        lien: http://www.lvmh.fr/communication-financiere/actionnaires/structure-du-capital
+    actionnaires:
+    - id: w:Bernard_Arnault
+      part: 46.6
+    - id: institutionnels_étrangers
+      part: 33.8
+    - id: institutionnels_français
+      part: 13.5
+    - id: personnes_physiques
+      part: 5.2
+    - id: autocontrôle
+      part: 0.9
+
+- id: w:Bernard_Arnault
+  individu:
+    fortune: milliardaires
+  liens:
+    - type:
+        - propriétaire
+      id: w:LVMH
+
+- id: w:Société_française_du_radiotéléphone
+  nom: SFR
+  divisions: SFR Média -> SFR Presse
+  société:
+    connue: oui
+    secteurs:
+    - télécoms
+
+  actionnariat:
+    - id: w:Altice
+      part: 77.77
+    - id: capital_flottant_sfr
+      part: 22.22
+
+- id: capital_flottant_sfr
+  type: w:Flottant_(finance)
+
+  #INFO Le 5 septembre 2016, Altice annonce son intention d'acquérir les parts qu'elle ne détient pas dans SFR Group soit 22,25 % avec une offre publique d'échange volontaire de 8 nouvelles actions ordinaires Altice NV de catégorie A, pour 5 actions SFR Group apportées33. Début octobre 2016, l'Autorité des marchés financiers s'oppose à l'opération34.
+
+- id: w:Altice
+  type: société
+  actionnariat:
+    sources:
+      - http://www.boursorama.com/bourse/profil/profil.phtml?symbole=1rAATC
+    actionnaires:
+    - id: w:Patrick_Drahi
+      part: 58
+    - id: Europacific Growth Fund
+      part: 4.9
+    - id: Carmignac Gestion
+      part: 3.38
+    - id: w:Fidelity_Investments
+      part: 3.17
+    - id: capital_flottant_altice
+      type: w:Flottant_(finance)
+
+- id: w:Patrick_Drahi
+  individu:
+    fortune: milliardaires
+
+- id: Europacific Growth Fund
+  société:
+    type: w:Fonds_de_placement
+    secteurs:
+      - finance
+
+- id: Carmignac Gestion
+  société:
+    type: w:Fonds_de_placement
+    secteurs:
+      - finance
+
+- id: w:Fidelity_Investments
+  société:
+    type: w:Fonds_de_placement
+    secteurs:
+      - finance
+
+
+- id: société_amis_mediapart
+  type: société des amis
+  actionnariat:
+    - id: w:Xavier_Niel
+      part: 100 * 200 / 504
+
+
+- id: fondateurs_mediapart
+  fondateurs: oui
+  actionnariat:
+    - id: w:Edwy_Plenel
+      type: individu
+      part: 100 * 550 / 1325
+
+    - id: Marie-Hélène Smiejan
+      type: individu
+      part: 100 * 550 / 1325
+    # Autres :
+    # - id: w:Laurent_Mauduit
+    #   part: 100 * 100 / 1325
+    # - id: w:François_Bonnet
+    #   part: 100 * 80 / 1325
+    # - id: w:Gérard_Desportes
+    #   part: 100 * 40 / 1325
+
+
+- id: doxa
+  nom: Doxa
+  type: société
+
+- id: ecofinance
+  nom: Écofinance
+  type: société
+
+
+- id: w:Groupe_Perdriel
+  type: société
+  actionnariat:
+    - id: w:Claude_Perdriel
+      part: 93
+    - id: w:Le_Monde
+      part: 6
+    - id: société_rédacteurs_perdriel
+      part: 1
+
+- id: société_rédacteurs_perdriel
+  internes: oui
+
+
+- id: w:Claude_Perdriel
+  individu:
+    fortune: cent-millionnaires
+
+
+- id: w:Groupe_SIPA_-_Ouest-France
+  type: société
+  actionnariat:
+    - id: w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste
+
+- id: w:Association_pour_le_soutien_des_principes_de_la_démocratie_humaniste
+  type: association 1901
+  # page wiki pas très claire
+
+  actionnariat:
+    inconnu: À notre connaissance, l'actionnariat de ce journal est secret.
+
+- id: w:RT_(chaîne_de_télévision)
+  nom: RT France
+  web: https://francais.rt.com
+  depuis: 2014
+  journal:
+    papier: non
+    revenus:
+      - état
+  actionnariat:
+    - id: w:Ministère_des_Affaires_étrangères_(Russie)
+      type: pays
+
+
+- id: w:Benjamin_de_Rothschild
+  individu:
+    fortune: milliardaires
+  liens:
+    - type:
+        - proriétaire
+        - président
+      id: w:Groupe_Edmond_de_Rothschild
+
+
+- id: w:Groupe_Edmond_de_Rothschild
+  société:
+    secteurs:
+      - finance
+
+
+- id: Financière_Viveris
+  société:
+    type: w:Fonds_de_placement
+
+
+- id: fondateurs_slate
+  fondateurs: oui
+  # Pas de sources sur la part des fondateurs qui sont eux, connus
+
+
+- id: actionnaires_externes_slate
+  type: actionnaires externes
+  # BFM business révèle les noms, mais pas de répartition (ils sont connus et beaucoup)
+
+
+- id: w:Groupe_La_Voix
+  actionnariat:
+    - id: w:Groupe_Rossel
+      part: 73
+    - id: w:Crédit_agricole
+      part: 25
+
+- id: w:Groupe_Rossel
+  actionnariat:
+    - id: w:Famille_hurbain
+      part: 27.66 * 3
+
+- id: w:Famille_hurbain
+  individu: #pour simplifier
+    fortune: cent-millionnaires
+
+
+- id: w:Bolloré
+  société:
+    secteurs:
+      - logistique
+      # TODO
+  actionnariat:
+    - id: w:Financière_de_l'Odet
+      part: 64.4
+    # - id: capital_flottant_bolloré
+    #   type: w:Flottant_(finance)
+    #   part: 30
+
+
+- id: w:Financière_de_l'Odet
+  société:
+    type: financière
+  actionnariat:
+    sources:
+      - http://www.financiere-odet.fr/fr-fr/la-societe/organigramme/
+      - http://www.latribune.fr/vos-finances/financiere-de-l-odet-tout-bollore-avec-une-decote-612426.html
+    actionnaires:
+    - id: Sofibol
+      part: 55.30
+    # - id: w:Bolloré
+    #   part: 35.6
+      # -> boucle !
+      # à travers notamment de w:Compagnie_du_Cambodge
+      # http://www.latribune.fr/vos-finances/financiere-de-l-odet-tout-bollore-avec-une-decote-612426.html
+
+- id: Sofibol
+  nom: Société financière Bolloré
+  société:
+    type: holding
+  actionnariat:
+    - id: w:Vincent_Bolloré
+      part: 100
+
+
+- id: w:Vincent_Bolloré
+  individu:
+    fortune: milliardaires
+  liens:
+    # TODO
+    # - role: # notamment par l'intermédiaire d'Iliad
+    #     - actionnaire
+    #     - dirigeant
+    #   id: w:Canal_plus
+    - role:
+        - actionnaire
+        - dirigeant
+      id: w:Bolloré
