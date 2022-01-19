@@ -4,6 +4,8 @@
 
 🌎 [transparencemedia.netlify.app](https://transparencemedia.netlify.app/)
 
+<img width="500" alt="Screenshot 2022-01-19 at 11 03 49" src="https://user-images.githubusercontent.com/883348/150108971-253f63a5-2d44-44d3-8c9f-5490ebb9e51a.png">
+
 ## Organisation du code
 
 - `/www` contient le code du site statique utilisant [Eleventy](https://www.11ty.dev/docs/)
