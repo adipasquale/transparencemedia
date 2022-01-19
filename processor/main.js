@@ -7,18 +7,18 @@ import {
 } from "./lib/wikipediaScraper.js"
 
 // console.log("generating wikipedia data file...")
-// await generateWikipediaDataFile(entites)
+await generateWikipediaDataFile(entites)
 
 // console.log("downloading all wikipedia images...")
-// await downloadAllWikipediaImages()
+await downloadAllWikipediaImages()
 
 console.log("generating all actionnaires finaux pie charts...")
 await generateAllActionnaireFinauxPieCharts(entites)
 
 // console.log("generating all actionnaires details dot files...")
-// generateAllDotFiles(entites)
+generateAllDotFiles(entites)
 
 // console.log("converting all actionnaires details dot files to SVGs...")
-// convertDotChartsToSvg()
+convertDotChartsToSvg()
 
 console.log("processor done!")
